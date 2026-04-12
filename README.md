@@ -54,7 +54,7 @@ python3 -m flask run --port=5000
 
 # Terminal 2: Start Comment Dashboard (Next.js)
 cd NewComemnt-feature-x-assistant
-npm run dev
+npm run assistant:unified
 
 # Terminal 3: Start Gateway (Express)
 npm start
