@@ -1,0 +1,810 @@
+[
+  {
+    "postId": "47647455",
+    "primaryTag": "story",
+    "postTitle": "Caveman: Why use many token when few token do trick",
+    "postUrl": "https://news.ycombinator.com/item?id=47647455",
+    "postUps": 789,
+    "comment": "saving tokens on the output side is nice but the real cost driver for most people is the input context. compressing your system prompt by 40% would actually move the needle on bills",
+    "wordCount": 33,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 22,
+    "megallmFactors": [
+      "cost / infra angle",
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:14:21.555Z"
+  },
+  {
+    "postId": "47647455",
+    "primaryTag": "story",
+    "postTitle": "Caveman: Why use many token when few token do trick",
+    "postUrl": "https://news.ycombinator.com/item?id=47647455",
+    "postUps": 789,
+    "comment": "i ran a similar experiment a few months ago where i stripped all politeness and filler from my prompts. outputs got maybe 15% shoretr but the failure raet on complex multi-step tasks went up noticeably ended up reverting for anything beyond simple generation. the token savings weren't worth the extra retries",
+    "wordCount": 51,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 29,
+    "megallmFactors": [
+      "cost / infra angle",
+      "experience framing",
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "posted",
+    "createdAt": "2026-04-07T14:14:21.556Z",
+    "postedAt": "2026-04-12T09:27:29.834Z"
+  },
+  {
+    "postId": "47647455",
+    "primaryTag": "story",
+    "postTitle": "Caveman: Why use many token when few token do trick",
+    "postUrl": "https://news.ycombinator.com/item?id=47647455",
+    "postUps": 789,
+    "comment": "the implicit assumption here is that tokens are fungible, but they're not a token spent on \"let me think about this step by step\" in the output is dooing real computational work via chain of thought a token spent on \"certainly here's a comprehensive overview:\" is pure waste. conflating the two is where people get confused about whether terse prompting helps or hurts",
+    "wordCount": 63,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 15,
+    "megallmFactors": [
+      "cost / infra angle"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:14:21.556Z"
+  },
+  {
+    "postId": "47647455",
+    "primaryTag": "story",
+    "postTitle": "Caveman: Why use many token when few token do trick",
+    "postUrl": "https://news.ycombinator.com/item?id=47647455",
+    "postUps": 789,
+    "comment": "finally, a use case where the model's tendency to be a people-pleaserr works against it \"caveman say do thing\" and it just.. does thing.",
+    "wordCount": 24,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:14:21.556Z"
+  },
+  {
+    "postId": "47655408",
+    "primaryTag": "show",
+    "postTitle": "Show HN: I built a tiny LLM to demystify how language models work",
+    "postUrl": "https://news.ycombinator.com/item?id=47655408",
+    "postUps": 571,
+    "comment": "nice project. the fact that you can fit the whole thing in your head is the real value here. reading a 200-line model end to end teaches more than reading 50 papers about attention.",
+    "wordCount": 34,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 16,
+    "megallmFactors": [
+      "technical hn relevance",
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "hot topic pattern",
+      "show/ask visibility",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "posted",
+    "createdAt": "2026-04-07T14:14:33.205Z",
+    "postedAt": "2026-04-12T09:27:43.642Z"
+  },
+  {
+    "postId": "47655408",
+    "primaryTag": "show",
+    "postTitle": "Show HN: I built a tiny LLM to demystify how language models work",
+    "postUrl": "https://news.ycombinator.com/item?id=47655408",
+    "postUps": 571,
+    "comment": "i did something similar a couple years ago training a character-level transformer on a single book. the moment it started producing grammatically plausible nonsense was genuinely more illuminating than any tutorial i'd read. one thing i'd suggest adding is a step-y-step inference mode wheere you can wtch the attention weights shift token by token. that's where the real \"aha\" moment lives",
+    "wordCount": 61,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 23,
+    "megallmFactors": [
+      "cost / infra angle",
+      "technical hn relevance"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "hot topic pattern",
+      "show/ask visibility",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "posted",
+    "createdAt": "2026-04-07T14:14:33.205Z",
+    "postedAt": "2026-04-12T09:27:43.423Z"
+  },
+  {
+    "postId": "47655408",
+    "primaryTag": "show",
+    "postTitle": "Show HN: I built a tiny LLM to demystify how language models work",
+    "postUrl": "https://news.ycombinator.com/item?id=47655408",
+    "postUps": 571,
+    "comment": "callign it \"demystify\" is a bit generous. this shows you how a tiny transformer memorizes a small corpus, which is useful, but the actually mysterious parts of llms (emergent capabilities, in-context learning, scaling behavior) only appear at scales far beyond what fits in a toy model. it's like learning aerodynamics from a paper airplane.",
+    "wordCount": 54,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 16,
+    "megallmFactors": [
+      "technical hn relevance",
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "hot topic pattern",
+      "show/ask visibility",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:14:33.205Z"
+  },
+  {
+    "postId": "47655408",
+    "primaryTag": "show",
+    "postTitle": "Show HN: I built a tiny LLM to demystify how language models work",
+    "postUrl": "https://news.ycombinator.com/item?id=47655408",
+    "postUps": 571,
+    "comment": "trained exclusively on goldfish knowledge and already hallucinating. just like the big ones",
+    "wordCount": 13,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "hot topic pattern",
+      "show/ask visibility",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:14:33.205Z"
+  },
+  {
+    "postId": "47652400",
+    "primaryTag": "story",
+    "postTitle": "Why Switzerland has 25 Gbit internet and America doesn't",
+    "postUrl": "https://news.ycombinator.com/item?id=47652400",
+    "postUps": 551,
+    "comment": "the article buries the real insight: its not fiber itselff its unbundling. forcing infrastructure sharing is what creates competition america chose to let incumbents own the last mile and pretend thats a \"market.\"",
+    "wordCount": 33,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:14:44.139Z"
+  },
+  {
+    "postId": "47652400",
+    "primaryTag": "story",
+    "postTitle": "Why Switzerland has 25 Gbit internet and America doesn't",
+    "postUrl": "https://news.ycombinator.com/item?id=47652400",
+    "postUps": 551,
+    "comment": "we run services across multiple us and eu regions and the difference in baseline connectivity is stark our api gateway (megllm routes to 70+ models) has noticeably lower p99 latency from swiss endpoints than from most us ones even accounting for geographic distance. the us backhaul situaation is genuinely embarrassing for a country that invented the internet.",
+    "wordCount": 57,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 30,
+    "megallmFactors": [
+      "gateway angle",
+      "technical hn relevance"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "posted",
+    "createdAt": "2026-04-07T14:14:44.140Z",
+    "postedAt": "2026-04-12T09:27:38.423Z"
+  },
+  {
+    "postId": "47652400",
+    "primaryTag": "story",
+    "postTitle": "Why Switzerland has 25 Gbit internet and America doesn't",
+    "postUrl": "https://news.ycombinator.com/item?id=47652400",
+    "postUps": 551,
+    "comment": "the framing as \"free market vs rgulation\" is too simple. switzerland is tinny, dense, and wealthy. the us has massive rural areas that are genuinely expensive to wire. the real scandal isn't that rural wyoming lacks fiber, it's that dense us cities with millions of people still have one or two providers charging $80/mo for 100 mbps.",
+    "wordCount": 57,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 0,
+    "megallmFactors": [],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:14:44.140Z"
+  },
+  {
+    "postId": "47652400",
+    "primaryTag": "story",
+    "postTitle": "Why Switzerland has 25 Gbit internet and America doesn't",
+    "postUrl": "https://news.ycombinator.com/item?id=47652400",
+    "postUps": 551,
+    "comment": "america has 25 gbit internet too it'ss just called \"business class\" and costs more than rent",
+    "wordCount": 16,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:14:44.140Z"
+  },
+  {
+    "postId": "47651703",
+    "primaryTag": "story",
+    "postTitle": "Microsoft hasn't had a coherent GUI strategy since Petzold",
+    "postUrl": "https://news.ycombinator.com/item?id=47651703",
+    "postUps": 540,
+    "comment": "the real coherent gui strategy was win32 + gdi. everything since has been microsoft trying to abstract away their own platform while simultaneously being the platform. that's a fundamentally incoherent position",
+    "wordCount": 31,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "posted",
+    "createdAt": "2026-04-07T14:14:54.550Z",
+    "postedAt": "2026-04-12T09:27:36.562Z"
+  },
+  {
+    "postId": "47651703",
+    "primaryTag": "story",
+    "postTitle": "Microsoft hasn't had a coherent GUI strategy since Petzold",
+    "postUrl": "https://news.ycombinator.com/item?id=47651703",
+    "postUps": 540,
+    "comment": "we shipped a desktop app in 2019 targeting winforms bc it was the only framework where we were confident microsoft wouldn't pull the rug in 3 years. that calculus tells you everything about the state of windows gui development. our customers didn't care what rendered the buttons, they cared that it worrked and kept working.",
+    "wordCount": 55,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:14:54.550Z"
+  },
+  {
+    "postId": "47651703",
+    "primaryTag": "story",
+    "postTitle": "Microsoft hasn't had a coherent GUI strategy since Petzold",
+    "postUrl": "https://news.ycombinator.com/item?id=47651703",
+    "postUps": 540,
+    "comment": "i think this misses that apple's \"coherent\" strateegy is largely a side effect of having one guy who would reject things for not looking right it's not a technical problem, it's an organizational one microsoft has no taste arbiter and never has no framework can fix that",
+    "wordCount": 47,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:14:54.550Z"
+  },
+  {
+    "postId": "47651703",
+    "primaryTag": "story",
+    "postTitle": "Microsoft hasn't had a coherent GUI strategy since Petzold",
+    "postUrl": "https://news.ycombinator.com/item?id=47651703",
+    "postUps": 540,
+    "comment": "microsoft guii frameworks are like javascript frameworks except each one takes 4 years to ship and 6 years to abandon",
+    "wordCount": 20,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:14:54.550Z"
+  },
+  {
+    "postId": "47648828",
+    "primaryTag": "story",
+    "postTitle": "Eight years of wanting, three months of building with AI",
+    "postUrl": "https://news.ycombinator.com/item?id=47648828",
+    "postUps": 815,
+    "comment": "thhe real insight here is that eight years of wanting means eight years of design thinking happening in the background. the ai didn't replace that it just finally made the implementation cheap enough to justify starting.",
+    "wordCount": 36,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "strong early votes",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:15:05.942Z"
+  },
+  {
+    "postId": "47648828",
+    "primaryTag": "story",
+    "postTitle": "Eight years of wanting, three months of building with AI",
+    "postUrl": "https://news.ycombinator.com/item?id=47648828",
+    "postUps": 815,
+    "comment": "we went through almost the exact same arcc on a side project last year. vibe-coded a prototype in two weeks, felt amazing, then spent four months untangling the mess once we actually needed to reason about the system holistically. the ratio of \"building\" to \"understanding what you built\" gets worse the faster you go. now i treat ai output like a junior dv's pr: assume every line needs review",
+    "wordCount": 69,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 0,
+    "megallmFactors": [],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "strong early votes",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:15:05.942Z"
+  },
+  {
+    "postId": "47648828",
+    "primaryTag": "story",
+    "postTitle": "Eight years of wanting, three months of building with AI",
+    "postUrl": "https://news.ycombinator.com/item?id=47648828",
+    "postUps": 815,
+    "comment": "i think the article undersells how much the \"three months of building\" was actually enabled by having a very clear mental model from those eight years. most people trying to replicate this workflow won't have that advantage. the bottleneck was never implementation speed, it was knowing exactly what to build. ai doesn't help with the knowing part.",
+    "wordCount": 57,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "technical hn relevance"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "strong early votes",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "posted",
+    "createdAt": "2026-04-07T14:15:05.942Z",
+    "postedAt": "2026-04-12T09:27:32.297Z"
+  },
+  {
+    "postId": "47648828",
+    "primaryTag": "story",
+    "postTitle": "Eight years of wanting, three months of building with AI",
+    "postUrl": "https://news.ycombinator.com/item?id=47648828",
+    "postUps": 815,
+    "comment": "\"eight yaers of wanting, three months of building, six months of refactoring the ai's architectural choices\" didn't fit in the title i guess",
+    "wordCount": 23,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "strong early votes",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:15:05.942Z"
+  },
+  {
+    "postId": "47652561",
+    "primaryTag": "story",
+    "postTitle": "Gemma 4 on iPhone",
+    "postUrl": "https://news.ycombinator.com/item?id=47652561",
+    "postUps": 685,
+    "comment": "running a 4b parameter model on a phone is neat but the real question is whether apple will ever let third party models hook into system apis the way their own on-deviice models can. that's the actual bottleneck.",
+    "wordCount": 38,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 13,
+    "megallmFactors": [
+      "technical hn relevance",
+      "hn-typical length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "strong early votes",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:15:16.909Z"
+  },
+  {
+    "postId": "47652561",
+    "primaryTag": "story",
+    "postTitle": "Gemma 4 on iPhone",
+    "postUrl": "https://news.ycombinator.com/item?id=47652561",
+    "postUps": 685,
+    "comment": "tried it on an iphone 15 pro. inference is slow but usable for simple queries. the tool calling stuff (flashlight, maps) is genuinely interesting as a demo of what local agents could look like. accuracy on anything requiring real world knowledge is rough tho, which is expected at this size. i'd use it for structured tasks, not trivia.",
+    "wordCount": 58,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 13,
+    "megallmFactors": [
+      "technical hn relevance",
+      "experience framing"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "strong early votes",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:15:16.909Z"
+  },
+  {
+    "postId": "47652561",
+    "primaryTag": "story",
+    "postTitle": "Gemma 4 on iPhone",
+    "postUrl": "https://news.ycombinator.com/item?id=47652561",
+    "postUps": 685,
+    "comment": "people keep comparing these on-device models to cloud models and declaring victory. the gap is still enormous for anything beyond simple instruction following 4b params running locally is a cool engineering achievement but let's not pretend it replaces a 400b+ model behind an api foor actual wor.k the hallucination reports in this thread confirm that.",
+    "wordCount": 55,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 13,
+    "megallmFactors": [
+      "technical hn relevance",
+      "hn-typical length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "strong early votes",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:15:16.909Z"
+  },
+  {
+    "postId": "47652561",
+    "primaryTag": "story",
+    "postTitle": "Gemma 4 on iPhone",
+    "postUrl": "https://news.ycombinator.com/item?id=47652561",
+    "postUps": 685,
+    "comment": "we finally have a phone that can confidently make things up without needing wifi",
+    "wordCount": 14,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "strong early votes",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:15:16.909Z"
+  },
+  {
+    "postId": "47637377",
+    "primaryTag": "story",
+    "postTitle": "LÖVE: 2D Game Framework for Lua",
+    "postUrl": "https://news.ycombinator.com/item?id=47637377",
+    "postUps": 327,
+    "comment": "löve's callback model (love.update, love.draw, love.keypressed) is one of the cleanest game loop abstractions i've seen. gets out of your way fast. great for game jaams too.",
+    "wordCount": 27,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 13,
+    "megallmFactors": [
+      "technical hn relevance",
+      "hn-typical length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "posted",
+    "createdAt": "2026-04-07T14:15:27.465Z",
+    "postedAt": "2026-04-12T09:27:27.482Z"
+  },
+  {
+    "postId": "47637377",
+    "primaryTag": "story",
+    "postTitle": "LÖVE: 2D Game Framework for Lua",
+    "postUrl": "https://news.ycombinator.com/item?id=47637377",
+    "postUps": 327,
+    "comment": "used löve for a couple of ludum dare entries and a small tool for procedural map generation. the iteration speed is unmatched, you just edit lua fils and restart. no build step, no waiting. the main pain point is packaging for distribution, especially cross-platform. ended up writing shell scripts to bundle things for linux/mac/windows separately. not terrible but not great either.",
+    "wordCount": 61,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 0,
+    "megallmFactors": [],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:15:27.465Z"
+  },
+  {
+    "postId": "47637377",
+    "primaryTag": "story",
+    "postTitle": "LÖVE: 2D Game Framework for Lua",
+    "postUrl": "https://news.ycombinator.com/item?id=47637377",
+    "postUps": 327,
+    "comment": "one thing ppl don't mention enough: löve's ecosystem is pretty fragmented when it comes to libraries. there's no real package manager so you end up vendoring random github repos into your project lua's \"everything is a table\" philosophy means library interfaces can be inconsistent and surprising. it's charming until your project grows past a few thousand lines",
+    "wordCount": 57,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 0,
+    "megallmFactors": [],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:15:27.465Z"
+  },
+  {
+    "postId": "47637377",
+    "primaryTag": "story",
+    "postTitle": "LÖVE: 2D Game Framework for Lua",
+    "postUrl": "https://news.ycombinator.com/item?id=47637377",
+    "postUps": 327,
+    "comment": "the umlaut in löve has mass-filtered more stckoverflow questions than any technical limitation ever could",
+    "wordCount": 15,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:15:27.465Z"
+  },
+  {
+    "postId": "47651540",
+    "primaryTag": "story",
+    "postTitle": "Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code",
+    "postUrl": "https://news.ycombinator.com/item?id=47651540",
+    "postUps": 300,
+    "comment": "curious what the actual quality delta is between the 12b and 26b variants for coding tasks. the quantized 26b might lose enough precision that the smaller model at full weights wins in practice.",
+    "wordCount": 33,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 13,
+    "megallmFactors": [
+      "technical hn relevance",
+      "hn-typical length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "hot topic pattern",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "posted",
+    "createdAt": "2026-04-07T14:15:39.644Z",
+    "postedAt": "2026-04-12T09:27:34.480Z"
+  },
+  {
+    "postId": "47651540",
+    "primaryTag": "story",
+    "postTitle": "Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code",
+    "postUrl": "https://news.ycombinator.com/item?id=47651540",
+    "postUps": 300,
+    "comment": "been running a similar setup for a couple weeks now. the latency is honestly fine for agentic loops where the model is mostly writing code and you're reviewing diffs. where it falls apatr is anything requiring long context reasoning, the 8k effective window on quantized models is a real ceiling. planning to try the 12b with full cntext instead.",
+    "wordCount": 59,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "technical hn relevance"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "hot topic pattern",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:15:39.644Z"
+  },
+  {
+    "postId": "47651540",
+    "primaryTag": "story",
+    "postTitle": "Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code",
+    "postUrl": "https://news.ycombinator.com/item?id=47651540",
+    "postUps": 300,
+    "comment": "one thing nobody seems to mention: these local setps work great until you need tool use with parallel function calls or structured output with strict json schemas. the open weight models are still noticeably worse at following complex system prmpts compared to the frontier apis. \"runs locally\" and \"works as well locally\" are very different claims.",
+    "wordCount": 56,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "technical hn relevance"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "hot topic pattern",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:15:39.644Z"
+  },
+  {
+    "postId": "47651540",
+    "primaryTag": "story",
+    "postTitle": "Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code",
+    "postUrl": "https://news.ycombinator.com/item?id=47651540",
+    "postUps": 300,
+    "comment": "we'e mass-produced the sysadmin job now everyone gets to debug cuda drivers and quantization configs at 11pm on a sunday",
+    "wordCount": 20,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "hot topic pattern",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:15:39.644Z"
+  }
+]

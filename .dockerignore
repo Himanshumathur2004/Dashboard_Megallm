@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+blog_generation_pipeline/.venv/
+blog_generation_pipeline/__pycache__/
+NewComemnt-feature-x-assistant/node_modules/
+
+# Build artifacts
+NewComemnt-feature-x-assistant/.next/
+
+# Environment files (use docker-compose env vars instead)
+.env
+blog_generation_pipeline/.env
+NewComemnt-feature-x-assistant/.env
+
+# Git
+.git/
+.github/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+*_test.py
+test_*.py
+*_test.js
+test_*.js
+
+# Documentation
+*.md
+!README.md
+
+# Screenshots and images
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Claude files
+.claude/

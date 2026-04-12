@@ -1,0 +1,1307 @@
+[
+  {
+    "id": "47659109",
+    "primaryTag": "story",
+    "title": "Age Verification as Mass Surveillance Infrastructure",
+    "description": "",
+    "url": "https://tboteproject.com/surveillancefindings/",
+    "ups": 184,
+    "numComments": 48,
+    "createdUtc": 1775471582,
+    "isQuestion": false,
+    "by": "rurban",
+    "topComments": [
+      {
+        "body": "I wish people would stop sharing this website, their research is massively written by LLMs and looks good at a glance, but it goes in every direction at the same time and lacks logical connections. And the claims don t really match their sources. Their initial publication was backed by a Git repository with hundreds of pages of documents written in just three days ( https: web.archive.org web 20260314224623 https: tboteproj... ). It also containe",
+        "ups": 0,
+        "author": "progval"
+      },
+      {
+        "body": "I wonder if not private age verification could not be solved with the right cryptographic protocol. You would have to register using a digital ID with a government agency, to get a age certificate. Most European countries already have digital IDs, used for all sorts of things: such as taxes, online banking etc. Then that certificate could be used in some sort of challenge-response protocol with web sites to verify your age, creating a new user ID",
+        "ups": 0,
+        "author": "Findecanor"
+      },
+      {
+        "body": "The root password to the Constitution is “ITs4daChildren!”",
+        "ups": 0,
+        "author": "shrubble"
+      },
+      {
+        "body": "LLM feedback loops are scary because they self-reinforce by training over their own data drift and vulnerable people interface with the noise and follow the downward spiral.",
+        "ups": 0,
+        "author": "razodactyl"
+      },
+      {
+        "body": "So to avoid it all I have to do is stop using social media? LGTM",
+        "ups": 0,
+        "author": "apples_oranges"
+      },
+      {
+        "body": "what do governments get out of this? Like I get it from ad commercial perspective, but I don t see how this is highly unpopular from governments and still being implemented",
+        "ups": 0,
+        "author": "alliao"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47655408",
+    "primaryTag": "show",
+    "title": "Show HN: I built a tiny LLM to demystify how language models work",
+    "description": "",
+    "url": "https://github.com/arman-bd/guppylm",
+    "ups": 571,
+    "numComments": 70,
+    "createdUtc": 1775434812,
+    "isQuestion": false,
+    "by": "armanified",
+    "topComments": [
+      {
+        "body": "How does this compare to Andrej Karpathy s microgpt ( https: karpathy.github.io 2026 02 12 microgpt ) or minGPT ( https: github.com karpathy minGPT )?",
+        "ups": 0,
+        "author": "fg137"
+      },
+      {
+        "body": "This really makes me think if it would be feasible to make an llm trained exclusively on toki pona ( https: en.wikipedia.org wiki Toki_Pona )",
+        "ups": 0,
+        "author": "algoth1"
+      },
+      {
+        "body": "https: bbycroft.net llm has 3d Visualization of tiny example LLM layers that do a very good job at showing what is going on ( https: news.ycombinator.com item?id=38505211 )",
+        "ups": 0,
+        "author": "totetsu"
+      },
+      {
+        "body": "It s genuinely a great introduction to LLMs. I built my own awhile ago based off Milton s Paradise Lost: https: www.wvrk.org works milton",
+        "ups": 0,
+        "author": "ordinarily"
+      },
+      {
+        "body": "This is probably a consequence of the training data being fully lowercase: You&gt; hello Guppy&gt; hi. did you bring micro pellets. You&gt; HELLO Guppy&gt; i don t know what it means but it s mine.",
+        "ups": 0,
+        "author": "mudkipdev"
+      },
+      {
+        "body": "Finally an LLM that s honest about its world model. &quot;The meaning of life is food&quot; is arguably less wrong than what you get from models 10,000x larger",
+        "ups": 0,
+        "author": "hackerman70000"
+      }
+    ],
+    "isTopicRelevant": true
+  },
+  {
+    "id": "47658146",
+    "primaryTag": "story",
+    "title": "France pulls last gold held in US for $15B gain",
+    "description": "",
+    "url": "https://www.mining.com/france-pulls-last-gold-held-in-us-for-15b-gain/",
+    "ups": 216,
+    "numComments": 132,
+    "createdUtc": 1775462623,
+    "isQuestion": false,
+    "by": "teleforce",
+    "topComments": [
+      {
+        "body": "&gt;However, an operation to repatriate its gold holdings began in the 1960s leading up to the US termination of the Bretton Woods system, which effectively stopped foreign governments from exchanging dollars for gold. French-US monetary history after WWII: Under the Bretton Woods agreement (1944-1971), the US dollar was the world’s reserve currency, and it was pegged to gold at $35 per ounce. Other countries pegged their currencies to the dollar",
+        "ups": 0,
+        "author": "u1hcw9nx"
+      },
+      {
+        "body": "This is not gain at all. At least in theory: You own some tons of gold at the start of the process, you have the same tons of gold at the end of the process. The only real gain is that you have gold in the US custody and the US can be tempted to just use it without telling you anything. In other words, you had &quot;paper gold&quot; or &quot;virtual gold&quot; that the US can confiscate anytime, for example after invading Greenland, blackmailing ",
+        "ups": 0,
+        "author": "cladopa"
+      },
+      {
+        "body": "Is anyone here actually reading the article? Yes, they really made a gain of $15B: &gt; But instead of refining and transporting the gold, it opted to sell the bars and purchase new bullion in Europe. […] Due to rising gold prices, the move helped the bank to generate a capital gain of 13 billion euros ($15 billion),",
+        "ups": 0,
+        "author": "codethief"
+      },
+      {
+        "body": "Good for France to relocate gold back to their own territory, but, uh, how can this result in a 15 B gain? &quot;The overall size of France’s gold reserves still remained unchanged at roughly 2,437 tonnes, which are now entirely held at the BdF’s underground vault in La Souterraine.&quot; Is this some special form of French accounting, where the gold becomes more valuable when it returns to French soil?",
+        "ups": 0,
+        "author": "carefree-bob"
+      },
+      {
+        "body": "At least they got their gold this time. The last time they asked for their gold back Nixon &quot;temporarily&quot; ended the convertibility of the USD to gold.",
+        "ups": 0,
+        "author": "RobotToaster"
+      },
+      {
+        "body": "This seems to be the source article (Reuters, March 24): https: www.reuters.com business french-central-bank-books-1...",
+        "ups": 0,
+        "author": "rstarast"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47652561",
+    "primaryTag": "story",
+    "title": "Gemma 4 on iPhone",
+    "description": "",
+    "url": "https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337",
+    "ups": 685,
+    "numComments": 194,
+    "createdUtc": 1775414753,
+    "isQuestion": false,
+    "by": "janandonly",
+    "topComments": [
+      {
+        "body": "Impressive model, for sure. I ve been running it on my Mac, now I get to have it locally in my iPhone? I need to test this. Wait, it does agent skills and mobile actions, all local to the phone? Whaaaat? (Have to check out later! Anyone have any tips yet?) I don t normally do the whole &quot;abliterated&quot; thing (dealignment) but after discovering https: github.com p-e-w heretic , I was too tempted to try it with this model a couple days ago (",
+        "ups": 0,
+        "author": "pmarreck"
+      },
+      {
+        "body": "This app is cool and it showcases some use cases, but it still undersells what the E2B model can do. I just made a real-time AI (audio video in, voice out) on an M3 Pro with Gemma E2B. I posted it on r LocalLLaMA a few hours ago and it s gaining some traction [0]. Here s the repo [1] I m running it on a Macbook instead of an iPhone, but based on the benchmark here [2], you should be able to run the same thing on an iPhone 17 Pro. [0] https: www.r",
+        "ups": 0,
+        "author": "karimf"
+      },
+      {
+        "body": "This is awesome! 1) I am able to run the model on my iPhone and get good results. Not as good as Gemini in the cloud, but good. 2) I love the “mobile actions” tool calls that allow the LLM to turn on the flashlight, open maps, etc. It would be fun if they added Siri Shortcuts support. I want the personal automation that Apple promised but never delivered. 3) I am so excited for local models to be normalized. I build little apps for teachers and t",
+        "ups": 0,
+        "author": "PullJosh"
+      },
+      {
+        "body": "OP Here. It is my firm belief that the only realistic use of AI in the future is either locally on-device for almost free, or in the cloud but way more expensive then it is today. The latter option will only bemusedly for tasks that humans are more expensive or much slower in. This Gemma 4 model gives me hope for a future Siri or other with iPhone and macOS integration, “Her” (as in the movie) style.",
+        "ups": 0,
+        "author": "janandonly"
+      },
+      {
+        "body": "English version of the page: https: apps.apple.com us app google-ai-edge-gallery id67496... Also on Android: https: play.google.com store apps details?id=com.google.ai.... It s a demo app for Google s Edge project: https: ai.google.dev edge",
+        "ups": 0,
+        "author": "jeroenhd"
+      },
+      {
+        "body": "I asked it about the “Altamont Free Concert” (exact name of Wikipedia article), and it’s been a while since I’ve seen an hallucination this rich. Doesn’t give me confidence to use it.",
+        "ups": 0,
+        "author": "derwiki"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47651703",
+    "primaryTag": "story",
+    "title": "Microsoft hasn't had a coherent GUI strategy since Petzold",
+    "description": "",
+    "url": "https://www.jsnover.com/blog/2026/03/13/microsoft-hasnt-had-a-coherent-gui-strategy-since-petzold/",
+    "ups": 540,
+    "numComments": 350,
+    "createdUtc": 1775410061,
+    "isQuestion": false,
+    "by": "naves",
+    "topComments": [
+      {
+        "body": "What I find must puzzling is that everyone seems to just be violating basic rules that had been in place for ages. Things like: - If you can t respond to a UI event wait until you can - Menus should be tree structures - Pressing alt should underline the hotkeys you need to access anything clickable As well as just basic responsiveness or predictability. A 2000 era windows application may not have been pretty, and may well have several different s",
+        "ups": 0,
+        "author": "shiandow"
+      },
+      {
+        "body": "2 things Microsoft failed to do in the last 15 years are: 1) They abandoned their mobile phone, tablet, and wearable strategy. So, today if you develop a native Windows application, it will only work on desktops and laptops. That is it. It is not attractive for a developer to learn a whole new UI framework just to target a single form factor. And I don t know if there is any solution for this at this point, they shouldn t have completely abandone",
+        "ups": 0,
+        "author": "ZuLuuuuuu"
+      },
+      {
+        "body": "To quote Steve Jobs: &quot;The only problem with Microsoft is they just have no taste. They have absolutely no taste. And I don t mean that in a small way, I mean that in a big way, in the sense that they don t think of original ideas, and they don t bring much culture into their products. &quot;",
+        "ups": 0,
+        "author": "amai"
+      },
+      {
+        "body": "&gt; WPF was good As someone who saw what impact WPF had on average users running average hardware in the late 2000s to early 2010s, I disagree. In 2011, my brother was in seminary, using an average Windows Vista-era laptop that he had been given in 2008. When he was home for Christmas in 2011, we were talking about his laptop, and he told me that the Logos Bible software ran sluggishly on that laptop. He said something about how, for reasons unk",
+        "ups": 0,
+        "author": "mwcampbell"
+      },
+      {
+        "body": "Desktop, especially Windows, is such a mess. It s 2026. We re running 8+ cores and 32gb ram as standard. We can run super realistic video games at high frame-rates. Yet on the same machine, resizing a window with rectangles in it is laggy on every platform except macOS (where there s a chance it s not laggy).",
+        "ups": 0,
+        "author": "iamcalledrob"
+      },
+      {
+        "body": "The deeper problem is that Microsoft keeps trying to solve GUI consistency at the framework layer instead of the design system layer. WinForms, WPF, UWP, WinUI -- each one a new framework, each one eventually abandoned. Apple solved this by treating the design system as the product and letting the framework be invisible. Microsoft has it backwards every time.",
+        "ups": 0,
+        "author": "MarcelinoGMX3C"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47656622",
+    "primaryTag": "story",
+    "title": "An open-source 240-antenna array to bounce signals off the Moon",
+    "description": "",
+    "url": "https://moonrf.com/",
+    "ups": 136,
+    "numComments": 16,
+    "createdUtc": 1775445762,
+    "isQuestion": false,
+    "by": "hillcrestenigma",
+    "topComments": [
+      {
+        "body": "It says it’s open source but I can’t find a link to a repository. Am I missing something?",
+        "ups": 0,
+        "author": "manuelmenzella"
+      },
+      {
+        "body": "Wild hardware flex for a garage project. Reverse-engineering the Pi 5 s MIPI to push 5.6 Gbps from custom MASH sigma-delta ADCs to a Lattice ECP5 FPGA to the Raspberry Pi is serious engineering. The idea that the RF receiver looks like a &quot;camera&quot; to the Pi while the transmitter is a &quot;display&quot; is super creative. Getting a 1.5 kW, 240-antenna EME array for $2,499 is actually cheap for something like this. Their standalone 4-ante",
+        "ups": 0,
+        "author": "infinitewars"
+      },
+      {
+        "body": "Previous post. https: news.ycombinator.com item?id=45790672",
+        "ups": 0,
+        "author": "drmpeg"
+      },
+      {
+        "body": "&quot;Country restrictions apply&quot;. Which countries?",
+        "ups": 0,
+        "author": "thomashabets2"
+      },
+      {
+        "body": "&gt; The target launch price is probably ~$399 (dependent on the tariff landscape over the next month). For that you get the QuadRF tile, an included Raspberry Pi 5, the custom case, tripod, USB-C power supply, cables, and a pre-loaded SD card with a ton of cool SDR applications. Meanwhile... the RPi alone will probably make up 299 dollars of that price tag [1]. It is not a good time to design hardware that needs RAM. Arrest and imprison Sam Altm",
+        "ups": 0,
+        "author": "mschuster91"
+      },
+      {
+        "body": "Cool, how full array compares to the single antenna placed on Starlink satellite ?",
+        "ups": 0,
+        "author": "diimdeep"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47652007",
+    "primaryTag": "show",
+    "title": "Show HN: Real-time AI (audio/video in, voice out) on an M3 Pro with Gemma E2B",
+    "description": "",
+    "url": "https://github.com/fikrikarim/parlor",
+    "ups": 125,
+    "numComments": 9,
+    "createdUtc": 1775411599,
+    "isQuestion": false,
+    "by": "karimf",
+    "topComments": [
+      {
+        "body": "That is very, very interesting. I ve been hoping to have an assistant in the workshop (hands-free!) that I could talk to and have it help me with simple tasks: timers, calculating, digging up notes, etc. — basically, what the phone assistants were supposed to be, but aren t. &quot;You will have to unlock your iphone first&quot; is kind of a deal-breaker when you are in the middle of mixing polyurethane resin and have gloves and a mask on. More an",
+        "ups": 0,
+        "author": "jwr"
+      },
+      {
+        "body": "Solid work and great showcase, I ve done a bunch of stuff with Kokoro and the latency is incredible. So crazy how badly Apple dropped the ball... feels like your demo should be a Siri demo (I mean that in the most complimentary way possible).",
+        "ups": 0,
+        "author": "dvt"
+      },
+      {
+        "body": "I am making something similar. Also been using Kokoro for TTS. Very cool project! Gemma 4 is kinda too heavyweight even with E2B. I am sticking with qwen 0.8B at the moment.",
+        "ups": 0,
+        "author": "est"
+      },
+      {
+        "body": "I have been looking forward to build something like this using open models. A voice assisstant I can talk while I am driving, as I do have long commute. I do use chatGPT voice mode and it works great for querying any information or discussions. But I want to do tasks like browsing web, act like a social media manager for my business etc.",
+        "ups": 0,
+        "author": "zerop"
+      },
+      {
+        "body": "It might interest people to know you can also easily fine-tune the text portion of this specific model (E2B) to behave however you want! I fine-tuned it to talk like a pirate but you can get it to do anything you have (or can generate) training data for. (This wouldn t make it to the text to speech portion though.) So you can easily train it to act a certain way or give certain types of responses. Video: https: www.youtube.com live WuCxWJhrkIM Ge",
+        "ups": 0,
+        "author": "logicallee"
+      },
+      {
+        "body": "Can someone quickly vibe code MacOS native app for that so it doesn t require running terminal commands and searching for that browser tab? (: (also for iOS, pls)",
+        "ups": 0,
+        "author": "divan"
+      }
+    ],
+    "isTopicRelevant": true
+  },
+  {
+    "id": "47659252",
+    "primaryTag": "story",
+    "title": "Is Germany's gold safe in New York ?",
+    "description": "",
+    "url": "https://www.dw.com/en/is-germanys-gold-safe-in-new-york/video-75766873",
+    "ups": 112,
+    "numComments": 100,
+    "createdUtc": 1775472851,
+    "isQuestion": true,
+    "by": "KnuthIsGod",
+    "topComments": [
+      {
+        "body": "Of course not. That s why Charles de Gaulle raptriated French gold from the New York Fed in the 1960s. Before Trump, there was Nixon, the US has form in reneging on its commitments.",
+        "ups": 0,
+        "author": "fmajid"
+      },
+      {
+        "body": "The fact that this question needs asking tells a lot about how other countries see the current administration.",
+        "ups": 0,
+        "author": "PowerElectronix"
+      },
+      {
+        "body": "Probably safe as long as Germany is amenable to supporting &quot;American interests&quot; which can be anything and everything as decided by a human RNG they choose to elect.",
+        "ups": 0,
+        "author": "devsda"
+      },
+      {
+        "body": "I want America to go back to being as it was before",
+        "ups": 0,
+        "author": "apples_oranges"
+      },
+      {
+        "body": "isnt the question more like: &quot;Is it _still_ there?&quot; :-))",
+        "ups": 0,
+        "author": "KellyCriterion"
+      },
+      {
+        "body": "It wasn’t safe in the 70s lol",
+        "ups": 0,
+        "author": "jbverschoor"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47613827",
+    "primaryTag": "story",
+    "title": "One ant for $220: The new frontier of wildlife trafficking",
+    "description": "",
+    "url": "https://www.bbc.com/news/articles/cg4g44zv37qo",
+    "ups": 55,
+    "numComments": 1,
+    "createdUtc": 1775134556,
+    "isQuestion": false,
+    "by": "gmays",
+    "topComments": [
+      {
+        "body": "Not that I d ever be in the market for illegal wildlife, I find the whole trade abhorrent, but $220 for a pregnant queen of an exotic ant species that would spawn an entire colony and live for years doesn t seem at all expensive.",
+        "ups": 0,
+        "author": "technothrasher"
+      },
+      {
+        "body": "[dead]",
+        "ups": 0,
+        "author": "black_13"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47637377",
+    "primaryTag": "story",
+    "title": "LÖVE: 2D Game Framework for Lua",
+    "description": "",
+    "url": "https://github.com/love2d/love",
+    "ups": 327,
+    "numComments": 154,
+    "createdUtc": 1775294434,
+    "isQuestion": false,
+    "by": "cl3misch",
+    "topComments": [
+      {
+        "body": "Fennel is really cool! And you can write games in it :) https: fennel-lang.org",
+        "ups": 0,
+        "author": "0x3444ac53"
+      },
+      {
+        "body": "One of the biggest recent indie hits, Balatro, was made in Löve! I really like it, the developer experience is so smooth for beginners, just drag a zip onto the exe and it starts. And the APIs are simple enough to memorize while allowing pretty cool rendering stuff.",
+        "ups": 0,
+        "author": "patapong"
+      },
+      {
+        "body": "Anyone who is a fan of the TV Show Community MUST try out the recreation of the 8 bit video game episode(Digital Estate Planning) called Journey to the Center of Hawkthorne. [1]: https: projecthawkthorne.com It is now available to play straight in the browser(I guess using LÖVE Web Builder?). [1]: https: schellingb.github.io LoveWebBuilder This engine has really come a long way and enabled such a memorable game for me.",
+        "ups": 0,
+        "author": "nebula8804"
+      },
+      {
+        "body": "I used LÖVE to build a simple Kodi alternative for my home media center setup. My first attempt was using Electron but rewriting to LÖVE meant much simpler code (turns out manually calculating coordinates is simpler than fighting CSS) and less resource consumption (not a high bar, yes). It works so well I might clean it up and open source it...",
+        "ups": 0,
+        "author": "PufPufPuf"
+      },
+      {
+        "body": "I love LÖVE. For me it sits at the perfect intersection between high and low level abstraction. Unfortunately the latest released version is getting pretty long in the tooth now and a lot of devs use the latest HEAD from the repo since it has better performance and compatibility. One day the mythical 12.0 will get released for real…..",
+        "ups": 0,
+        "author": "wwarren"
+      },
+      {
+        "body": "I generally very much dislike dynamic languages but for some reason I ve always really liked Lua. I m not exactly sure why to be honest. Maybe because you can fit the whole language spec on a single sheet of paper and adding more advanced features is pretty easy. Love looks really cool. I never got into it personally but I still might",
+        "ups": 0,
+        "author": "PacificSpecific"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47655392",
+    "primaryTag": "show",
+    "title": "Show HN: I made a YouTube search form with advanced filters",
+    "description": "",
+    "url": "https://playlists.at/youtube/search/",
+    "ups": 254,
+    "numComments": 150,
+    "createdUtc": 1775434706,
+    "isQuestion": false,
+    "by": "nevernothing",
+    "topComments": [
+      {
+        "body": "Search is the reason I stopped watching youtube, I used to view and discover so many nice stuff in there, tutorials, new hobbies, new music, new creators with different interests, etc but now it s pretty much impossible to find, you are forced to watch the 3 top videos, some 3 ads and then it forces you to watch some other random unrelated crap, it s so annoying and frustrating It got so bad that even searching the full tittle of the video doesnt",
+        "ups": 0,
+        "author": "VenezuelaFree"
+      },
+      {
+        "body": "For April Fools Sega released an (actual, real) “Sanic the Hedgeheg” t-shirt and I wanted to see if there was anything about it on YouTube. YouTube assumed I meant “sonic” and it was impossible to correct it and say “no I’m actually searching for this dumb meme”. It just assumes everyone who uses YouTube is really dumb I guess. (I bought the shirt by the way and am excited to get it lol)",
+        "ups": 0,
+        "author": "wincy"
+      },
+      {
+        "body": "I feel like we have reached a point where Youtube can just remove the search fields and let their algorithms do its thing. The last time I tried YTs search field was when I was trying to find an older video in my history. Nothing, even if I typed down the exact keywords. Nothing. Luckily, I found it through myactivity.google.com. Its actually kind of fascinating how a huge enterprise like Youtube can ruin a feature to the point that its actually ",
+        "ups": 0,
+        "author": "Alifatisk"
+      },
+      {
+        "body": "You should add this option to filter shorts: https: www.youtube.com results?search_query=%s&amp;sp=CAI%253D Also, related project: https: filmot.com search radiohead%20 1 1?sortField=uploadd... It allows you to do text to full search on youtube videos. The project obviously didn t index ALL youtube videos subtitles, but it easily index millions of youtube subtitles.",
+        "ups": 0,
+        "author": "hexage1814"
+      },
+      {
+        "body": "I was hoping to finally see an advanced time filter so I could do something like &quot;over 2 minutes&quot; but it seems you ve only got the same ones Youtube has (&lt; 4 minutes, 4-20, and &gt; 20). If it s an opaqueness restriction with the API or something, I d like to suggest letting us at least combine the provided ones, so I could do something like (4-20) &amp;&amp; (&gt; 20) to get &quot;over 4 minutes&quot; which doesn t exist on Youtube ",
+        "ups": 0,
+        "author": "Vachyas"
+      },
+      {
+        "body": "The whole Youtube experience has gotten so bad over the years. I love the youtube content, but I wish I didn t have to deal with the UI UX and recommendations that the YT app forces on me. Annoying Shorts. I m trying to keep my watch history clean to &quot;steer&quot; recommendations, but YT keeps adding things to it that I didn t actually watch just because I happened to hover my mouse over a video, etc.",
+        "ups": 0,
+        "author": "loveparade"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47656501",
+    "primaryTag": "story",
+    "title": "The 1987 game “The Last Ninja” was 40 kilobytes",
+    "description": "",
+    "url": "https://twitter.com/exQUIZitely/status/2040777977521398151",
+    "ups": 149,
+    "numComments": 100,
+    "createdUtc": 1775444602,
+    "isQuestion": false,
+    "by": "keepamovin",
+    "topComments": [
+      {
+        "body": "I was comparing games prices last week and I found that prices from the 80s aren t too different from modern game prices. Elite was £20 in 1984 and that would be £66 today, which is not very different from what a good game for the PS5 costs today. Except that games then were made by one or two people and nowadays games are made by teams with coders, musicians, artists, etc.",
+        "ups": 0,
+        "author": "forinti"
+      },
+      {
+        "body": "That s just incredible. People used to be so much better at programming, or at least great programmers had it easier to get funded. Most of what I see today is exceptionally low quality and just getting worse with time.",
+        "ups": 0,
+        "author": "guerrilla"
+      },
+      {
+        "body": "I was looking at a production service we run that was using a few GBs of memory. When I add up all the actual data needed in a naive compact representation I end up with a few MBs. So much waste. That s before thinking of clever ways to compress, or de-duplicate or rearrange that data. Back in the day getting the 16KB expansion pack for my 1KB RAM ZX81 was a big deal. And I also wrote code for PIC microcontrollers that have 768 bytes of program m",
+        "ups": 0,
+        "author": "YZF"
+      },
+      {
+        "body": "Around the time DirectX came around and first games requiring it appeared, which in my memory coincided with hard drives getting way bigger and first games being delivered on a CD instead of floppies, I ve been apalled at how I could see literal BMPs being written to disk during the installation. This was the same time when cracked games were being distributed via BBS at a fraction of the original size with custom installers which decompressed MP",
+        "ups": 0,
+        "author": "pronik"
+      },
+      {
+        "body": "Speaking of the size: my first PC, built by a family friend, had a 80MB disk, split into two partitions. The second 40MB partition had Windows 3.1 and about two Norton Commander columns full of games on it, largest of which were Wolfenstein 3D and Lost Vikings with about 1.4MB each. Truly a different era.",
+        "ups": 0,
+        "author": "pronik"
+      },
+      {
+        "body": "I grew up with and absolutely adore The Last Ninja series. I m not going to comment on the size thing because it s so trite. Instead - here s [0] Ben Daglish (on flute) performing &quot;Wastelands&quot; together with the Norwegian C64 Amiga tribute band FastLoaders. He unfortunately passed away in 2018, just 52 years old. If that tickled your fancy, here s [1] a full concert with them where they perform all songs from The Last Ninja. [0] https: w",
+        "ups": 0,
+        "author": "vinkelhake"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47659461",
+    "primaryTag": "story",
+    "title": "The Intelligence Failure in Iran",
+    "description": "",
+    "url": "https://www.theatlantic.com/national-security/2026/04/iran-war-intelligence-failure-trump/686694/",
+    "ups": 17,
+    "numComments": 2,
+    "createdUtc": 1775474495,
+    "isQuestion": false,
+    "by": "JumpCrisscross",
+    "topComments": [
+      {
+        "body": "I’ve come to think that the costly quagmire is the point. It’s predictable and that’s why it’s done.",
+        "ups": 0,
+        "author": "api"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47636456",
+    "primaryTag": "story",
+    "title": "Sheets Spreadsheets in Your Terminal",
+    "description": "",
+    "url": "https://github.com/maaslalani/sheets",
+    "ups": 101,
+    "numComments": 22,
+    "createdUtc": 1775284452,
+    "isQuestion": false,
+    "by": "_____k",
+    "topComments": [
+      {
+        "body": "Visidata is a fast popular data tool in python https: www.visidata.org if you just want data entry. If I may be permitted a small plug ... Oleo is a GNU spreadsheet going back absolutely donkey years. I cloned the repo here: https: github.com blippy oleo and made minimalist fixes to get the thing to compile. I also based my own terminal-based spreadsheet based off of it call neoleo: https: github.com blippy neoleo I wouldn t say that my project i",
+        "ups": 0,
+        "author": "blippage"
+      },
+      {
+        "body": "You might say … it s As Easy As[2] 1-2-3?[1] [1]: https: en.wikipedia.org wiki Lotus_1-2-3 [2]: https: en.wikipedia.org wiki As-Easy-As What s old is new again.",
+        "ups": 0,
+        "author": "deathanatos"
+      },
+      {
+        "body": "All spreadsheets used to run in your terminal, in the old days. You can still download one here and I wouldn t be surprised if it still works: https: winworldpc.com product quattro-pro 4x",
+        "ups": 0,
+        "author": "lateforwork"
+      },
+      {
+        "body": "Semi-related: I always wished there was something like the unholy combination of a spreadsheet and notebook rolled into one. I picture it notebook-like at the top level, then each cell is a widget that the host language can reference parts of in other cells (probably with a variable (eg: something like mathematicas `Out[_]`) or a built in construct (like the `$ABC123` forms in spreadsheet formulas)). A notebook interface would also be good (I thi",
+        "ups": 0,
+        "author": "jmacc93"
+      },
+      {
+        "body": "If I’m remembering correctly, I had bought a Borland Turbo C++ compiler circa 1994 (for DOS) that came with a demo sheets application you could build and run. Does anyone remember this, I can’t find it now.",
+        "ups": 0,
+        "author": "andy99"
+      },
+      {
+        "body": "See also, one of the older more-robust entrants in this space [0], and one of the more innovative (still from a hot-second ago now…) [1]. All the best, 0. https: github.com andmarti1424 sc-im 1. https: www.syntax-k.de projekte teapot",
+        "ups": 0,
+        "author": "halosghost"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47656981",
+    "primaryTag": "story",
+    "title": "Drop, formerly Massdrop, ends most collaborations and rebrands under Corsair",
+    "description": "",
+    "url": "https://drop.com/",
+    "ups": 44,
+    "numComments": 10,
+    "createdUtc": 1775449489,
+    "isQuestion": false,
+    "by": "stevebmark",
+    "topComments": [
+      {
+        "body": "Sad to see it go, but it had degraded significantly from the Massdrop era. It used to be a place to get a decent discount on pre-orders from good to great brands, but it slowly became nothing but second rate computer accessories. I still have most of the things I bought from Massdrop - pocket knife, leather belt, headphones, etc. Those products lasted.",
+        "ups": 0,
+        "author": "rollypoley"
+      },
+      {
+        "body": "Massdrop was interesting, as a place to get stuff you couldn t get elsewhere easily (even if I never bought something there, I considered it multiple times and I think I had some things on my wait list). Is there already something like a successor platform? Drop.com as a site for branded corsair gear is completely useless.",
+        "ups": 0,
+        "author": "onli"
+      },
+      {
+        "body": "In other words they’ve shut it down, and are going to use the brand recognition to hawk as much low quality gaming merch as they can.",
+        "ups": 0,
+        "author": "bargainbin"
+      },
+      {
+        "body": "&gt;Starting our next chapter, drop.com will become a hub for our collaborations with truly exciting titles—from The Lord of the Rings™ [...], and more—across the full CORSAIR family of brands. Gandalf wept...",
+        "ups": 0,
+        "author": "windowliker"
+      },
+      {
+        "body": "I think I got a really cool wallet and notebook from Hand &amp; Sew through Massdrop many years ago. The wallet is long gone but the notebook is still around with a wonderful patina. It used to be a really cool site for unique items. I stopped using it when they had a falling out with Input Club and it seems like they ve just gone downhill since then.",
+        "ups": 0,
+        "author": "drakonka"
+      },
+      {
+        "body": "I read this twice thinking it was an April fools joke I wasn’t getting.",
+        "ups": 0,
+        "author": "avs733"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47651540",
+    "primaryTag": "story",
+    "title": "Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code",
+    "description": "",
+    "url": "https://ai.georgeliu.com/p/running-google-gemma-4-locally-with",
+    "ups": 300,
+    "numComments": 75,
+    "createdUtc": 1775409231,
+    "isQuestion": false,
+    "by": "vbtechguy",
+    "topComments": [
+      {
+        "body": "You can use llama.cpp server directly to serve local LLMs and use them in Claude Code or other CLI agents. I’ve collected full setup instructions for Gemma4 and other recent open-weight LLMs here, tested on my M1 Max 64 GB MacBook: https: pchalasani.github.io claude-code-tools integrations ... The 26BA4B is the most interesting to run on such hardware, and I get nearly double the token-gen speed (40 tok s) compared to Qwen3.5 35BA3B. However the ",
+        "ups": 0,
+        "author": "d4rkp4ttern"
+      },
+      {
+        "body": "Local models are finally starting to feel pleasant instead of just &quot;possible.&quot; The headless LM Studio flow is especially nice because it makes local inference usable from real tools instead of as a demo. Related note from someone building in this space: I ve been working on cloclo ( https: www.npmjs.com package cloclo ), an open-source coding agent CLI, and this is exactly the direction I m excited about. It natively supports LM Studio,",
+        "ups": 0,
+        "author": "seifbenayed1992"
+      },
+      {
+        "body": "The real story here isn t Gemma 4 specifically, it s that the harness and the model are now fully decoupled. Claude Code, OpenCode, Pi, Codex all work with any backend. The coding agent is becoming a commodity layer and the competition is moving to model quality and cost. Good for users, bad for anyone whose moat was the harness",
+        "ups": 0,
+        "author": "hackerman70000"
+      },
+      {
+        "body": "Claude Code has become my primary interface for iterating on data pipeline work — specifically, normalizing government regulatory filings (XBRL across three different accounting standards) and exposing them via REST and MCP. The MCP piece is where the workflow gets interesting. Instead of building a client that calls endpoints, you describe tools declaratively and the model decides when to invoke them. For financial data this is surprisingly effe",
+        "ups": 0,
+        "author": "edinetdb"
+      },
+      {
+        "body": "ollama launch claude --model gemma4:26b",
+        "ups": 0,
+        "author": "trvz"
+      },
+      {
+        "body": "Here is how I set up Gemma 4 26B for local inference on macOS that can be used with Claude Code.",
+        "ups": 0,
+        "author": "vbtechguy"
+      }
+    ],
+    "isTopicRelevant": true
+  },
+  {
+    "id": "47658743",
+    "primaryTag": "story",
+    "title": "Number in man page titles e.g. sleep(3)",
+    "description": "",
+    "url": "https://lalitm.com/til-number-in-man-page-titles-e-g-sleep-3/",
+    "ups": 38,
+    "numComments": 13,
+    "createdUtc": 1775468357,
+    "isQuestion": false,
+    "by": "thunderbong",
+    "topComments": [
+      {
+        "body": "If you like man trivia (and why else would you be reading this?) you could check out the top comment at https: unix.stackexchange.com questions 405783 why-does-man... (discussed at https: news.ycombinator.com item?id=27994194 )",
+        "ups": 0,
+        "author": "mjlee"
+      },
+      {
+        "body": "&gt; (... less common section numbers) One very important section number is 5 - it s for file formats. So if you forget the crontab format, you need to invoke `man 5 crontab` to read about it.",
+        "ups": 0,
+        "author": "gerikson"
+      },
+      {
+        "body": "The POSIX standard manual pages for the utilities can be found here: https: pubs.opengroup.org onlinepubs 9799919799 idx xcu.htm... These would all be in section 1, if I am correct.",
+        "ups": 0,
+        "author": "chasil"
+      },
+      {
+        "body": "Interestingly, the section doesn t actually have to start with a number. TCL man pages use the n section and man resolves them just fine despite the ambiguity. Conversely, manpage names can also start with numbers, although this is rare (I found only one such example: man 30-systemd-environment-d-generator)",
+        "ups": 0,
+        "author": "PhilipRoman"
+      },
+      {
+        "body": "I looked up what the numbers mean a couple of times, but always forget it immediately",
+        "ups": 0,
+        "author": "kykat"
+      },
+      {
+        "body": "Step 1: Read `man man` Step 2: Feel the urge to write an article about that",
+        "ups": 0,
+        "author": "LtWorf"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47655367",
+    "primaryTag": "show",
+    "title": "Show HN: Gemma Gem – AI model embedded in a browser – no API keys, no cloud",
+    "description": "",
+    "url": "https://github.com/kessler/gemma-gem",
+    "ups": 97,
+    "numComments": 16,
+    "createdUtc": 1775434477,
+    "isQuestion": false,
+    "by": "ikessler",
+    "topComments": [
+      {
+        "body": "There s also the Prompt API, currently in Origin Trial, which supports this api surface for sites: https: developer.chrome.com docs ai prompt-api I just checked the stats: Model Name: v3Nano Version: 2025.06.30.1229 Backend Type: GPU (highest quality) Folder size: 4,072.13 MiB Different use case but a similar approach. I expect that at some point this will become a native web feature, but not anytime soon, since the model download is many multipl",
+        "ups": 0,
+        "author": "avaer"
+      },
+      {
+        "body": "It’s a neat idea, but giving a 2B model full JS execution privileges on a live page is a bit sketchy from a security standpoint. Plus, why tie inference to the browser lifecycle at all? If Chrome crashes or the tab gets discarded, your agent s state is just gone. A local background daemon with a &quot;dumb&quot; extension client seems way more predictable and robust fwiw",
+        "ups": 0,
+        "author": "veunes"
+      },
+      {
+        "body": "I would love to see someone build it as some kind of an SDK. App builders could use it as a local LLM plugin when dealing with data involving sensitive information. It s usually too much when an app asks someone to setup a local LLM but this I believe could solve that problem?",
+        "ups": 0,
+        "author": "emregucerr"
+      },
+      {
+        "body": "I have this written a a project I will attempt to do in the future, I also call it &quot;weapons grade unemployment&quot; in the notes I was proposing to use granite but the principle still stands. You beat me to it.",
+        "ups": 0,
+        "author": "dabrez"
+      },
+      {
+        "body": "Not sure if I actually want this (pretty sure I don t) -- but very cool that such a thing is now possible...",
+        "ups": 0,
+        "author": "montroser"
+      },
+      {
+        "body": "it would be awesome if a local model would be directly embeded to chrome and developer could query them. Anyone know if this is somehow possible without going through an extension?",
+        "ups": 0,
+        "author": "eric_khun"
+      }
+    ],
+    "isTopicRelevant": true
+  },
+  {
+    "id": "47637116",
+    "primaryTag": "story",
+    "title": "Signals, the push-pull based algorithm",
+    "description": "",
+    "url": "https://willybrauner.com/journal/signal-the-push-pull-based-algorithm",
+    "ups": 68,
+    "numComments": 24,
+    "createdUtc": 1775291480,
+    "isQuestion": false,
+    "by": "mpweiher",
+    "topComments": [
+      {
+        "body": "Overall, very nice article. A few notes: * I think the first implementation in JS land was Flapjax, which was around 2008: https: www.flapjax-lang.org publications * The article didn t discuss glitch-freedom, which I think is fairly important.",
+        "ups": 0,
+        "author": "noelwelsh"
+      },
+      {
+        "body": "The visual examples are rather misleading: The &quot;2 * x&quot; is rather - why would the reaction from a change in X display many gradual increments of 1 instead of showing the final value once? And then why does Z =Y+1 instead of +1 to Y repeats all the steps again from X? That s not how real signal frameworks work, and also not how you d imagine they should work Then the next cascading example: ok, if Signal is a button, not the underlying me",
+        "ups": 0,
+        "author": "eviks"
+      },
+      {
+        "body": "I do not want to distract from the content of the article, which is highly relevant for folks who built UIs with frameworks that are conceptually based on signals, but the way that the reading experience is designed really great, in particular the guided reading flow through the instructive code path is something that I rarely have seen done at all, and this even works pretty well on mobile. It s a delightful reminder on how a dynamic medium can ",
+        "ups": 0,
+        "author": "fabianholzer"
+      },
+      {
+        "body": "Why create an array each time it iterates a Set rather than just iterating the Set?",
+        "ups": 0,
+        "author": "tubs"
+      },
+      {
+        "body": "Beautiful presentation... @willybrauner, I would like to read your spin on a follow-up piece on `glitch-freedom`. But in all honesty, this journal entry post is a work of art; a testament to your journey as a technologist!. Cheers",
+        "ups": 0,
+        "author": "mockingloris"
+      },
+      {
+        "body": "What an amazing article. I really like the presentation of text scrolling together with the code. Wonder how this is done under the hood.",
+        "ups": 0,
+        "author": "cloogshicer"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47656335",
+    "primaryTag": "story",
+    "title": "Does coding with LLMs mean more microservices?",
+    "description": "",
+    "url": "https://ben.page/microservices",
+    "ups": 41,
+    "numComments": 29,
+    "createdUtc": 1775442801,
+    "isQuestion": true,
+    "by": "jer0me",
+    "topComments": [
+      {
+        "body": "One thing I find interesting is how GraphQL has evolved from an API technology for API consumers with &quot;different needs&quot; to an API technology for agents. What helped organizations scale GraphQL across multiple teams is Federation, a way to split one supergraph into multiple subgraphs. So, what works well to scale teams actually works equally well for agents. The core value you can get from Federation is a &quot;coordination&quot; layer t",
+        "ups": 0,
+        "author": "jensneuse"
+      },
+      {
+        "body": "What matters for LLMs is what matters for humans, which usually means DX. Most Microservice setups are extremely hard to debug across service boundaries, so I think in the future, we ll see more architectural decisions that make sense for LLMs to work with. Which will probably mean modular monoliths or something like that.",
+        "ups": 0,
+        "author": "nikeee"
+      },
+      {
+        "body": "Like almost all of these articles, there s really nothing AI- or LLM-specific here at all. Modularization, microservices, monorepos etc have all been used in the past to help scale up software development for huge teams and complex systems. The only new thing is that small teams using these new tools will run into problems that previously only affected much larger teams. The cadence is faster, sometimes a lot faster, but the architectural problem",
+        "ups": 0,
+        "author": "iainmerrick"
+      },
+      {
+        "body": "That s an argument for components with well-defined contracts on their interfaces, but making them microservices just complicates debugging for the model. It s also unclear whether tight coupling is actually a problem when you can refactor this fast.",
+        "ups": 0,
+        "author": "int_19h"
+      },
+      {
+        "body": "I think this is a promise, probably also for spec driven development. You write the spec, the whole thing can be reimplemented in rust tomorrow. Make small modules or libraries. One colleague describes monolith vs microservices as &quot;the grass is greener of the other side&quot;. In the end, having microservices is that that the release process becomes much harder. Every feature spans 3 services at least, with possible incompatibility between s",
+        "ups": 0,
+        "author": "veselin"
+      },
+      {
+        "body": "The bounded surface area insight is right, but the actual forcing function is context window size. Small codebase fits in context, LLM can reason end-to-end. You get the same containment with well-defined modules in a monolith if your tooling picks the right files to feed into the prompt. Interesting corollary: as context windows keep growing (8k to 1M+ in two years), this architectural pressure should actually reverse. When a model can hold your",
+        "ups": 0,
+        "author": "tatrions"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47656303",
+    "primaryTag": "story",
+    "title": "Case study: recovery of a corrupted 12 TB multi-device pool",
+    "description": "",
+    "url": "https://github.com/kdave/btrfs-progs/issues/1107",
+    "ups": 77,
+    "numComments": 35,
+    "createdUtc": 1775442520,
+    "isQuestion": false,
+    "by": "salt4034",
+    "topComments": [
+      {
+        "body": "Welp. Guess I need to figure out another fs to use for a few drives in a nonraid pool I haven t gotten around to setting up yet. I forget why zfs seemed out. xfs?",
+        "ups": 0,
+        "author": "duskdozer"
+      },
+      {
+        "body": "&gt; This is not a bug report. [...] The goal is constructive, not a complaint. Er, I appreciate trying to be constructive, but in what possible situation is it not a bug that a power cycle can lose the pool? And if it s not technically a &quot;bug&quot; because BTRFS officially specifies that it can fail like that, why is that not in big bold text at the start of any docs on it? Cuz that s kind of a big deal for users to know. EDIT: From the lon",
+        "ups": 0,
+        "author": "yjftsjthsd-h"
+      },
+      {
+        "body": "Added to my list of reasons to never use btrfs in production.",
+        "ups": 0,
+        "author": "c-c-c-c-c"
+      },
+      {
+        "body": "Using DUP as the metadata profile sounds insane. Changing the metadata profile to at least raid1 (raid1, raid1c3, raid1c4) is a good idea, especially for anyone, against recommendations, using raid5 or raid6 for a btrfs array (raid1c3 is more appropriate for raid6). That would make it very difficult for metadata to get corrupted, which is the lion s share of the higher-impact problems with raid5 6 btrfs. check: btrfs fi df &lt;mountpoint&gt; conv",
+        "ups": 0,
+        "author": "harshreality"
+      },
+      {
+        "body": "People swear btrfs is &quot;safe&quot; now, but I ve personally been bitten by data corruption more than once, so I stay away from it now.",
+        "ups": 0,
+        "author": "jamesnorden"
+      },
+      {
+        "body": "This is obviously LLM output, but perhaps LLM output that corresponds to a real scenario. It s plausible that Claude was able to autonomously recover a corrupted fs, but I would not trust its &quot;insights&quot; by default. I d love to see a btrfs dev s take on this!",
+        "ups": 0,
+        "author": "Retr0id"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47652322",
+    "primaryTag": "story",
+    "title": "Music for Programming",
+    "description": "",
+    "url": "https://musicforprogramming.net",
+    "ups": 227,
+    "numComments": 99,
+    "createdUtc": 1775413388,
+    "isQuestion": false,
+    "by": "merusame",
+    "topComments": [
+      {
+        "body": "It s unsurprising to find lots of ambient electronica here, and generally I m the same, but I do occasionally like really loud punk or rock if I need some motivation, like the album Feel The Darkness by Poison Idea, or as I said in another comment, I Am A Tower by Swans on a loop. Generally I get my best work done when I can lock into a single track and have it on repeat.",
+        "ups": 0,
+        "author": "frereubu"
+      },
+      {
+        "body": "Don t laugh, but for me, it s Abba. Their entire discography is ~3 hours which is how long I can maintain peak concentration. Their songs are consistently good so that I don t need to skip a song, but not too good that I would stop working and start listening. Plus I ve never heard Abba song in any good movie so it doesn t remind me scenes from a movie I would want to rewatch. Of course I don t listen to it every day, only when I really need to, ",
+        "ups": 0,
+        "author": "dvh"
+      },
+      {
+        "body": "In the morning I listen to chill electronic music without lyrics: Tycho, Emancipator, Blackmill, Jon Hopkins Later in the day I listen to more energetic electronic music (a lot of which is from the Hotline Miami soundtrack): M|O|O|N, Dan Terminus, Carpenter Brut, Daniel Deluxe, 1788-L, Pendulum",
+        "ups": 0,
+        "author": "bananzamba"
+      },
+      {
+        "body": "I ve had three main tracks that I ve used for the past 8 months or so. The first one is a 1-hour mix of &quot;In Motion&quot; from the soundtrack to The Social Network: https: youtu.be bCxPmMbZjuk The second is a 1-hour mix of &quot;It Has to be This Way&quot; from the soundtrack to Metal Gear Rising Revengance: https: youtu.be jKGDib6qZBo The third is a 1-hour mix of &quot;Clock Tower&quot; from the soundtrack to Dead Cells: https: youtu.be plwh",
+        "ups": 0,
+        "author": "da_chicken"
+      },
+      {
+        "body": "Shoutout to SomaFM s Defcon Radio which has been my go-to programming music for years now. Not too dissimilar to the stuff found on this site. https: somafm.com defcon",
+        "ups": 0,
+        "author": "WD-42"
+      },
+      {
+        "body": "Aim to Head s mix channel is a lot of what I listen to for my design work. 30 min to 1 hour of well mixed tracks. The Witch House tracks are partially helpful in focusing. https: m.youtube.com @aimtoheadmix1915 videos",
+        "ups": 0,
+        "author": "vlachen"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47655268",
+    "primaryTag": "show",
+    "title": "Show HN: Modo – I built an open-source alternative to Kiro, Cursor, and Windsurf",
+    "description": "",
+    "url": "https://github.com/mohshomis/modo",
+    "ups": 64,
+    "numComments": 15,
+    "createdUtc": 1775433550,
+    "isQuestion": false,
+    "by": "mohshomis",
+    "topComments": [
+      {
+        "body": "Can subagents work on multiple branchs at the sametime (in a sandbox or some other way)? This is a major pain atm with any IDE, they all fight over the same git cmd instance and make a mess out of it. I have a custom setup for this but would like some more integrated way of solving this.",
+        "ups": 0,
+        "author": "cfontes"
+      },
+      {
+        "body": "Modo was a DCC software: https: en.wikipedia.org wiki Modo_(software)",
+        "ups": 0,
+        "author": "kelsolaar"
+      },
+      {
+        "body": "This looks great. Building right into the editor looks like a solid way to go. I built &quot;Agent Kanban&quot; (anextension) for VS Code to enforce a similar &quot;plan, tasks, implement&quot; flow as you describe. That flow is really powerful for getting solid Agentic coding results. My tool went the route of encouraging the model via augmenting AGENTS.md and having the Kanban task file be markdown that the user and agent converse in (with some",
+        "ups": 0,
+        "author": "gbro3n"
+      },
+      {
+        "body": "A visual demo beyond entering an api key would be useful. A picture says a thousand words. I did not feel inclined to read all of the readme, but when i saw people here talking about mission control I went back one more time.",
+        "ups": 0,
+        "author": "lightbulbish"
+      },
+      {
+        "body": "Really cool. I ve been building a mission control system (multi agent orchestration) that follows very similar patterns of spec driven development, steering, and task management. Having this baked into an IDE is a great idea. For observability, would be amazing to have session replay or at least session exploration built in. Kinda like git history but tied to tasks and tool use instead of file diffs.",
+        "ups": 0,
+        "author": "simple10"
+      },
+      {
+        "body": "I have settled on the same approach as you except I have the agent create a roadmap.md in an agile folder with numbered epics containing sprints, user stories and other context.",
+        "ups": 0,
+        "author": "digitaltrees"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47652400",
+    "primaryTag": "story",
+    "title": "Why Switzerland has 25 Gbit internet and America doesn't",
+    "description": "",
+    "url": "https://sschueller.github.io/posts/the-free-market-lie/",
+    "ups": 551,
+    "numComments": 448,
+    "createdUtc": 1775413787,
+    "isQuestion": false,
+    "by": "sschueller",
+    "topComments": [
+      {
+        "body": "In my small island community, I participated in a municipal committee whose mandate was to bring proper broadband to the island. Although two telecom duopolies already served the community, one of them had undersea fiber but zero fiber to the home (DSL remains the only option), whereas the other used a 670 Mbps wireless microwave link for backhaul and delivery via coaxial cable. And pricing? Insanely expensive for either terrible option. Our litt",
+        "ups": 0,
+        "author": "ttul"
+      },
+      {
+        "body": "France has 90% FTTH coverage in 2025, with 60% of households over 1 Gbps. One of the incumbents, Free (my employer), deployed P2P fibers in very dense areas but is switching to P2MP for economic reasons (and because this was not a competitive advantage). It s unclear to me if Switzerland plans to achieve this coverage with P2P. What looks great in Switzerland is not that each household has four dedicated fibers to the CO, but that Swisscom has re",
+        "ups": 0,
+        "author": "vbernat"
+      },
+      {
+        "body": "Most states in America ban municipal fiber. They saw EPB (Chattanooga) and said, no, we must make sure that doesn t ever happen again. That is how free market is done in US, all the rules are to make sure the richest people become richer.",
+        "ups": 0,
+        "author": "thelastgallon"
+      },
+      {
+        "body": "My favorite example is here in the Phoenix metro area. We had DSL and cable internet pretty early compared to the rest of the country (mid late 90s), but then things stagnated. Then in 2014, Google Fiber announced they were expanding here and, all of a sudden, the local telco and cable companies (Centurylink and Cox) started rolling out fiber all over the place -- like pretty much overnight. Then Google backed off, and the incumbents slowed their",
+        "ups": 0,
+        "author": "cowmix"
+      },
+      {
+        "body": "I have 500 Mbps internet (fiber optic) with 40+ devices on it. I don’t see myself needing even 1 Gbps nor even close to 25 Gbps. At my enterprise, we have 900 simultaneous users to include thousands of CICD jobs, and we don’t even come close to 25 Gbps.",
+        "ups": 0,
+        "author": "firesteelrain"
+      },
+      {
+        "body": "Swiss here. Just a minor clarification on the article: fibre is not available everywhere in Switzerland. Actually the rollout has been quite slow, and chances are that if you live in a rural or suburban area (like me) or in an older building then you might not have fibre, and are limited to (fairly decent) copper.",
+        "ups": 0,
+        "author": "alex_suzuki"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47655466",
+    "primaryTag": "story",
+    "title": "Employers use your personal data to figure out the lowest salary you'll accept",
+    "description": "",
+    "url": "https://www.marketwatch.com/story/employers-are-using-your-personal-data-to-figure-out-the-lowest-salary-youll-accept-c2b968fb",
+    "ups": 270,
+    "numComments": 145,
+    "createdUtc": 1775435348,
+    "isQuestion": false,
+    "by": "thisislife2",
+    "topComments": [
+      {
+        "body": "One (more) thing to opt out of: Freeze Your Data - The Work Number https: employees.theworknumber.com employee-data-freeze As I understand it, payroll whores your salary out to Equifax*, who then pimps it to others * Yeah, that one: https: en.wikipedia.org wiki 2017_Equifax_data_breach",
+        "ups": 0,
+        "author": "anonymars"
+      },
+      {
+        "body": "I wonder if the winning game becomes your own boss and tiny companies. I want to do the jump, but lack of courage, good ideas, sales skills and a very good salary still holding me back (open for suggestions). But if the very good salary would go away, the scales tip instantly.",
+        "ups": 0,
+        "author": "canpan"
+      },
+      {
+        "body": "There was a story recently about how large landlords use salary data to raise rents. If they see you got a raise, they’ll increase your rent accordingly. And pretty soon, retailers will do the same. Your personalized price for a gallon of milk at Walmart will reflect your annual raise. I love living in the future!",
+        "ups": 0,
+        "author": "impish9208"
+      },
+      {
+        "body": "Here in Japan they ask you your current salary (it s even mandatory by most companies), so it s easier here :) ... :(",
+        "ups": 0,
+        "author": "alebaffa"
+      },
+      {
+        "body": "What a hassle! Here in Sweden, your tax filings are public information; companies can just ask the government what you made last year. I have no idea if they actually do, though, and the data will be somewhat obfuscated if you have extra income on the side.",
+        "ups": 0,
+        "author": "Snild"
+      },
+      {
+        "body": "I m not seeing how this matters, they were already doing that - the market is a big auction to work out the overlap between lowest salary employees will work for and the highest salary employers will offer. In that process employees also use data to figure out the highest salary that will be offered. The thing forcing employers to pay the salary they do is that if they offer less someone else will gazump them for the employee s time. It has nothi",
+        "ups": 0,
+        "author": "roenxi"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47655905",
+    "primaryTag": "story",
+    "title": "Usenet Archives",
+    "description": "",
+    "url": "https://usenetarchives.com",
+    "ups": 64,
+    "numComments": 21,
+    "createdUtc": 1775439180,
+    "isQuestion": false,
+    "by": "myth_drannon",
+    "topComments": [
+      {
+        "body": "It s always fun to realize that USENET is still out there humming along. I still remember the thrill of working on my ancient Delphi Object Pascal projects, and posting questions... waiting a few hours and checking back for responses. There was no &quot;instant gratification&quot; in those days. (I wasn t really using IRC). Opening this, and just searching &quot;Delphi&quot; I see that USENET never did get that &quot;censorship&quot; that I alway",
+        "ups": 0,
+        "author": "nobleach"
+      },
+      {
+        "body": "Usenet is the main reason I started my own ISP in ’93: to have a reliable USENET feed. I loved it then, and I love it now. Even back then, though, it was always under attack by spammers. https: en.wikipedia.org wiki Laurence_Canter_and_Martha_Sie...",
+        "ups": 0,
+        "author": "cowmix"
+      },
+      {
+        "body": "Huh, where is alt.2600?",
+        "ups": 0,
+        "author": "myself248"
+      },
+      {
+        "body": "I had tried this site a year or two ago and found it unusable then, but it seems greatly improved now. I found posts as old as 1982, but recent coverage seems to stop around April 2022. Crucially, it supports full-text search on posts within a specific group - something which my own site https: newsgrouper.org cannot do. I find the user interface a little awkward, but it does now appear to be a really useful resource.",
+        "ups": 0,
+        "author": "cmacleod4"
+      },
+      {
+        "body": "Usenet was great in the late 90s and early 2000s. I posted a lot , and met some great people. I got a job doing tech review of books about WAP and WML from my posts in a group about the forerunner to mobile internet, and another job with a company making intranet software from some posts about ASP and vbscript. I ve no idea where I d go for that sort of forum today.",
+        "ups": 0,
+        "author": "onion2k"
+      },
+      {
+        "body": "weird, it seemed like the search index didn t go back past 2003. And then I tried a few more searches and found some hits. So I guess the index is a little spotty? But try a few search terms, you might find what you re looking for.",
+        "ups": 0,
+        "author": "OhMeadhbh"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47650312",
+    "primaryTag": "story",
+    "title": "A tail-call interpreter in (nightly) Rust",
+    "description": "",
+    "url": "https://www.mattkeeter.com/blog/2026-04-05-tailcall/",
+    "ups": 173,
+    "numComments": 42,
+    "createdUtc": 1775402281,
+    "isQuestion": false,
+    "by": "g0xA52A2A",
+    "topComments": [
+      {
+        "body": "&gt; resulting VM outperforms both my previous Rust implementation and my hand-coded ARM64 assembly it s always surprising for me how absurdly efficient &quot;highly specialized VM instruction interpreters&quot; are like e.g. two independent research projects into how to have better (fast, more compact) serialization in rust ended up with something like a VM interpreter for serialization instructions leading to both higher performance and more co",
+        "ups": 0,
+        "author": "dathinab"
+      },
+      {
+        "body": "Speaking of `become`, I implemented a Copy-And-Patch JIT in Rust just by using this `become` feature too, after reading some articles about how to generate the stencils. I m still fixing the code but I can release it as some kind of tech demo.",
+        "ups": 0,
+        "author": "stevefan1999"
+      },
+      {
+        "body": "Finally! Tail calls! I had to write rust some years ago, and the ocaml person in me itched to get to write tail recursion. Tail recursion opens up for people to write really really neat looping facilities using macros.",
+        "ups": 0,
+        "author": "bjoli"
+      },
+      {
+        "body": "Nice post :) Last year I was working on a tail-call interpreter ( https: github.com anematode b-jvm blob main vm interpreter2... ) and found a similar regression on WASM when transforming it from a switch-dispatch loop to tail calls. SpiderMonkey did the best with almost no regression, while V8 and JSC totally crapped out – same finding as the blog post. Because I was targeting both native and WASM I wrote a convoluted macro system that would do ",
+        "ups": 0,
+        "author": "anematode"
+      },
+      {
+        "body": "Ah that s great! I wonder why they went with a new keyword; I assumed the compiler would opportunistically do TCO when it thinks it s possible, and I figured that the simplest way to require TCO (or else fail compilation) could be done with an attribute. (Not sure if the article addressed that... I only skimmed it.)",
+        "ups": 0,
+        "author": "kelnos"
+      },
+      {
+        "body": "nice to see become landing in nightly. does this work well with async or is it purely sync tail calls for now?",
+        "ups": 0,
+        "author": "ashutoshmishr88"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47648828",
+    "primaryTag": "story",
+    "title": "Eight years of wanting, three months of building with AI",
+    "description": "",
+    "url": "https://lalitm.com/post/building-syntaqlite-ai/",
+    "ups": 815,
+    "numComments": 251,
+    "createdUtc": 1775393027,
+    "isQuestion": false,
+    "by": "brilee",
+    "topComments": [
+      {
+        "body": "Refreshing to see an honest and balanced take on AI coding. This is what real AI-assisted coding looks like once you get past the initial wow factor of having the AI write code that executes and does what you asked. This experience is familiar to every serious software engineer who has used AI code gen and then reviewed the output: &gt; But when I reviewed the codebase in detail in late January, the downside was obvious: the codebase was complete",
+        "ups": 0,
+        "author": "Aurornis"
+      },
+      {
+        "body": "&gt; Tests created a similar false comfort. Having 500+ tests felt reassuring, and AI made it easy to generate more. But neither humans nor AI are creative enough to foresee every edge case you’ll hit in the future; there are several times in the vibe-coding phase where I’d come up with a test case and realise the design of some component was completely wrong and needed to be totally reworked. This was a significant contributor to my lack of trus",
+        "ups": 0,
+        "author": "dirtbag__dad"
+      },
+      {
+        "body": "Been using LLMs both at work (FinTech DevOps SRE) and on side projects (big data, games, websites) and here has been my &quot;arc&quot; - first used copy and paste in and out of Grok - started using CLI tools e.g. Claude and OpenCode - move up to using 3 and sometimes 4 agents at the same time - considered going to the agents managing agents - have settled on having LLMs build tools that are both deterministic, usable by humans and the agent, and",
+        "ups": 0,
+        "author": "alexpotato"
+      },
+      {
+        "body": "The takeaway from the article: &quot;AI is an incredible force multiplier for implementation, but it’s a dangerous substitute for design.&quot;",
+        "ups": 0,
+        "author": "amai"
+      },
+      {
+        "body": "This is a really good article but one of the paragraphs at the end rubs me the wrong way. &gt; In theory, you can try to preserve this context by keeping specs and docs up to date. But there’s a reason we didn’t do this before AI: capturing implicit design decisions exhaustively is incredibly expensive and time-consuming to write down. AI can help draft these docs, but because there’s no way to automatically verify that it accurately captured wha",
+        "ups": 0,
+        "author": "mossBenchwright"
+      },
+      {
+        "body": "&gt; architecture is what happens when all those local pieces interact, and you can’t get good global behaviour by stitching together locally correct components This is a great article. I’ve been trying to see how layered AI use can bridge this gap but the current models do seem to be lacking in the ambiguous design phase. They are amazing at the local execution phase. Part of me thinks this is a reflection of software engineering as a whole. Mos",
+        "ups": 0,
+        "author": "rokob"
+      }
+    ],
+    "isTopicRelevant": true
+  },
+  {
+    "id": "47647455",
+    "primaryTag": "story",
+    "title": "Caveman: Why use many token when few token do trick",
+    "description": "",
+    "url": "https://github.com/JuliusBrussee/caveman",
+    "ups": 789,
+    "numComments": 341,
+    "createdUtc": 1775379378,
+    "isQuestion": false,
+    "by": "tosh",
+    "topComments": [
+      {
+        "body": "Author here. A few people are arguing against a stronger claim than the repo is meant to make. As well, this was very much intended to be a joke and not research level commentary. This skill is not intended to reduce hidden reasoning thinking tokens. Anthropic’s own docs suggest more thinking budget can improve performance, so I would not claim otherwise. What it targets is the visible completion: less preamble, less filler, less polished-but-non",
+        "ups": 0,
+        "author": "JBrussee-2"
+      },
+      {
+        "body": "I ve always figured that constraining an LLM to speak in any way other than the default way it wants to speak, reduces its intelligence reasoning capacity, as at least some of its final layers can be used (on a per-token basis) either to reason about what to say, or about how to say it, but not both at once. (And it s for a similar reason, I think, that deliberative models like rewriting your question in their own terms before reasoning about it.",
+        "ups": 0,
+        "author": "derefr"
+      },
+      {
+        "body": "This is fun. I d like to see the same idea but oriented for richer tokens instead of simpler tokens. If you want to spend less tokens, then spend the good ones. So, instead of saying make good you could say improve idiomatically or something. Depends on one s needs. I try to imagine every single token as an opportunity to bend expand limit the geometries I have access to. Language is a beautiful modulator to apply to reality, so I ll wager applyi",
+        "ups": 0,
+        "author": "padolsey"
+      },
+      {
+        "body": "Idk I try talk like cavemen to claude. Claude seems answer less good. We have more misunderstandings. Feel like sometimes need more words in total to explain previous instructions. Also less context is more damage if typo. Who agrees? Could be just feeling I have. I often ad fluff. Feels like better result from LLM. Me think LLM also get less thinking and less info from own previous replies if talk like caveman.",
+        "ups": 0,
+        "author": "teekert"
+      },
+      {
+        "body": "Grug brained developer meets AI tooling ( https: grugbrain.dev )",
+        "ups": 0,
+        "author": "vurudlxtyt"
+      },
+      {
+        "body": "This is neat but my employer rates my performance based on token consumption; is there one that makes Claude needlessly verbose?",
+        "ups": 0,
+        "author": "tapoxi"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47650502",
+    "primaryTag": "story",
+    "title": "Computational Physics (2nd Edition) (2025)",
+    "description": "",
+    "url": "https://websites.umich.edu/~mejn/cp2/",
+    "ups": 150,
+    "numComments": 20,
+    "createdUtc": 1775403498,
+    "isQuestion": false,
+    "by": "teleforce",
+    "topComments": [
+      {
+        "body": "A bit surprised Sussman s and Wisdom s book hasn t yet been mentioned: https: mitpress.mit.edu 9780262028967 structure-and-interpr...",
+        "ups": 0,
+        "author": "GeorgeTirebiter"
+      },
+      {
+        "body": "I think the course by Richard Fitzpatrick is a much better selection of content if you want to actually do computational physics: https: farside.ph.utexas.edu teaching 329 329.pdf",
+        "ups": 0,
+        "author": "queuebert"
+      },
+      {
+        "body": "I took Mark Newman’s course some years ago. It was fantastic! Geared at sophomore junior year physics major — someone who had completed the basic intro sequence. I am sure this book is also great.",
+        "ups": 0,
+        "author": "friendlyasparag"
+      },
+      {
+        "body": "The matplotlib chapter seems fairly barebones but I remain in awe at this gorgeous latex work",
+        "ups": 0,
+        "author": "lkm0"
+      },
+      {
+        "body": "Could somebody provide some opinion on the book and or accompanying course?",
+        "ups": 0,
+        "author": "vectorcrumb"
+      },
+      {
+        "body": "What physics do I need to know to follow this book?",
+        "ups": 0,
+        "author": "HexDecOctBin"
+      }
+    ],
+    "isTopicRelevant": false
+  }
+]

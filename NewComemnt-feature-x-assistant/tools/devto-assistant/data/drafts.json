@@ -1,0 +1,1806 @@
+[
+  {
+    "postId": "3410004",
+    "primaryTag": "ai",
+    "postTitle": "Speed vs smarts for coding agents?",
+    "postUrl": "https://dev.to/ben/speed-vs-smarts-for-coding-agents-3h",
+    "postUps": 47,
+    "comment": "depends on the task honestly. for quik refactors or boilerplate i'll take speed every time. anything that needs architectural decisions or debugging edge cases, i want the smarter model even if it's slower.",
+    "wordCount": 33,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 8,
+    "megallmFactors": [
+      "optimal length",
+      "viral post multiplier"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "high discussion ratio",
+      "question format",
+      "viral topic pattern",
+      "broad tag reach",
+      "gaining traction"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:24:14.642Z"
+  },
+  {
+    "postId": "3410004",
+    "primaryTag": "ai",
+    "postTitle": "Speed vs smarts for coding agents?",
+    "postUrl": "https://dev.to/ben/speed-vs-smarts-for-coding-agents-3h",
+    "postUps": 47,
+    "comment": "i've been bouncing between this a lot lately started using faster models for first passes on features then switching to slower ones when i hit something weird. the context switching is annoying but my wallet appreciates it. the real trick is knowing when you're about to waste 10 minutes of a smart model's time on something dumb",
+    "wordCount": 57,
+    "optionNumber": 2,
+    "optionStyle": "personal experience",
+    "isWitty": false,
+    "megallmScore": 8,
+    "megallmFactors": [
+      "optimal length",
+      "viral post multiplier"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "high discussion ratio",
+      "question format",
+      "viral topic pattern",
+      "broad tag reach",
+      "gaining traction"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:24:14.643Z"
+  },
+  {
+    "postId": "3410004",
+    "primaryTag": "ai",
+    "postTitle": "Speed vs smarts for coding agents?",
+    "postUrl": "https://dev.to/ben/speed-vs-smarts-for-coding-agents-3h",
+    "postUps": 47,
+    "comment": "people sleep on how much \"speed\" includes latency not just tokens/sec. a slightly dumber model that responds in 2 seconds beats waiting 8 seconds for perfect code you're gonna edit anyway we've gotten too precious about squeezing every iq point out of these things.",
+    "wordCount": 44,
+    "optionNumber": 3,
+    "optionStyle": "unique perspective",
+    "isWitty": false,
+    "megallmScore": 8,
+    "megallmFactors": [
+      "optimal length",
+      "viral post multiplier"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "high discussion ratio",
+      "question format",
+      "viral topic pattern",
+      "broad tag reach",
+      "gaining traction"
+    ],
+    "mentionsProduct": false,
+    "status": "posted",
+    "createdAt": "2026-03-30T21:24:14.643Z",
+    "postedAt": "2026-04-12T09:27:07.938Z"
+  },
+  {
+    "postId": "3410004",
+    "primaryTag": "ai",
+    "postTitle": "Speed vs smarts for coding agents?",
+    "postUrl": "https://dev.to/ben/speed-vs-smarts-for-coding-agents-3h",
+    "postUps": 47,
+    "comment": "me: \"i need the smartest model for this\"\nalso me: uses it to geenerate csv parsing boilerplate for the 47th time\n\n---",
+    "wordCount": 22,
+    "optionNumber": 4,
+    "optionStyle": "witty/sarcastic",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality building",
+      "community karma"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "high discussion ratio",
+      "question format",
+      "viral topic pattern",
+      "broad tag reach",
+      "gaining traction"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:24:14.643Z"
+  },
+  {
+    "postId": "3403502",
+    "primaryTag": "ai",
+    "postTitle": "your agent can think. it can't remember.",
+    "postUrl": "https://dev.to/ghostbuild/your-agent-can-think-it-cant-remember-5e1o",
+    "postUps": 156,
+    "comment": "the ephemeral part is smart. most agent demos i've seen break because they're trying to persist state in json files or redis without any real structure",
+    "wordCount": 26,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "broad tag reach",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:24:28.749Z"
+  },
+  {
+    "postId": "3403502",
+    "primaryTag": "ai",
+    "postTitle": "your agent can think. it can't remember.",
+    "postUrl": "https://dev.to/ghostbuild/your-agent-can-think-it-cant-remember-5e1o",
+    "postUps": 156,
+    "comment": "ran into this exact problem last month built a research agent that keppt losing context between runs because i didn't want to spin up infra for every experiment. ended up with a mess of sqlite files everywhere the \"unlimited databases\" approach actually makes sense for prototyping,you want to test memory patterns without worryinng about cleanup or namespace collisions",
+    "wordCount": 58,
+    "optionNumber": 2,
+    "optionStyle": "personal experience",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "broad tag reach",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:24:28.749Z"
+  },
+  {
+    "postId": "3403502",
+    "primaryTag": "ai",
+    "postTitle": "your agent can think. it can't remember.",
+    "postUrl": "https://dev.to/ghostbuild/your-agent-can-think-it-cant-remember-5e1o",
+    "postUps": 156,
+    "comment": "counterpoint: agents failing at memory isnt really a database problem. its a retrieval problem. you can give them perfect postgres access annd they'll still forget what matters because they dont know what to query for. context window management and semantic indexing matter way more than storage backend",
+    "wordCount": 47,
+    "optionNumber": 3,
+    "optionStyle": "unique perspective",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "broad tag reach",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:24:28.750Z"
+  },
+  {
+    "postId": "3403502",
+    "primaryTag": "ai",
+    "postTitle": "your agent can think. it can't remember.",
+    "postUrl": "https://dev.to/ghostbuild/your-agent-can-think-it-cant-remember-5e1o",
+    "postUps": 156,
+    "comment": "so we've gone from \"just use a vector db\" to \"just use postgres\" to \"just use ephemeral postgres\". can't wait for ephemeral vector postgres next quarter",
+    "wordCount": 26,
+    "optionNumber": 4,
+    "optionStyle": "witty/sarcastic",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality building",
+      "community karma"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "broad tag reach",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:24:28.750Z"
+  },
+  {
+    "postId": "3381788",
+    "primaryTag": "discuss",
+    "postTitle": "How I Almost Burned Out Doing Everything “Right”",
+    "postUrl": "https://dev.to/sylwia-lask/how-i-almost-burned-out-doing-everything-right-31j6",
+    "postUps": 149,
+    "comment": "the philosophical ai esay would've been great but this is actually more useful. burnout sneaks up when you're checking all the productivity boxes but ignoring your actual energy levels.",
+    "wordCount": 29,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "high discussion ratio",
+      "question format",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:24:39.910Z"
+  },
+  {
+    "postId": "3381788",
+    "primaryTag": "discuss",
+    "postTitle": "How I Almost Burned Out Doing Everything “Right”",
+    "postUrl": "https://dev.to/sylwia-lask/how-i-almost-burned-out-doing-everything-right-31j6",
+    "postUps": 149,
+    "comment": "been there. i started tracking which tasks actually moved things forward vs just felt productive. cut my tool switching in half and honestly got more done. i've been using megalllm to consolidate api calls instead of juggling openai/anthropic/etc separately fewer tabs open = less mentla overhad. sometimes \"doing it right\" means doing less",
+    "wordCount": 53,
+    "optionNumber": 2,
+    "optionStyle": "personal experience",
+    "isWitty": false,
+    "megallmScore": 18,
+    "megallmFactors": [
+      "api/developer context",
+      "mentions target providers",
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "high discussion ratio",
+      "question format",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:24:39.910Z"
+  },
+  {
+    "postId": "3381788",
+    "primaryTag": "discuss",
+    "postTitle": "How I Almost Burned Out Doing Everything “Right”",
+    "postUrl": "https://dev.to/sylwia-lask/how-i-almost-burned-out-doing-everything-right-31j6",
+    "postUps": 149,
+    "comment": "hot take: doing everything \"right\" is usually code for doing everything other people said worked for them your system should feel sustainable, not like you're constantly behind on some invisible checklist. if the method exhausts you it's not the right method.",
+    "wordCount": 41,
+    "optionNumber": 3,
+    "optionStyle": "unique perspective",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "high discussion ratio",
+      "question format",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:24:39.910Z"
+  },
+  {
+    "postId": "3381788",
+    "primaryTag": "discuss",
+    "postTitle": "How I Almost Burned Out Doing Everything “Right”",
+    "postUrl": "https://dev.to/sylwia-lask/how-i-almost-burned-out-doing-everything-right-31j6",
+    "postUps": 149,
+    "comment": "thee real burnout is reading productivity posts while procrastinating on actual work. meta-exhaustion unlocked.",
+    "wordCount": 14,
+    "optionNumber": 4,
+    "optionStyle": "witty/sarcastic",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality building",
+      "community karma"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "high discussion ratio",
+      "question format",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:24:39.910Z"
+  },
+  {
+    "postId": "3392308",
+    "primaryTag": "ai",
+    "postTitle": "The Ultimate Job Finding-Management Tool",
+    "postUrl": "https://dev.to/annavi11arrea1/the-ultimate-job-finding-managment-tool-522i",
+    "postUps": 119,
+    "comment": "nice the best projects always start with scratching your own itch. curious what made you finally pull the trigger on building it vs using existing tools?",
+    "wordCount": 26,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "high discussion ratio",
+      "broad tag reach",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:24:51.155Z"
+  },
+  {
+    "postId": "3392308",
+    "primaryTag": "ai",
+    "postTitle": "The Ultimate Job Finding-Management Tool",
+    "postUrl": "https://dev.to/annavi11arrea1/the-ultimate-job-finding-managment-tool-522i",
+    "postUps": 119,
+    "comment": "i've tried building something similar twice and both times abandoned it because keeping track of application state across different platforms is surprisingly annoying. emails, portas, spreadsheets, recruiters who ghost... it's like herding cats. if you figured out a clean way to handle alll that chaos, you might have something real here.",
+    "wordCount": 51,
+    "optionNumber": 2,
+    "optionStyle": "personal experience",
+    "isWitty": false,
+    "megallmScore": 12,
+    "megallmFactors": [
+      "optimal length",
+      "personal experience framing"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "high discussion ratio",
+      "broad tag reach",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:24:51.155Z"
+  },
+  {
+    "postId": "3392308",
+    "primaryTag": "ai",
+    "postTitle": "The Ultimate Job Finding-Management Tool",
+    "postUrl": "https://dev.to/annavi11arrea1/the-ultimate-job-finding-managment-tool-522i",
+    "postUps": 119,
+    "comment": "job hunting tools are interesting because the problem isnt really technical, its that applying to jobs sucks emotionally and no amount of automation fixes that part. still useful to have everything organized though, especially if you're doing volume applications.",
+    "wordCount": 39,
+    "optionNumber": 3,
+    "optionStyle": "unique perspective",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "high discussion ratio",
+      "broad tag reach",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:24:51.155Z"
+  },
+  {
+    "postId": "3392308",
+    "primaryTag": "ai",
+    "postTitle": "The Ultimate Job Finding-Management Tool",
+    "postUrl": "https://dev.to/annavi11arrea1/the-ultimate-job-finding-managment-tool-522i",
+    "postUps": 119,
+    "comment": "\"finally\" is doing a lot of work in that title we've all been there 2am three energy drinks deep convinced this is the one that'll change everything hope you wake up still excited about it",
+    "wordCount": 35,
+    "optionNumber": 4,
+    "optionStyle": "witty/sarcastic",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality building",
+      "community karma"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "high discussion ratio",
+      "broad tag reach",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:24:51.155Z"
+  },
+  {
+    "postId": "3392308",
+    "primaryTag": "webdev",
+    "postTitle": "The Ultimate Job Finding-Management Tool",
+    "postUrl": "https://dev.to/annavi11arrea1/the-ultimate-job-finding-managment-tool-522i",
+    "postUps": 119,
+    "comment": "nice! the best tols are always the ones you build when you're fed up with everything else. hope it helps you land something good.",
+    "wordCount": 24,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 0,
+    "megallmFactors": [],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "high discussion ratio",
+      "broad tag reach",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:25:01.886Z"
+  },
+  {
+    "postId": "3392308",
+    "primaryTag": "webdev",
+    "postTitle": "The Ultimate Job Finding-Management Tool",
+    "postUrl": "https://dev.to/annavi11arrea1/the-ultimate-job-finding-managment-tool-522i",
+    "postUps": 119,
+    "comment": "i've been down this rabbit hole before. ended up with a spreadsheet that tracked applications a notes doc for company research and three different browser tabs for networking contacts. building something that actually consolidates all that chaos sounds like a real win. curious how you're handling the follow-up reminders part that's always where i fall off",
+    "wordCount": 56,
+    "optionNumber": 2,
+    "optionStyle": "personal experience",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "high discussion ratio",
+      "broad tag reach",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "posted",
+    "createdAt": "2026-03-30T21:25:01.886Z",
+    "postedAt": "2026-04-12T09:27:06.152Z"
+  },
+  {
+    "postId": "3392308",
+    "primaryTag": "webdev",
+    "postTitle": "The Ultimate Job Finding-Management Tool",
+    "postUrl": "https://dev.to/annavi11arrea1/the-ultimate-job-finding-managment-tool-522i",
+    "postUps": 119,
+    "comment": "the hardest part isn't buliding the tool it's actually using it consistently when you're burned out from applications i had a whole system once and it lasted like two weeks before i went back to chaotic email searches and \"wait did i apply there already?\"",
+    "wordCount": 45,
+    "optionNumber": 3,
+    "optionStyle": "unique perspective",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "high discussion ratio",
+      "broad tag reach",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:25:01.886Z"
+  },
+  {
+    "postId": "3392308",
+    "primaryTag": "webdev",
+    "postTitle": "The Ultimate Job Finding-Management Tool",
+    "postUrl": "https://dev.to/annavi11arrea1/the-ultimate-job-finding-managment-tool-522i",
+    "postUps": 119,
+    "comment": "nothing says \"hire me\" like building a job tracker at 2am instead of sleeping. teh real job hunt was the side projects we made along the way.",
+    "wordCount": 27,
+    "optionNumber": 4,
+    "optionStyle": "witty/sarcastic",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality building",
+      "community karma"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "high discussion ratio",
+      "broad tag reach",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:25:01.886Z"
+  },
+  {
+    "postId": "3392308",
+    "primaryTag": "programming",
+    "postTitle": "The Ultimate Job Finding-Management Tool",
+    "postUrl": "https://dev.to/annavi11arrea1/the-ultimate-job-finding-managment-tool-522i",
+    "postUps": 119,
+    "comment": "congrats on shipping! nothing beats that feeling of scrattching your own itch and actually finishing something before midnight hits",
+    "wordCount": 19,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 0,
+    "megallmFactors": [],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "high discussion ratio",
+      "broad tag reach",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:25:13.273Z"
+  },
+  {
+    "postId": "3392308",
+    "primaryTag": "programming",
+    "postTitle": "The Ultimate Job Finding-Management Tool",
+    "postUrl": "https://dev.to/annavi11arrea1/the-ultimate-job-finding-managment-tool-522i",
+    "postUps": 119,
+    "comment": "i've built like three joob tracking things over the years and always end up back in spreadsheets somehow. the hard part isn't tracking applications it's keeping up the momentum wwhen you're 50 rejections deep. curious what made this one stick for you compared to existing tools",
+    "wordCount": 46,
+    "optionNumber": 2,
+    "optionStyle": "personal experience",
+    "isWitty": false,
+    "megallmScore": 12,
+    "megallmFactors": [
+      "optimal length",
+      "personal experience framing"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "high discussion ratio",
+      "broad tag reach",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:25:13.274Z"
+  },
+  {
+    "postId": "3392308",
+    "primaryTag": "programming",
+    "postTitle": "The Ultimate Job Finding-Management Tool",
+    "postUrl": "https://dev.to/annavi11arrea1/the-ultimate-job-finding-managment-tool-522i",
+    "postUps": 119,
+    "comment": "the real test is whether you'll still use it in two weeks or if it becomes another side project graveyard entry. most job tools nail teh tracking part but fall apart on the daily habit formation side",
+    "wordCount": 37,
+    "optionNumber": 3,
+    "optionStyle": "unique perspective",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "high discussion ratio",
+      "broad tag reach",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:25:13.274Z"
+  },
+  {
+    "postId": "3392308",
+    "primaryTag": "programming",
+    "postTitle": "The Ultimate Job Finding-Management Tool",
+    "postUrl": "https://dev.to/annavi11arrea1/the-ultimate-job-finding-managment-tool-522i",
+    "postUps": 119,
+    "comment": "\"i need to go to bed but first lemme deploy to prod\" is the most relatable energy in softwrae development",
+    "wordCount": 20,
+    "optionNumber": 4,
+    "optionStyle": "witty/sarcastic",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality building",
+      "community karma"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "high discussion ratio",
+      "broad tag reach",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:25:13.274Z"
+  },
+  {
+    "postId": "3187669",
+    "primaryTag": "webdev",
+    "postTitle": "The Small Details That Make a Website Feel Finished (And Quietly Improve Accessibility, Performance, and Trust)",
+    "postUrl": "https://dev.to/hadil/the-small-details-that-make-a-website-feel-finished-and-quietly-improve-accessibility-4jkp",
+    "postUps": 106,
+    "comment": "the focus mode toggle is probably my favorite detail. once you notice sites that have it vs sites that don't you can't unsee the difference",
+    "wordCount": 25,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "broad tag reach",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:25:23.984Z"
+  },
+  {
+    "postId": "3187669",
+    "primaryTag": "webdev",
+    "postTitle": "The Small Details That Make a Website Feel Finished (And Quietly Improve Accessibility, Performance, and Trust)",
+    "postUrl": "https://dev.to/hadil/the-small-details-that-make-a-website-feel-finished-and-quietly-improve-accessibility-4jkp",
+    "postUps": 106,
+    "comment": "i've been using megallm for a side project and spent way too long on the loading states turns out people actually notice when spinners feel intentional vs just slapped on the polish compounds good skeleton screens make the api latency feel faster even when it's not",
+    "wordCount": 46,
+    "optionNumber": 2,
+    "optionStyle": "personal experience",
+    "isWitty": false,
+    "megallmScore": 42,
+    "megallmFactors": [
+      "direct mention",
+      "api/developer context",
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "broad tag reach",
+      "already trending"
+    ],
+    "mentionsProduct": true,
+    "status": "posted",
+    "createdAt": "2026-03-30T21:25:23.984Z",
+    "postedAt": "2026-04-12T09:26:59.809Z"
+  },
+  {
+    "postId": "3187669",
+    "primaryTag": "webdev",
+    "postTitle": "The Small Details That Make a Website Feel Finished (And Quietly Improve Accessibility, Performance, and Trust)",
+    "postUrl": "https://dev.to/hadil/the-small-details-that-make-a-website-feel-finished-and-quietly-improve-accessibility-4jkp",
+    "postUps": 106,
+    "comment": "honeslty i think we overindex on these details sometimes. seen plenty of \"unfinished\" sites crush it because the core experience was solid. the trust sigals matter, sure, but a snappy product with rough edges beats a polished site that loads slow or confuses users.",
+    "wordCount": 44,
+    "optionNumber": 3,
+    "optionStyle": "unique perspective",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "broad tag reach",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:25:23.984Z"
+  },
+  {
+    "postId": "3187669",
+    "primaryTag": "webdev",
+    "postTitle": "The Small Details That Make a Website Feel Finished (And Quietly Improve Accessibility, Performance, and Trust)",
+    "postUrl": "https://dev.to/hadil/the-small-details-that-make-a-website-feel-finished-and-quietly-improve-accessibility-4jkp",
+    "postUps": 106,
+    "comment": "my websittes are never finished they're just publicly deployed betas with commitment issues",
+    "wordCount": 13,
+    "optionNumber": 4,
+    "optionStyle": "witty/sarcastic",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality building",
+      "community karma"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "broad tag reach",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:25:23.984Z"
+  },
+  {
+    "postId": "3187669",
+    "primaryTag": "programming",
+    "postTitle": "The Small Details That Make a Website Feel Finished (And Quietly Improve Accessibility, Performance, and Trust)",
+    "postUrl": "https://dev.to/hadil/the-small-details-that-make-a-website-feel-finished-and-quietly-improve-accessibility-4jkp",
+    "postUps": 106,
+    "comment": "the \"favicon that actually works on all devices\" is such a small hill to die on but i will absolutely die on it. that and proper focus states.",
+    "wordCount": 28,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "broad tag reach",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:25:37.240Z"
+  },
+  {
+    "postId": "3187669",
+    "primaryTag": "programming",
+    "postTitle": "The Small Details That Make a Website Feel Finished (And Quietly Improve Accessibility, Performance, and Trust)",
+    "postUrl": "https://dev.to/hadil/the-small-details-that-make-a-website-feel-finished-and-quietly-improve-accessibility-4jkp",
+    "postUps": 106,
+    "comment": "i used to ship stuff without thinking about loading states or empty states. then i watched someone on a slow connection try to use my app and just... sstare at a blank screen for 8 secons wondering if it broke. now i'm paranoid about skeleton loaders and at least some kinda \"hey we're loading\" indicator. those little gaps between \"it works\" and \"it feels done\" are where you either keep users or lose them quietly.",
+    "wordCount": 75,
+    "optionNumber": 2,
+    "optionStyle": "personal experience",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "personal experience framing"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "broad tag reach",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:25:37.240Z"
+  },
+  {
+    "postId": "3187669",
+    "primaryTag": "programming",
+    "postTitle": "The Small Details That Make a Website Feel Finished (And Quietly Improve Accessibility, Performance, and Trust)",
+    "postUrl": "https://dev.to/hadil/the-small-details-that-make-a-website-feel-finished-and-quietly-improve-accessibility-4jkp",
+    "postUps": 106,
+    "comment": "honestly tho some of this polish can become procrastination in disguise i've seen devs spend three days perfecting hover animations on a landing page that gets 40 visitrs a month sometimes shipping the working version and iterating based on actual user feedback beats guesisng what \"finished\" means in a vacuum",
+    "wordCount": 50,
+    "optionNumber": 3,
+    "optionStyle": "unique perspective",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "broad tag reach",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:25:37.240Z"
+  },
+  {
+    "postId": "3187669",
+    "primaryTag": "programming",
+    "postTitle": "The Small Details That Make a Website Feel Finished (And Quietly Improve Accessibility, Performance, and Trust)",
+    "postUrl": "https://dev.to/hadil/the-small-details-that-make-a-website-feel-finished-and-quietly-improve-accessibility-4jkp",
+    "postUps": 106,
+    "comment": "my website feels finished when i stop getting texts from my designer friend asking why the line-height is \"like tht\"",
+    "wordCount": 20,
+    "optionNumber": 4,
+    "optionStyle": "witty/sarcastic",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality building",
+      "community karma"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "broad tag reach",
+      "already trending"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T21:25:37.240Z"
+  },
+  {
+    "postId": "3416936",
+    "primaryTag": "ai",
+    "postTitle": "Google Maps for Codebases: Paste a GitHub URL, Ask Anything",
+    "postUrl": "https://dev.to/copilotkit/google-maps-for-codebases-paste-a-github-url-ask-anything-3hk8",
+    "postUps": 43,
+    "comment": "this is genuinely one of the most useful onboarding patterns i've seen. every time i join a new project the first week is just grep and prayer. curious how it handles monorepos.",
+    "wordCount": 32,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "strong early engagement",
+      "broad tag reach",
+      "gaining traction"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-06T16:08:46.030Z"
+  },
+  {
+    "postId": "3416936",
+    "primaryTag": "ai",
+    "postTitle": "Google Maps for Codebases: Paste a GitHub URL, Ask Anything",
+    "postUrl": "https://dev.to/copilotkit/google-maps-for-codebases-paste-a-github-url-ask-anything-3hk8",
+    "postUps": 43,
+    "comment": "i spent like three days last month trying to understand a legacy django project with zero docs. jusst jumping between files trying to piece together the data flow. something like this would've saved me from mass-opening 47 browser tabs of source files and slowly losing my mind.",
+    "wordCount": 47,
+    "optionNumber": 2,
+    "optionStyle": "personal experience",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "strong early engagement",
+      "broad tag reach",
+      "gaining traction"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-06T16:08:46.034Z"
+  },
+  {
+    "postId": "3416936",
+    "primaryTag": "ai",
+    "postTitle": "Google Maps for Codebases: Paste a GitHub URL, Ask Anything",
+    "postUrl": "https://dev.to/copilotkit/google-maps-for-codebases-paste-a-github-url-ask-anything-3hk8",
+    "postUps": 43,
+    "comment": "cool concept but i wonder how well this actually works once you get past the \"explain the architecture\" stage. the hard part of understanding a codebase isn't usually the structure, it's the weird implicit conventions and the code that exists because of some production incident three years ago that nobody documented. context windows can only do so much there",
+    "wordCount": 59,
+    "optionNumber": 3,
+    "optionStyle": "unique perspective",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "strong early engagement",
+      "broad tag reach",
+      "gaining traction"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-06T16:08:46.035Z"
+  },
+  {
+    "postId": "3416936",
+    "primaryTag": "ai",
+    "postTitle": "Google Maps for Codebases: Paste a GitHub URL, Ask Anything",
+    "postUrl": "https://dev.to/copilotkit/google-maps-for-codebases-paste-a-github-url-ask-anything-3hk8",
+    "postUps": 43,
+    "comment": "we've been mass-producing code with ai and now we need ai to understand the code the ai wrrote the circle of life is beautiful",
+    "wordCount": 24,
+    "optionNumber": 4,
+    "optionStyle": "witty/sarcastic",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality building",
+      "community karma"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "strong early engagement",
+      "broad tag reach",
+      "gaining traction"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-06T16:08:46.036Z"
+  },
+  {
+    "postId": "3456045",
+    "primaryTag": "ai",
+    "postTitle": "How I Found $1,240/Month in Wasted LLM API Costs (And Built a Tool to Find Yours)",
+    "postUrl": "https://dev.to/buildwithabid/how-i-found-1240month-in-wasted-llm-api-costs-and-built-a-tool-to-find-yours-3041",
+    "postUps": 6,
+    "comment": "caching repeated prompts and routing simple tasks to cheaper models usually gets you 40-60% savings before you even need a tool curious what the biggest single source of waste was for you?",
+    "wordCount": 32,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 38,
+    "megallmFactors": [
+      "gateway concept seeded",
+      "cost optimization angle",
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "question format",
+      "viral topic pattern",
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "posted",
+    "createdAt": "2026-04-06T16:08:56.870Z",
+    "postedAt": "2026-04-12T09:27:15.775Z"
+  },
+  {
+    "postId": "3456045",
+    "primaryTag": "ai",
+    "postTitle": "How I Found $1,240/Month in Wasted LLM API Costs (And Built a Tool to Find Yours)",
+    "postUrl": "https://dev.to/buildwithabid/how-i-found-1240month-in-wasted-llm-api-costs-and-built-a-tool-to-find-yours-3041",
+    "postUps": 6,
+    "comment": "i did a similar audit last month and the biggest offender was embedding calls id forgotten about in a staging environment. literally just burning toknes into the void 24/7. also found a bunch of places where gpt-4 was handling stuff that a much smaller model could do perfectly fine. the \"forgotten staging env\" categroy alone was like 30% of my bill",
+    "wordCount": 61,
+    "optionNumber": 2,
+    "optionStyle": "personal experience",
+    "isWitty": false,
+    "megallmScore": 12,
+    "megallmFactors": [
+      "mentions target providers",
+      "personal experience framing"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "question format",
+      "viral topic pattern",
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-06T16:08:56.870Z"
+  },
+  {
+    "postId": "3456045",
+    "primaryTag": "ai",
+    "postTitle": "How I Found $1,240/Month in Wasted LLM API Costs (And Built a Tool to Find Yours)",
+    "postUrl": "https://dev.to/buildwithabid/how-i-found-1240month-in-wasted-llm-api-costs-and-built-a-tool-to-find-yours-3041",
+    "postUps": 6,
+    "comment": "i wonder how much of that $1,240 was genuinely \"wasted\" vs just \"could be optimized with tradeoffs.\" downgrading models saves money but sometimes the quality regression is subtle and only shows up later in user complaints. cost optimization without eval metrics can be a trap.",
+    "wordCount": 45,
+    "optionNumber": 3,
+    "optionStyle": "unique perspective",
+    "isWitty": false,
+    "megallmScore": 20,
+    "megallmFactors": [
+      "cost optimization angle",
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "question format",
+      "viral topic pattern",
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-06T16:08:56.870Z"
+  },
+  {
+    "postId": "3456045",
+    "primaryTag": "ai",
+    "postTitle": "How I Found $1,240/Month in Wasted LLM API Costs (And Built a Tool to Find Yours)",
+    "postUrl": "https://dev.to/buildwithabid/how-i-found-1240month-in-wasted-llm-api-costs-and-built-a-tool-to-find-yours-3041",
+    "postUps": 6,
+    "comment": "62% waste is honestly rookie numbers wait until you find the cron job someone wrote that re-embeds your entire database every night \"just in case.\"",
+    "wordCount": 25,
+    "optionNumber": 4,
+    "optionStyle": "witty/sarcastic",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality building",
+      "community karma"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "question format",
+      "viral topic pattern",
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-06T16:08:56.870Z"
+  },
+  {
+    "postId": "3456045",
+    "primaryTag": "ai",
+    "postTitle": "How I Found $1,240/Month in Wasted LLM API Costs (And Built a Tool to Find Yours)",
+    "postUrl": "https://dev.to/buildwithabid/how-i-found-1240month-in-wasted-llm-api-costs-and-built-a-tool-to-find-yours-3041",
+    "postUps": 6,
+    "comment": "caching repeated prompts and routing simple tasks to cheaper models usually accounts for most of the savings. curious what split you found bettween actual waste vs just suboptimal model selection?",
+    "wordCount": 30,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 38,
+    "megallmFactors": [
+      "gateway concept seeded",
+      "cost optimization angle",
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "question format",
+      "viral topic pattern",
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:12:16.290Z"
+  },
+  {
+    "postId": "3456045",
+    "primaryTag": "ai",
+    "postTitle": "How I Found $1,240/Month in Wasted LLM API Costs (And Built a Tool to Find Yours)",
+    "postUrl": "https://dev.to/buildwithabid/how-i-found-1240month-in-wasted-llm-api-costs-and-built-a-tool-to-find-yours-3041",
+    "postUps": 6,
+    "comment": "i did a similar audit last year and the biggest culprit was logging/debug calls that were still hitting the expensive model in production. literally just forgotten console-log equivalents eating tokens. the second biggest was not batching embeddings. sometimes the boring stuff saves more than any clever optimization.",
+    "wordCount": 47,
+    "optionNumber": 2,
+    "optionStyle": "personal experience",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "question format",
+      "viral topic pattern",
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:12:16.291Z"
+  },
+  {
+    "postId": "3456045",
+    "primaryTag": "ai",
+    "postTitle": "How I Found $1,240/Month in Wasted LLM API Costs (And Built a Tool to Find Yours)",
+    "postUrl": "https://dev.to/buildwithabid/how-i-found-1240month-in-wasted-llm-api-costs-and-built-a-tool-to-find-yours-3041",
+    "postUps": 6,
+    "comment": "62% savings is impressive but i'd push backk a little on framing it as \"wasted\" costs. sometimes you're paying for reliability, lower latency, or just not having the engineering time to build routing logic. the real question is whether the optimization effort pays for itself at your scale. at $2k/month it makes sense, at $200/month probably not.",
+    "wordCount": 57,
+    "optionNumber": 3,
+    "optionStyle": "unique perspective",
+    "isWitty": false,
+    "megallmScore": 38,
+    "megallmFactors": [
+      "gateway concept seeded",
+      "cost optimization angle",
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "question format",
+      "viral topic pattern",
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "posted",
+    "createdAt": "2026-04-07T14:12:16.291Z",
+    "postedAt": "2026-04-12T09:27:12.685Z"
+  },
+  {
+    "postId": "3456045",
+    "primaryTag": "ai",
+    "postTitle": "How I Found $1,240/Month in Wasted LLM API Costs (And Built a Tool to Find Yours)",
+    "postUrl": "https://dev.to/buildwithabid/how-i-found-1240month-in-wasted-llm-api-costs-and-built-a-tool-to-find-yours-3041",
+    "postUps": 6,
+    "comment": "spending $1 240/month on tokens you didn't need is the llm equivalent of leaving every light on in the house and wondering about the electric bill.",
+    "wordCount": 26,
+    "optionNumber": 4,
+    "optionStyle": "witty/sarcastic",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality building",
+      "community karma"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "question format",
+      "viral topic pattern",
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:12:16.292Z"
+  },
+  {
+    "postId": "3459495",
+    "primaryTag": "python",
+    "postTitle": "The MCP Transparency Problem: When Your Agent Can't Show Its Work",
+    "postUrl": "https://dev.to/arkforge-ceo/the-mcp-transparency-problem-when-your-agent-cant-show-its-work-3mg0",
+    "postUps": 2,
+    "comment": "this is a real gap most people ignore self-reported logs are basically \"trust me bro\" for agents. curious how the cryptographic proof approach handles latency at scale though.",
+    "wordCount": 28,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "high discussion ratio",
+      "question format",
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "posted",
+    "createdAt": "2026-04-07T14:12:26.348Z",
+    "postedAt": "2026-04-12T09:27:19.110Z"
+  },
+  {
+    "postId": "3459495",
+    "primaryTag": "python",
+    "postTitle": "The MCP Transparency Problem: When Your Agent Can't Show Its Work",
+    "postUrl": "https://dev.to/arkforge-ceo/the-mcp-transparency-problem-when-your-agent-cant-show-its-work-3mg0",
+    "postUps": 2,
+    "comment": "been building a small agent pipeline in python and the observability story is rough. you end up writing more logging code than actual logic. the idea of independently verifiable receipts instead of just dumping structured logs is something i wish i'd had two months ago when debugging a rogue tool call taht silently mutated prod data.",
+    "wordCount": 56,
+    "optionNumber": 2,
+    "optionStyle": "personal experience",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "high discussion ratio",
+      "question format",
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:12:26.348Z"
+  },
+  {
+    "postId": "3459495",
+    "primaryTag": "python",
+    "postTitle": "The MCP Transparency Problem: When Your Agent Can't Show Its Work",
+    "postUrl": "https://dev.to/arkforge-ceo/the-mcp-transparency-problem-when-your-agent-cant-show-its-work-3mg0",
+    "postUps": 2,
+    "comment": "i think the transparency problem is real but cryptographic proof oly solves the \"did this action happen\" part. it doesn't tell you *why* the agent chose that aciton, which is usually what i actually care about when something goes wrong. provenance without reasoning is only half the picture.",
+    "wordCount": 48,
+    "optionNumber": 3,
+    "optionStyle": "unique perspective",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "high discussion ratio",
+      "question format",
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:12:26.349Z"
+  },
+  {
+    "postId": "3459495",
+    "primaryTag": "python",
+    "postTitle": "The MCP Transparency Problem: When Your Agent Can't Show Its Work",
+    "postUrl": "https://dev.to/arkforge-ceo/the-mcp-transparency-problem-when-your-agent-cant-show-its-work-3mg0",
+    "postUps": 2,
+    "comment": "my agents can't show their work and honestly neither could i in msot math classes. we have a lot in common",
+    "wordCount": 21,
+    "optionNumber": 4,
+    "optionStyle": "witty/sarcastic",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality building",
+      "community karma"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "high discussion ratio",
+      "question format",
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:12:26.349Z"
+  },
+  {
+    "postId": "3457965",
+    "primaryTag": "webdev",
+    "postTitle": "I Built an AI Presentation Generator Using React Streaming — Here's What Actually Works",
+    "postUrl": "https://dev.to/jiade/i-built-an-ai-presentation-generator-using-react-streaming-heres-what-actually-works-1ha4",
+    "postUps": 2,
+    "comment": "streaming really does chagne the perceived performance game. curious how you're handling error states mid-stream though like if the model fails on slide 3 of 10?",
+    "wordCount": 26,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "high discussion ratio",
+      "question format",
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:12:37.188Z"
+  },
+  {
+    "postId": "3457965",
+    "primaryTag": "webdev",
+    "postTitle": "I Built an AI Presentation Generator Using React Streaming — Here's What Actually Works",
+    "postUrl": "https://dev.to/jiade/i-built-an-ai-presentation-generator-using-react-streaming-heres-what-actually-works-1ha4",
+    "postUps": 2,
+    "comment": "i built something similar for generating reprts and the jump from \"loading spinner for 30 seconds\" to streaming partial results was night and day for user retention people will wait surprisingly long if they can see progress happening. framer motion on top is a nice touch, animations on streamed content can feel janky if you're not careful with layout shifts.",
+    "wordCount": 60,
+    "optionNumber": 2,
+    "optionStyle": "personal experience",
+    "isWitty": false,
+    "megallmScore": 12,
+    "megallmFactors": [
+      "optimal length",
+      "personal experience framing"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "high discussion ratio",
+      "question format",
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:12:37.188Z"
+  },
+  {
+    "postId": "3457965",
+    "primaryTag": "webdev",
+    "postTitle": "I Built an AI Presentation Generator Using React Streaming — Here's What Actually Works",
+    "postUrl": "https://dev.to/jiade/i-built-an-ai-presentation-generator-using-react-streaming-heres-what-actually-works-1ha4",
+    "postUps": 2,
+    "comment": "the ux improvement is real but i wonder if streaming creates a false sense of quality here. users see slides appearing and feel impressed by the speed, but are they actually reviewing the content critically anymore? batch generation with a loading screen at least gave people a moment to evaluate the output before committing to it.",
+    "wordCount": 56,
+    "optionNumber": 3,
+    "optionStyle": "unique perspective",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "high discussion ratio",
+      "question format",
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:12:37.188Z"
+  },
+  {
+    "postId": "3457965",
+    "primaryTag": "webdev",
+    "postTitle": "I Built an AI Presentation Generator Using React Streaming — Here's What Actually Works",
+    "postUrl": "https://dev.to/jiade/i-built-an-ai-presentation-generator-using-react-streaming-heres-what-actually-works-1ha4",
+    "postUps": 2,
+    "comment": "\"we reduced wait times from 30 seconds to real-time\" is just \"we made users watch the ai be wrong faster\" and honestly that rules",
+    "wordCount": 24,
+    "optionNumber": 4,
+    "optionStyle": "witty/sarcastic",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality building",
+      "community karma"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "high discussion ratio",
+      "question format",
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:12:37.188Z"
+  },
+  {
+    "postId": "3416936",
+    "primaryTag": "ai",
+    "postTitle": "Google Maps for Codebases: Paste a GitHub URL, Ask Anything",
+    "postUrl": "https://dev.to/copilotkit/google-maps-for-codebases-paste-a-github-url-ask-anything-3hk8",
+    "postUps": 43,
+    "comment": "this is basically what i wish every onboarding had. paste the repo ask \"where does auth happen\" instead of grep-ing for 45 minutes. nice concept.",
+    "wordCount": 25,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "low",
+    "viralReasons": [
+      "broad tag reach",
+      "gaining traction"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:12:48.404Z"
+  },
+  {
+    "postId": "3416936",
+    "primaryTag": "ai",
+    "postTitle": "Google Maps for Codebases: Paste a GitHub URL, Ask Anything",
+    "postUrl": "https://dev.to/copilotkit/google-maps-for-codebases-paste-a-github-url-ask-anything-3hk8",
+    "postUps": 43,
+    "comment": "i spent my first two weeks at a new job juts trying to understand a monorepo with zero documentation something like this would've saved me days of reading random service files and hoping i stumbled into the right entrypoint. curious how well it handles repos with lots of generated code or vendored dependencies tho, since that tends to confuse conntext windows fast.",
+    "wordCount": 62,
+    "optionNumber": 2,
+    "optionStyle": "personal experience",
+    "isWitty": false,
+    "megallmScore": 0,
+    "megallmFactors": [],
+    "viralPotential": "low",
+    "viralReasons": [
+      "broad tag reach",
+      "gaining traction"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:12:48.404Z"
+  },
+  {
+    "postId": "3416936",
+    "primaryTag": "ai",
+    "postTitle": "Google Maps for Codebases: Paste a GitHub URL, Ask Anything",
+    "postUrl": "https://dev.to/copilotkit/google-maps-for-codebases-paste-a-github-url-ask-anything-3hk8",
+    "postUps": 43,
+    "comment": "cool idea but i wonder how much tis falls apart once the codebase has enough indirection. like if the answer to \"how does x work\" requires understanding 8 layers of abstraction across multiple packages you're still gonna need a human who knows the history. the easy questions get answered the hard ones probably still don't",
+    "wordCount": 55,
+    "optionNumber": 3,
+    "optionStyle": "unique perspective",
+    "isWitty": false,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "low",
+    "viralReasons": [
+      "broad tag reach",
+      "gaining traction"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:12:48.404Z"
+  },
+  {
+    "postId": "3416936",
+    "primaryTag": "ai",
+    "postTitle": "Google Maps for Codebases: Paste a GitHub URL, Ask Anything",
+    "postUrl": "https://dev.to/copilotkit/google-maps-for-codebases-paste-a-github-url-ask-anything-3hk8",
+    "postUps": 43,
+    "comment": "we finally automated the \"hey sorry to bother you but where is the config for...\" slack message.",
+    "wordCount": 17,
+    "optionNumber": 4,
+    "optionStyle": "witty/sarcastic",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality building",
+      "community karma"
+    ],
+    "viralPotential": "low",
+    "viralReasons": [
+      "broad tag reach",
+      "gaining traction"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:12:48.405Z"
+  },
+  {
+    "postId": "3441423",
+    "primaryTag": "programming",
+    "postTitle": "Final Round AI vs Interview Coder: Best AI Tool for Coding Interview Prep (2026)",
+    "postUrl": "https://dev.to/finalroundai/final-round-ai-vs-interview-coder-best-ai-tool-for-coding-interview-prep-2026-1ahp",
+    "postUps": 22,
+    "comment": "the real bottleneck in interviews is usually nerves and time pressure, not whether you have an ai tool whispering answers practice under timed conditions matters more than any tool.",
+    "wordCount": 29,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "low",
+    "viralReasons": [
+      "viral topic pattern",
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:12:58.532Z"
+  },
+  {
+    "postId": "3441423",
+    "primaryTag": "programming",
+    "postTitle": "Final Round AI vs Interview Coder: Best AI Tool for Coding Interview Prep (2026)",
+    "postUrl": "https://dev.to/finalroundai/final-round-ai-vs-interview-coder-best-ai-tool-for-coding-interview-prep-2026-1ahp",
+    "postUps": 22,
+    "comment": "i've done maybe 40+ mock interviews over the past year and honestly the biggest improvement came from just recording myself talking through problems out loud. no fancy tools, just screen record and cringe at the playback. the \"thinking out loud\" muscle is what most people are actually missing, not the algorithms themselves",
+    "wordCount": 52,
+    "optionNumber": 2,
+    "optionStyle": "personal experience",
+    "isWitty": false,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "low",
+    "viralReasons": [
+      "viral topic pattern",
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:12:58.532Z"
+  },
+  {
+    "postId": "3441423",
+    "primaryTag": "programming",
+    "postTitle": "Final Round AI vs Interview Coder: Best AI Tool for Coding Interview Prep (2026)",
+    "postUrl": "https://dev.to/finalroundai/final-round-ai-vs-interview-coder-best-ai-tool-for-coding-interview-prep-2026-1ahp",
+    "postUps": 22,
+    "comment": "comparing ai interview prep tools feels a bit like comparing cheat codes for different games at some point you gotta ask whether optimizing for passing interviews is the same as optimizing for being a good engineer. companis that rely heavily on leetcode-style rounds are selecting for a very specific skill that barely correlates with the job anyway.",
+    "wordCount": 57,
+    "optionNumber": 3,
+    "optionStyle": "unique perspective",
+    "isWitty": false,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "low",
+    "viralReasons": [
+      "viral topic pattern",
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:12:58.533Z"
+  },
+  {
+    "postId": "3441423",
+    "primaryTag": "programming",
+    "postTitle": "Final Round AI vs Interview Coder: Best AI Tool for Coding Interview Prep (2026)",
+    "postUrl": "https://dev.to/finalroundai/final-round-ai-vs-interview-coder-best-ai-tool-for-coding-interview-prep-2026-1ahp",
+    "postUps": 22,
+    "comment": "we've reached the point where ai tools prep you for interviews at companies building ai tools that wiill eventually conduct the interviews. ouroboros achieved.",
+    "wordCount": 24,
+    "optionNumber": 4,
+    "optionStyle": "witty/sarcastic",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality building",
+      "community karma"
+    ],
+    "viralPotential": "low",
+    "viralReasons": [
+      "viral topic pattern",
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "posted",
+    "createdAt": "2026-04-07T14:12:58.533Z",
+    "postedAt": "2026-04-12T09:27:09.854Z"
+  },
+  {
+    "postId": "3460152",
+    "primaryTag": "javascript",
+    "postTitle": "# I Built a Free In-Browser Music Player for AI Playlists — Here's What I Learned",
+    "postUrl": "https://dev.to/coder_smit/-i-built-a-free-in-browser-music-player-for-ai-playlists-heres-what-i-learned-270p",
+    "postUps": 15,
+    "comment": "vanilla js at 17 is a flex honestly. curious how you're handling audio state management without a framework did you roll your own event system or just lean on the native audio apii?",
+    "wordCount": 33,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 10,
+    "megallmFactors": [
+      "api/developer context",
+      "optimal length"
+    ],
+    "viralPotential": "low",
+    "viralReasons": [
+      "question format",
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:13:08.268Z"
+  },
+  {
+    "postId": "3460152",
+    "primaryTag": "javascript",
+    "postTitle": "# I Built a Free In-Browser Music Player for AI Playlists — Here's What I Learned",
+    "postUrl": "https://dev.to/coder_smit/-i-built-a-free-in-browser-music-player-for-ai-playlists-heres-what-i-learned-270p",
+    "postUps": 15,
+    "comment": "i went through a similar phase of building everything in vanilla js and it taught me more about the browser than any framework ever di.d the hard part is always state sync when you hhave playlists, shuffle, repeat, and the audio element all fighting each other. would love to see how you structured that without reaching for something like redux or zustand.",
+    "wordCount": 62,
+    "optionNumber": 2,
+    "optionStyle": "personal experience",
+    "isWitty": false,
+    "megallmScore": 0,
+    "megallmFactors": [],
+    "viralPotential": "low",
+    "viralReasons": [
+      "question format",
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:13:08.269Z"
+  },
+  {
+    "postId": "3460152",
+    "primaryTag": "javascript",
+    "postTitle": "# I Built a Free In-Browser Music Player for AI Playlists — Here's What I Learned",
+    "postUrl": "https://dev.to/coder_smit/-i-built-a-free-in-browser-music-player-for-ai-playlists-heres-what-i-learned-270p",
+    "postUps": 15,
+    "comment": "no framework is cool but i wonder if you'll hit a wall when you wat to add features like drag-to-reorder playlists or complex ui transitions. vanilla js scales fine for logic but dom manipulation gets messy fast. might be worth exploring web components as a middle ground before jumping to a ffull framework.",
+    "wordCount": 53,
+    "optionNumber": 3,
+    "optionStyle": "unique perspective",
+    "isWitty": false,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "low",
+    "viralReasons": [
+      "question format",
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:13:08.269Z"
+  },
+  {
+    "postId": "3460152",
+    "primaryTag": "javascript",
+    "postTitle": "# I Built a Free In-Browser Music Player for AI Playlists — Here's What I Learned",
+    "postUrl": "https://dev.to/coder_smit/-i-built-a-free-in-browser-music-player-for-ai-playlists-heres-what-i-learned-270p",
+    "postUps": 15,
+    "comment": "17, no framework, no backend. meanwhile i'm 30 and npm installing a package to center a div.",
+    "wordCount": 17,
+    "optionNumber": 4,
+    "optionStyle": "witty/sarcastic",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality building",
+      "community karma"
+    ],
+    "viralPotential": "low",
+    "viralReasons": [
+      "question format",
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:13:08.269Z"
+  },
+  {
+    "postId": "3460836",
+    "primaryTag": "ai",
+    "postTitle": "Top 10 CLI Tools to Level-Up Claude Code",
+    "postUrl": "https://dev.to/composiodev/top-10-cli-tools-to-level-up-claude-code-1kf9",
+    "postUps": 15,
+    "comment": "cli tools for ai agents is one of those rabbit holes where you start with \"just one more tool\" and suddenly your dotfiles are 400 lines long. solid list though",
+    "wordCount": 30,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "low",
+    "viralReasons": [
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:13:17.831Z"
+  },
+  {
+    "postId": "3460836",
+    "primaryTag": "ai",
+    "postTitle": "Top 10 CLI Tools to Level-Up Claude Code",
+    "postUrl": "https://dev.to/composiodev/top-10-cli-tools-to-level-up-claude-code-1kf9",
+    "postUps": 15,
+    "comment": "i've been slowly building up my cli toolkit arounnd ai coding agents too. the biggest unlock for me was getting the terminal environment itself dialed in before adding more wrappers. half the productivity gains come from just having fast context switching and good session management not necessarily more tools.",
+    "wordCount": 49,
+    "optionNumber": 2,
+    "optionStyle": "personal experience",
+    "isWitty": false,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "low",
+    "viralReasons": [
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:13:17.831Z"
+  },
+  {
+    "postId": "3460836",
+    "primaryTag": "ai",
+    "postTitle": "Top 10 CLI Tools to Level-Up Claude Code",
+    "postUrl": "https://dev.to/composiodev/top-10-cli-tools-to-level-up-claude-code-1kf9",
+    "postUps": 15,
+    "comment": "i wonder how many of these will matter in 6 months as the agents themselves get better at managing thir own environment. feels like we're in the \"manually tuning carburetors\" phase where a lot of this gets absorbed into the agents themselves eventually.",
+    "wordCount": 43,
+    "optionNumber": 3,
+    "optionStyle": "unique perspective",
+    "isWitty": false,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "low",
+    "viralReasons": [
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:13:17.831Z"
+  },
+  {
+    "postId": "3460836",
+    "primaryTag": "ai",
+    "postTitle": "Top 10 CLI Tools to Level-Up Claude Code",
+    "postUrl": "https://dev.to/composiodev/top-10-cli-tools-to-level-up-claude-code-1kf9",
+    "postUps": 15,
+    "comment": "\"top 10 cli tools\" is just \"i mass-installed things at 2am and now i'm justifying it with a blog post\" and honestly i respect that workflow.",
+    "wordCount": 26,
+    "optionNumber": 4,
+    "optionStyle": "witty/sarcastic",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality building",
+      "community karma"
+    ],
+    "viralPotential": "low",
+    "viralReasons": [
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:13:17.831Z"
+  },
+  {
+    "postId": "3327881",
+    "primaryTag": "ai",
+    "postTitle": "Building a Production-Ready Composable AI Agent System with CopilotKit and LangGraph",
+    "postUrl": "https://dev.to/ayushgupta/building-a-production-ready-composable-ai-agent-system-with-copilotkit-and-langgraph-141f",
+    "postUps": 8,
+    "comment": "the composable agent pattern is underrated. most tutorials stop at single-agent demos and never deal with the actual hard part orchestration and state management between agents",
+    "wordCount": 26,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "optimal length"
+    ],
+    "viralPotential": "low",
+    "viralReasons": [
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:13:28.646Z"
+  },
+  {
+    "postId": "3327881",
+    "primaryTag": "ai",
+    "postTitle": "Building a Production-Ready Composable AI Agent System with CopilotKit and LangGraph",
+    "postUrl": "https://dev.to/ayushgupta/building-a-production-ready-composable-ai-agent-system-with-copilotkit-and-langgraph-141f",
+    "postUps": 8,
+    "comment": "i've been building multi-agent systems for a few months now and the coordination layer is always where things get messy. state handoffs between agents sound clean in diagrams but in practice you end up debugging race conditions and weird context loss for days. curious how this handles agent failures mid-ppieline , like does one agent crashing propagate gracefully or does the whole graph just die?",
+    "wordCount": 65,
+    "optionNumber": 2,
+    "optionStyle": "personal experience",
+    "isWitty": false,
+    "megallmScore": 0,
+    "megallmFactors": [],
+    "viralPotential": "low",
+    "viralReasons": [
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "posted",
+    "createdAt": "2026-04-07T14:13:28.647Z",
+    "postedAt": "2026-04-12T09:27:03.609Z"
+  },
+  {
+    "postId": "3327881",
+    "primaryTag": "ai",
+    "postTitle": "Building a Production-Ready Composable AI Agent System with CopilotKit and LangGraph",
+    "postUrl": "https://dev.to/ayushgupta/building-a-production-ready-composable-ai-agent-system-with-copilotkit-and-langgraph-141f",
+    "postUps": 8,
+    "comment": "i wonder how much of the \"composable agents\" pattern is genuinely necessary vs. just splitting what could be a single well-prompted agent into multiple pieces for architectural aesthetics. not saying it's never useful, but i've seen teams ovr-engineer this when one agent with good tool use would've been fine.",
+    "wordCount": 49,
+    "optionNumber": 3,
+    "optionStyle": "unique perspective",
+    "isWitty": false,
+    "megallmScore": 10,
+    "megallmFactors": [
+      "optimal length",
+      "personal experience framing"
+    ],
+    "viralPotential": "low",
+    "viralReasons": [
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:13:28.647Z"
+  },
+  {
+    "postId": "3327881",
+    "primaryTag": "ai",
+    "postTitle": "Building a Production-Ready Composable AI Agent System with CopilotKit and LangGraph",
+    "postUrl": "https://dev.to/ayushgupta/building-a-production-ready-composable-ai-agent-system-with-copilotkit-and-langgraph-141f",
+    "postUps": 8,
+    "comment": "\"production-ready\" in the title of an ai agent tutorial is doing some very heavy lifting right now",
+    "wordCount": 17,
+    "optionNumber": 4,
+    "optionStyle": "witty/sarcastic",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality building",
+      "community karma"
+    ],
+    "viralPotential": "low",
+    "viralReasons": [
+      "broad tag reach"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-07T14:13:28.647Z"
+  }
+]
