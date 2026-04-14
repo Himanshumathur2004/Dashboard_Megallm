@@ -35,10 +35,9 @@ echo "Blog Dashboard started (PID: $FLASK_PID)"
 echo ""
 echo "Starting Comment Dashboard (Next.js) on port 3500..."
 cd /app/NewComemnt-feature-x-assistant
-PORT=3500 npm start &
+PORT=3500 npm run assistant:unified &
 NEXT_PID=$!
 echo "Comment Dashboard started (PID: $NEXT_PID)"
-
 # ============================================
 # Wait for backends to be ready
 # ============================================

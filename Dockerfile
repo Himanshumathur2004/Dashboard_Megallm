@@ -30,9 +30,10 @@ RUN pip3 install --no-cache-dir -r blog_requirements.txt --break-system-packages
 # ============================================
 # 3. Setup Comment Dashboard (Next.js)
 # ============================================
-COPY NewComemnt-feature-x-assistant/package*.json ./comments_pkg/
-WORKDIR /app/comments_pkg
+WORKDIR /app/NewComemnt-feature-x-assistant
+COPY NewComemnt-feature-x-assistant/package*.json ./
 RUN npm install
+COPY NewComemnt-feature-x-assistant ./
 WORKDIR /app
 
 # ============================================
@@ -46,14 +47,12 @@ COPY server.js ./
 COPY blog_generation_pipeline ./blog_generation_pipeline
 
 # Comment dashboard files
-COPY NewComemnt-feature-x-assistant ./NewComemnt-feature-x-assistant
+# (already copied during setup above)
 
 # ============================================
 # Build Next.js app
 # ============================================
-WORKDIR /app/NewComemnt-feature-x-assistant
-RUN npm run build
-WORKDIR /app
+# (built during setup above)
 
 # ============================================
 # Copy startup script
