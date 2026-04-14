@@ -46,6 +46,7 @@ coverage/
 # Temporary files
 *.tmp
 *.temp
+cookies.txt
 
 # Claude files
 .claude/

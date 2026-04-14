@@ -633,16 +633,30 @@ async function doFetch(){
     b.textContent=PL[platform].fetchBtn;b.disabled=false;
   }
 }
+var _draftPoll=null;
+async function loadDraftsOnly(){
+  try{
+    var res=await fetch(api(platform)+'/drafts');
+    if(res.status===401){window.location='/login';return}
+    if(!res.ok)return;
+    all=await res.json();
+    renderStats();render();
+  }catch(e){}
+}
 async function doDraft(){
-  var b=document.getElementById('draftBtn');b.disabled=true;b.textContent='…';
+  var b=document.getElementById('draftBtn');b.disabled=true;b.textContent='Generating...';
+  if(_draftPoll)clearInterval(_draftPoll);
+  _draftPoll=setInterval(function(){loadDraftsOnly();b.textContent='Generating... ('+all.filter(function(d){return d.status==='draft'}).length+' drafts)')},3000);
   try{
     var res=await fetch(api(platform)+'/draft',{method:'POST'});
     var r=await res.json();
     if(!res.ok)throw new Error(r.error||'draft failed');
+    if(_draftPoll){clearInterval(_draftPoll);_draftPoll=null}
     b.textContent='OK ('+r.count+')';
     await load();
     setTimeout(function(){b.textContent=PL[platform].draftBtn;b.disabled=false},1600);
   }catch(e){
+    if(_draftPoll){clearInterval(_draftPoll);_draftPoll=null}
     document.getElementById('loadError').textContent=e.message||String(e);
     b.textContent=PL[platform].draftBtn;b.disabled=false;
   }

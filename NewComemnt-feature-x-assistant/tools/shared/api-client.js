@@ -10,6 +10,7 @@
  * @param {string} options.baseUrl - API base URL
  * @param {string} options.model - Primary model
  * @param {string} options.fallbackKey - Fallback API key (optional)
+ * @param {string} options.fallbackBaseUrl - Fallback API base URL (optional, defaults to baseUrl)
  * @param {string} options.fallbackModel - Fallback model (optional)
  * @param {Array} options.messages - Messages array
  * @param {number} options.maxTokens - Max tokens (default: 500)
@@ -21,6 +22,7 @@ export async function callLLMWithFallback({
   baseUrl,
   model,
   fallbackKey,
+  fallbackBaseUrl,
   fallbackModel,
   messages,
   maxTokens = 500,
@@ -28,24 +30,18 @@ export async function callLLMWithFallback({
 }) {
   const primaryAttempt = async () => {
     console.log(`  🔵 Trying primary: ${model}`);
-    return callLLMAPI({
-      apiKey,
-      baseUrl,
-      model,
-      messages,
-      maxTokens,
-      temperature,
-    });
+    return callLLMAPI({ apiKey, baseUrl, model, messages, maxTokens, temperature });
   };
 
   const fallbackAttempt = async () => {
     if (!fallbackKey || !fallbackModel) {
       throw new Error("No fallback key/model configured");
     }
-    console.log(`  🟡 Falling back to: ${fallbackModel}`);
+    const effectiveBaseUrl = fallbackBaseUrl || baseUrl;
+    console.log(`  🟡 Falling back to: ${fallbackModel} (${effectiveBaseUrl})`);
     return callLLMAPI({
       apiKey: fallbackKey,
-      baseUrl,
+      baseUrl: effectiveBaseUrl,
       model: fallbackModel,
       messages,
       maxTokens,
@@ -56,7 +52,7 @@ export async function callLLMWithFallback({
   try {
     return await primaryAttempt();
   } catch (primaryErr) {
-    console.warn(`⚠️  Primary model failed: ${primaryErr.message}`);
+    console.warn(`⚠️ Primary model failed: ${primaryErr.message}`);
 
     if (fallbackKey && fallbackModel) {
       try {

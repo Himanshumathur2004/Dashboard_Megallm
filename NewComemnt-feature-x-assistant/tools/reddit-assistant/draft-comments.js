@@ -8,6 +8,7 @@ import { CONFIG } from "./config.js";
 import { readFile, writeFile, mkdir } from "fs/promises";
 import { humanizeComment } from "./humanize.js";
 import { DATA_DIR, POSTS_FILE, DRAFTS_FILE } from "./paths.js";
+import { callLLMWithFallback } from "../shared/api-client.js";
 
 // ── Viral potential detection ─────────────────────────────
 
@@ -225,29 +226,21 @@ RESPOND WITH EXACTLY ${count} OPTIONS, separated by "---" on its own line:
 
 just the raw comment text for each option. no labels, no "option 1:", just the comments separated by ---.`;
 
-  const res = await fetch(`${CONFIG.apiBaseUrl}/chat/completions`, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${CONFIG.apiKey}`,
-    },
-    body: JSON.stringify({
-      model: CONFIG.model,
-      messages: [
-        { role: "system", content: SYSTEM_PROMPT },
-        { role: "user", content: prompt },
-      ],
-      max_tokens: 600,
-      temperature: 0.9,
-    }),
+  const data = await callLLMWithFallback({
+    apiKey: CONFIG.apiKey,
+    baseUrl: CONFIG.apiBaseUrl,
+    model: CONFIG.model,
+    fallbackKey: CONFIG.fallback?.apiKey,
+    fallbackBaseUrl: CONFIG.fallback?.baseUrl,
+    fallbackModel: CONFIG.fallback?.model,
+    messages: [
+      { role: "system", content: SYSTEM_PROMPT },
+      { role: "user", content: prompt },
+    ],
+    maxTokens: 600,
+    temperature: 0.9,
   });
 
-  if (!res.ok) {
-    const err = await res.text();
-    throw new Error(`API error ${res.status}: ${err}`);
-  }
-
-  const data = await res.json();
   const raw = data.choices?.[0]?.message?.content?.trim() ?? "";
 
   // Split into options

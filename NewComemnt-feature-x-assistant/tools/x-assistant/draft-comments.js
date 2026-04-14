@@ -8,39 +8,25 @@ import { CONFIG } from "./config.js";
 import { humanizeReply } from "./humanize.js";
 import { readFile, writeFile, mkdir } from "fs/promises";
 import { DATA_DIR, TWEETS_FILE, DRAFTS_FILE } from "./paths.js";
-
-// Import AI SDK
-import { generateText } from "ai";
-import { createOpenAI } from "@ai-sdk/openai";
+import { callLLMWithFallback } from "../shared/api-client.js";
 
 async function callChutesAPI(model, systemPrompt, userPrompt) {
-  const apiKey = CONFIG.apiKey;
-  const baseURL = CONFIG.apiBaseUrl;
-  
-  const response = await fetch(`${baseURL}/chat/completions`, {
-    method: "POST",
-    headers: {
-      "Authorization": `Bearer ${apiKey}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      model,
-      messages: [
-        { role: "system", content: systemPrompt },
-        { role: "user", content: userPrompt },
-      ],
-      temperature: 0.7,
-      max_tokens: 500,
-    }),
+  const result = await callLLMWithFallback({
+    apiKey: CONFIG.apiKey,
+    baseUrl: CONFIG.apiBaseUrl,
+    model: model,
+    fallbackKey: CONFIG.fallback?.apiKey,
+    fallbackBaseUrl: CONFIG.fallback?.baseUrl,
+    fallbackModel: CONFIG.fallback?.model,
+    messages: [
+      { role: "system", content: systemPrompt },
+      { role: "user", content: userPrompt },
+    ],
+    maxTokens: 500,
+    temperature: 0.7,
   });
 
-  if (!response.ok) {
-    const error = await response.text();
-    throw new Error(`Chutes API error: ${response.status} ${error}`);
-  }
-
-  const data = await response.json();
-  return data.choices[0].message.content;
+  return result.choices[0].message.content;
 }
 
 // ── Relevance scoring ───────────────────────────────
@@ -159,6 +145,8 @@ Return valid JSON ONLY:
 }`;
 
   // Retry logic with configurable exponential backoff
+  // Note: Primary model overload (503) is now handled by fallback in callLLMWithFallback
+  // This retry loop handles edge cases where both primary and fallback fail
   let lastError;
   const maxAttempts = CONFIG.rateLimiting.maxRetries;
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
@@ -175,16 +163,24 @@ Return valid JSON ONLY:
       return data.options || [];
     } catch (err) {
       lastError = err;
-      
-      // If rate limited, wait with configurable backoff
-      if (err.message && (err.message.includes("Too Many Requests") || err.message.includes("429"))) {
+
+      // Check if it's a rate limit (429) or overload (503) error
+      const isRetryable = err.message && (
+        err.message.includes("Too Many Requests") ||
+        err.message.includes("429") ||
+        err.message.includes("overloaded") ||
+        err.message.includes("503")
+      );
+
+      if (isRetryable) {
         const baseWait = CONFIG.rateLimiting.initialWaitMs;
         const multiplier = CONFIG.rateLimiting.backoffMultiplier;
         const waitMs = baseWait * Math.pow(multiplier, attempt - 1);
-        console.log(`    ⏳ Rate limited (attempt ${attempt}/${CONFIG.rateLimiting.maxRetries}). Waiting ${waitMs / 1000}s before retry...`);
+        console.log(`    ⏳ API temporarily unavailable (attempt ${attempt}/${CONFIG.rateLimiting.maxRetries}). Waiting ${waitMs / 1000}s before retry...`);
         await new Promise((r) => setTimeout(r, waitMs));
       } else if (attempt < maxAttempts) {
         // Other errors: quick retry
+        console.log(`    ⚠️ Error: ${err.message}. Retrying in 2s...`);
         await new Promise((r) => setTimeout(r, 2000));
       }
     }
@@ -192,6 +188,17 @@ Return valid JSON ONLY:
 
   console.error(`Failed to draft replies for ${tweet.id}: ${lastError.message}`);
   return [];
+}
+
+async function appendDraftsToFile(newDrafts) {
+  let existing = [];
+  try {
+    existing = JSON.parse(await readFile(DRAFTS_FILE, "utf-8"));
+  } catch {}
+
+  const all = [...existing, ...newDrafts];
+  await writeFile(DRAFTS_FILE, JSON.stringify(all, null, 2));
+  return all.length;
 }
 
 export async function draftComments() {
@@ -204,7 +211,7 @@ export async function draftComments() {
   const tweetsData = await readFile(TWEETS_FILE, "utf8");
   const tweets = JSON.parse(tweetsData);
 
-  const drafts = [];
+  let totalSaved = 0;
 
   for (let i = 0; i < tweets.length && i < 15; i++) {
     const tweet = tweets[i];
@@ -216,11 +223,12 @@ export async function draftComments() {
 
     const options = await draftReplyOptions(tweet);
 
+    const postDrafts = [];
     for (const option of options) {
       const humanized = humanizeReply(option.text);
       const relevance = scoreMegaLLMRelevance(humanized, tweet);
 
-      drafts.push({
+      postDrafts.push({
         id: `draft-${tweet.id}-${Date.now()}`,
         tweetId: tweet.id,
         tweetText: tweet.text.slice(0, 200),
@@ -235,15 +243,18 @@ export async function draftComments() {
       });
     }
 
+    // Save immediately after drafting this tweet (streaming save)
+    totalSaved = await appendDraftsToFile(postDrafts);
+    console.log(`  ✓ @${tweet.authorUsername}: ${options.length} options saved (total: ${totalSaved})`);
+
     // Rate limit: wait between tweets (configurable)
     if (i < tweets.length - 1) {
       await new Promise((r) => setTimeout(r, CONFIG.rateLimiting.delayBetweenTweetsMs));
     }
   }
 
-  await writeFile(DRAFTS_FILE, JSON.stringify(drafts, null, 2));
-  console.log(`\n✓ Drafted ${drafts.length} reply options to ${DRAFTS_FILE}\n`);
-  return drafts;
+  console.log(`\n✓ Drafted ${totalSaved} reply options to ${DRAFTS_FILE}\n`);
+  return totalSaved;
 }
 
 // Run directly

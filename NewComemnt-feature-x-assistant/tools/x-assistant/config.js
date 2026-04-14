@@ -11,7 +11,14 @@ export const CONFIG = {
   apiKey: process.env.MEGALLM_API_KEY,
   apiBaseUrl: process.env.MEGALLM_BASE_URL,
   model: process.env.MODEL, // Fast, capable model from Chutes
-  
+
+  // Fallback configuration (when primary model is overloaded/unavailable)
+  fallback: {
+    apiKey: process.env.MEGALLM_FALLBACK_KEY || process.env.MEGALLM_API_KEY,
+    baseUrl: process.env.MEGALLM_FALLBACK_BASE_URL || process.env.MEGALLM_BASE_URL,
+    model: process.env.MEGALLM_FALLBACK_MODEL || "meta-llama/Llama-3.1-8B-Instruct",
+  },
+
   // Alternative models available on Chutes:
   // - "deepseek-ai/DeepSeek-R1": Advanced reasoning (for complex analysis)
   // - "unsloth/Llama-3.2-1B-Instruct": Lightweight, fast

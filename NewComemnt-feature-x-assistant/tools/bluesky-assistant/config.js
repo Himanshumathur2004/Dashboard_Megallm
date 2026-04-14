@@ -1,9 +1,16 @@
 // Bluesky assistant — public AppView API (no Bluesky login required for fetch)
 
 export const CONFIG = {
-  apiKey: process.env.MEGALLM_API_KEY || "",
+  apiKey: process.env.MEGALLM_API_KEY ,
   apiBaseUrl: process.env.MEGALLM_BASE_URL,
   model: process.env.MODEL,
+
+  // Fallback configuration (when primary model is overloaded/unavailable)
+  fallback: {
+    apiKey: process.env.MEGALLM_FALLBACK_KEY || process.env.MEGALLM_API_KEY,
+    baseUrl: process.env.MEGALLM_FALLBACK_BASE_URL || process.env.MEGALLM_BASE_URL,
+    model: process.env.MEGALLM_FALLBACK_MODEL,
+  },
 
   product: {
     name: "MegaLLM",
