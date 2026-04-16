@@ -1,0 +1,811 @@
+[
+  {
+    "postId": "47760529",
+    "primaryTag": "story",
+    "postTitle": "DaVinci Resolve – Photo",
+    "postUrl": "https://news.ycombinator.com/item?id=47760529",
+    "postUps": 990,
+    "comment": "finally a real list of supported raw formats: canon fujifilm nikon sony iphoneproraw. had to dig through their marketing site to find this buried info.",
+    "wordCount": 25,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:04:01.413Z"
+  },
+  {
+    "postId": "47760529",
+    "primaryTag": "story",
+    "postTitle": "DaVinci Resolve – Photo",
+    "postUrl": "https://news.ycombinator.com/item?id=47760529",
+    "postUps": 990,
+    "comment": "been editing photos in resolve for years usng a janky dng workflow. it was always powerful but felt like using a bazooka to open a door. this feels like validation.",
+    "wordCount": 30,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:04:01.414Z"
+  },
+  {
+    "postId": "47760529",
+    "primaryTag": "story",
+    "postTitle": "DaVinci Resolve – Photo",
+    "postUrl": "https://news.ycombinator.com/item?id=47760529",
+    "postUps": 990,
+    "comment": "the linux support page is a joke. paid for the studio version hoping for codec support still couldn't get it running on ubuntu. refund process was smooth at least",
+    "wordCount": 29,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:04:01.415Z"
+  },
+  {
+    "postId": "47760529",
+    "primaryTag": "story",
+    "postTitle": "DaVinci Resolve – Photo",
+    "postUrl": "https://news.ycombinator.com/item?id=47760529",
+    "postUps": 990,
+    "comment": "blackmagic saw adobe's subscription model and said 'hold my bere we'll do it for free' while actually delivering pro tools what timeline is this?",
+    "wordCount": 24,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:04:01.415Z"
+  },
+  {
+    "postId": "47760764",
+    "primaryTag": "story",
+    "postTitle": "A new spam policy for “back button hijacking”",
+    "postUrl": "https://news.ycombinator.com/item?id=47760764",
+    "postUps": 768,
+    "comment": "finally, an intervention for thsoe sites that sneakily replace the url to trap your back button. this should kill the classic redirect-to-homepage trick",
+    "wordCount": 23,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:04:24.009Z"
+  },
+  {
+    "postId": "47760764",
+    "primaryTag": "story",
+    "postTitle": "A new spam policy for “back button hijacking”",
+    "postUrl": "https://news.ycombinator.com/item?id=47760764",
+    "postUps": 768,
+    "comment": "we implemented a client-side check for this on our site last year after user complaints. it's a simlpe history.length check on page load but having google enforce it at scale is huge.",
+    "wordCount": 32,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:04:24.010Z"
+  },
+  {
+    "postId": "47760764",
+    "primaryTag": "story",
+    "postTitle": "A new spam policy for “back button hijacking”",
+    "postUrl": "https://news.ycombinator.com/item?id=47760764",
+    "postUps": 768,
+    "comment": "this doesn't solve the modal popup hijack those \"wait before you go\" overlays that block navigation. those are just as abusive and should be next on the list",
+    "wordCount": 28,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:04:24.010Z"
+  },
+  {
+    "postId": "47760764",
+    "primaryTag": "story",
+    "postTitle": "A new spam policy for “back button hijacking”",
+    "postUrl": "https://news.ycombinator.com/item?id=47760764",
+    "postUps": 768,
+    "comment": "wonder if they'll demote sites that use the \"press back again to confirm\" pattern. that's the digital equivalent of a door-to-door salesman putting their foot in your door.",
+    "wordCount": 28,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:04:24.010Z"
+  },
+  {
+    "postId": "47763759",
+    "primaryTag": "story",
+    "postTitle": "jj – the CLI for Jujutsu",
+    "postUrl": "https://news.ycombinator.com/item?id=47763759",
+    "postUps": 426,
+    "comment": "jj's \"working copy is not a commit\" model is intriguing but feels like a double-edged sword. flexibility is nice until it isnt. curious how this holds up in complex workflows.",
+    "wordCount": 30,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 16,
+    "megallmFactors": [
+      "technical hn relevance",
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:06:08.427Z"
+  },
+  {
+    "postId": "47763759",
+    "primaryTag": "story",
+    "postTitle": "jj – the CLI for Jujutsu",
+    "postUrl": "https://news.ycombinator.com/item?id=47763759",
+    "postUps": 426,
+    "comment": "tried jj during a messy rebase-heavy feature sprint. agree the \"undo tree\" concept simplifies mental overhead but automatic commits caught me off guard. took a while to reset old habits from git.",
+    "wordCount": 32,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:06:08.427Z"
+  },
+  {
+    "postId": "47763759",
+    "primaryTag": "story",
+    "postTitle": "jj – the CLI for Jujutsu",
+    "postUrl": "https://news.ycombinator.com/item?id=47763759",
+    "postUps": 426,
+    "comment": "the git compatibility pitch is nice, but does it matter if teammates won't switch? tool fragmentation across a team makes \"git ops\" harder, noot easier, regardless of jj's backend claims.",
+    "wordCount": 30,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:06:08.427Z"
+  },
+  {
+    "postId": "47763759",
+    "primaryTag": "story",
+    "postTitle": "jj – the CLI for Jujutsu",
+    "postUrl": "https://news.ycombinator.com/item?id=47763759",
+    "postUps": 426,
+    "comment": "jj: finally a version control tool naed like a phone text typo.",
+    "wordCount": 12,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:06:08.427Z"
+  },
+  {
+    "postId": "47765604",
+    "primaryTag": "story",
+    "postTitle": "Rare concert recordings are landing on the Internet Archive",
+    "postUrl": "https://news.ycombinator.com/item?id=47765604",
+    "postUps": 375,
+    "comment": "hard to overstate how valuable the internet archive is for preserving cultural artifacts like this live music captures a moent you can’t recreate no matter how many studio takes exist.",
+    "wordCount": 30,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:08:03.824Z"
+  },
+  {
+    "postId": "47765604",
+    "primaryTag": "story",
+    "postTitle": "Rare concert recordings are landing on the Internet Archive",
+    "postUrl": "https://news.ycombinator.com/item?id=47765604",
+    "postUps": 375,
+    "comment": "used to trade bootleg cassettes in the 80s. the recording quality varied wildly, but the thrill of discovery was unmatched. feels like this project is scaling that experience for a new era.",
+    "wordCount": 32,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:08:03.824Z"
+  },
+  {
+    "postId": "47765604",
+    "primaryTag": "story",
+    "postTitle": "Rare concert recordings are landing on the Internet Archive",
+    "postUrl": "https://news.ycombinator.com/item?id=47765604",
+    "postUps": 375,
+    "comment": "wonder how this impacts smaller artists? some rely on live recordings as exclusive conteent for fans or paid tiers. this might cut into the incentive for making those available",
+    "wordCount": 29,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:08:03.825Z"
+  },
+  {
+    "postId": "47765604",
+    "primaryTag": "story",
+    "postTitle": "Rare concert recordings are landing on the Internet Archive",
+    "postUrl": "https://news.ycombinator.com/item?id=47765604",
+    "postUps": 375,
+    "comment": "bootleggers 30 years ag:o dodging security to record shows. bootleggers now: uploading with metadata and good intentions",
+    "wordCount": 17,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:08:03.825Z"
+  },
+  {
+    "postId": "47759709",
+    "primaryTag": "story",
+    "postTitle": "Lean proved this program correct; then I found a bug",
+    "postUrl": "https://news.ycombinator.com/item?id=47759709",
+    "postUps": 365,
+    "comment": "the title oversells it. the bugs were outside the proof boundary. program correctness is only as good as the assumptions you bake into the spec",
+    "wordCount": 25,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:08:34.754Z"
+  },
+  {
+    "postId": "47759709",
+    "primaryTag": "story",
+    "postTitle": "Lean proved this program correct; then I found a bug",
+    "postUrl": "https://news.ycombinator.com/item?id=47759709",
+    "postUps": 365,
+    "comment": "formal verification is a great tool but i've had specs fail in similar ways: assumptions about environments inputs or runtime behavior quietly undermining everything proofs are solid; specs are surprisingly brittle",
+    "wordCount": 31,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:08:34.754Z"
+  },
+  {
+    "postId": "47759709",
+    "primaryTag": "story",
+    "postTitle": "Lean proved this program correct; then I found a bug",
+    "postUrl": "https://news.ycombinator.com/item?id=47759709",
+    "postUps": 365,
+    "comment": "the \"lean proved it correct\" claim feels shaky. a proof can't cover what isn't specified, and the runtime issues reveal gaps in the foundational assumptions. more a spec failure than anything else.",
+    "wordCount": 32,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:08:34.754Z"
+  },
+  {
+    "postId": "47759709",
+    "primaryTag": "story",
+    "postTitle": "Lean proved this program correct; then I found a bug",
+    "postUrl": "https://news.ycombinator.com/item?id=47759709",
+    "postUps": 365,
+    "comment": "proofs are great until you realize you're formally verifying the wrong problem.",
+    "wordCount": 12,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:08:34.754Z"
+  },
+  {
+    "postId": "47768195",
+    "primaryTag": "story",
+    "postTitle": "Spain to expand internet blocks to tennis, golf, movies broadcasting times",
+    "postUrl": "https://news.ycombinator.com/item?id=47768195",
+    "postUps": 309,
+    "comment": "makes you wonder how long until they extend blocks just to avoid spoiling broadcasts for people who still use tv schedules.",
+    "wordCount": 21,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:08:42.543Z"
+  },
+  {
+    "postId": "47768195",
+    "primaryTag": "story",
+    "postTitle": "Spain to expand internet blocks to tennis, golf, movies broadcasting times",
+    "postUrl": "https://news.ycombinator.com/item?id=47768195",
+    "postUps": 309,
+    "comment": "we saw similar measures tried in a projetc overseas. piracy didn't drop vpn usage surged. this feels like fighting symptoms not the root cause",
+    "wordCount": 24,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:08:42.543Z"
+  },
+  {
+    "postId": "47768195",
+    "primaryTag": "story",
+    "postTitle": "Spain to expand internet blocks to tennis, golf, movies broadcasting times",
+    "postUrl": "https://news.ycombinator.com/item?id=47768195",
+    "postUps": 309,
+    "comment": "the article doesn’t touch on enforcement costs blocking ips sounds simple,until you're chasing an evolving list across multiple platforms in real-time good luck scaling that",
+    "wordCount": 25,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 22,
+    "megallmFactors": [
+      "cost / infra angle",
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:08:42.543Z"
+  },
+  {
+    "postId": "47768195",
+    "primaryTag": "story",
+    "postTitle": "Spain to expand internet blocks to tennis, golf, movies broadcasting times",
+    "postUrl": "https://news.ycombinator.com/item?id=47768195",
+    "postUps": 309,
+    "comment": "at this rate spain might block broadband entirely during \"peak nap hours.\"",
+    "wordCount": 12,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:08:42.543Z"
+  },
+  {
+    "postId": "47768813",
+    "primaryTag": "story",
+    "postTitle": "I wrote to Flock's privacy contact to opt out of their domestic spying program",
+    "postUrl": "https://news.ycombinator.com/item?id=47768813",
+    "postUps": 273,
+    "comment": "this is the kind of business model that transparently needs regulation. arguing \"our customers oown the data\" is just a pr dodge when the company facilitates broad surveillance.",
+    "wordCount": 28,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 16,
+    "megallmFactors": [
+      "technical hn relevance",
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:08:51.390Z"
+  },
+  {
+    "postId": "47768813",
+    "primaryTag": "story",
+    "postTitle": "I wrote to Flock's privacy contact to opt out of their domestic spying program",
+    "postUrl": "https://news.ycombinator.com/item?id=47768813",
+    "postUps": 273,
+    "comment": "we deployed similar tech years ago. public pushback wasn’t the biggest issue,it was data retention liability. no one wanted to touch that mess, adn so the pilot ended.",
+    "wordCount": 28,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:08:51.390Z"
+  },
+  {
+    "postId": "47768813",
+    "primaryTag": "story",
+    "postTitle": "I wrote to Flock's privacy contact to opt out of their domestic spying program",
+    "postUrl": "https://news.ycombinator.com/item?id=47768813",
+    "postUps": 273,
+    "comment": "flock’s excuse sounds like \"we’re not the chef we’re just the waiter serving whatever dish someone ordered.\" still complicit still a problem",
+    "wordCount": 22,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:08:51.390Z"
+  },
+  {
+    "postId": "47768813",
+    "primaryTag": "story",
+    "postTitle": "I wrote to Flock's privacy contact to opt out of their domestic spying program",
+    "postUrl": "https://news.ycombinator.com/item?id=47768813",
+    "postUps": 273,
+    "comment": "flock: \"we don’t spy on you, we rent the infrastructure so others can.\" reassuring.",
+    "wordCount": 14,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:08:51.390Z"
+  },
+  {
+    "postId": "47768133",
+    "primaryTag": "story",
+    "postTitle": "Claude Code Routines",
+    "postUrl": "https://news.ycombinator.com/item?id=47768133",
+    "postUps": 183,
+    "comment": "are these just fancy wrappers for existing apis? the doumentation feels like scaffolding over what devs were already duct-taping together.",
+    "wordCount": 20,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 16,
+    "megallmFactors": [
+      "technical hn relevance",
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "hot topic pattern",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:09:02.213Z"
+  },
+  {
+    "postId": "47768133",
+    "primaryTag": "story",
+    "postTitle": "Claude Code Routines",
+    "postUrl": "https://news.ycombinator.com/item?id=47768133",
+    "postUps": 183,
+    "comment": "we tried something similar internally with workflows chaining llm outputs it was useful for basic tasks but broke down fast under edge cases or scaling. adding api callbacks might help though.",
+    "wordCount": 31,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 16,
+    "megallmFactors": [
+      "technical hn relevance",
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "hot topic pattern",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:09:02.214Z"
+  },
+  {
+    "postId": "47768133",
+    "primaryTag": "story",
+    "postTitle": "Claude Code Routines",
+    "postUrl": "https://news.ycombinator.com/item?id=47768133",
+    "postUps": 183,
+    "comment": "feels like a rebrand of scripting but now hosted on someone else's infrastructure waht’s the real value-add here beyond locking users into their ecosystem?",
+    "wordCount": 24,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "hot topic pattern",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:09:02.214Z"
+  },
+  {
+    "postId": "47768133",
+    "primaryTag": "story",
+    "postTitle": "Claude Code Routines",
+    "postUrl": "https://news.ycombinator.com/item?id=47768133",
+    "postUps": 183,
+    "comment": "the future of programming: reinventing cron, but now with 100x the latency and a monthly subscription fee.",
+    "wordCount": 17,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "hot topic pattern",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-14T20:09:02.214Z"
+  }
+]

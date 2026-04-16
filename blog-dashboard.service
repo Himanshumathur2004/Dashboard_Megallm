@@ -1,0 +1,20 @@
+[Unit]
+Description=Blog Dashboard Flask App
+After=network.target mongodb.service
+
+[Service]
+Type=simple
+User=www-data
+WorkingDirectory=/opt/blog-dashboard
+Environment="PATH=/opt/blog-dashboard/venv/bin"
+Environment="FLASK_APP=blog_platform.app:app"
+Environment="FLASK_ENV=production"
+Environment="PYTHONUNBUFFERED=1"
+ExecStart=/opt/blog-dashboard/venv/bin/gunicorn --bind 0.0.0.0:5000 --workers 4 --timeout 120 blog_platform.app:app
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

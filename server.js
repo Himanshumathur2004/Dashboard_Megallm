@@ -31,6 +31,22 @@ const blogProxy = createProxyMiddleware({
   ws: true,
   pathRewrite: { '^/blogs?': '' }
 });
+
+// Direct proxy for Blog Dashboard APIs (no path rewrite)
+const blogDirectProxy = createProxyMiddleware({
+  target: BLOG_DASHBOARD_URL,
+  changeOrigin: true,
+  ws: true,
+  on: {
+    proxyReq: (proxyReq, req, res) => {
+      console.log(`[BLOG DIRECT PROXY] ${req.method} ${req.originalUrl} -> ${BLOG_DASHBOARD_URL}${proxyReq.path}`);
+    },
+    proxyRes: (proxyRes, req, res) => {
+      console.log(`[BLOG DIRECT PROXY] <- ${proxyRes.statusCode} ${req.url}`);
+    }
+  }
+});
+
 app.use(['/blog', '/blogs'], blogProxy);
 
 // ─────────────────────────────────────────────────────────────
@@ -87,9 +103,34 @@ app.use('/comments/', commentProxy);
 // The comment dashboard's frontend uses absolute paths for API calls (/api/*),
 // analytics (/analytics), login, logout. Proxy these directly so the
 // JavaScript in the dashboard pages works without modification.
+//
+// IMPORTANT: Comment Dashboard uses /api/{platform}/* pattern (e.g., /api/reddit/drafts)
+// Blog Dashboard uses /api/accounts, /api/blogs, etc.
+// We route platform-specific APIs to Comments, others to Blog.
+const COMMENT_API_PLATFORMS = ['reddit', 'devto', 'hn', 'bluesky', 'x'];
+
 app.use('/api', (req, res, next) => {
-  req.url = '/api' + req.url;
-  commentDirectProxy(req, res, next);
+  // Check if this is a Comment Dashboard API (has platform prefix)
+  // req.url has '/api' stripped by app.use, so we check the originalUrl
+  const originalPath = req.originalUrl; // e.g., /api/accounts or /api/reddit/drafts
+  const pathParts = originalPath.split('/').filter(Boolean);
+  const apiPrefix = pathParts[0]; // 'api'
+  const resource = pathParts[1]; // 'accounts', 'reddit', 'blogs', analytics, etc.
+
+  // Restore the full /api prefix for all routes
+  const fullPath = '/api' + req.url;
+  req.url = fullPath;
+
+  if (COMMENT_API_PLATFORMS.includes(resource)) {
+    // Route to Comments Dashboard
+    commentDirectProxy(req, res, next);
+  } else if (resource === 'analytics') {
+    // Blog analytics APIs go to Blog Dashboard (/api/analytics/global, /api/analytics/trends, etc.)
+    blogDirectProxy(req, res, next);
+  } else {
+    // Everything else (/api/accounts, /api/blogs, etc.) goes to Blog Dashboard
+    blogDirectProxy(req, res, next);
+  }
 });
 app.use('/analytics', (req, res, next) => {
   req.url = '/analytics' + req.url;

@@ -1,0 +1,20 @@
+[Unit]
+Description=Unified Dashboard Gateway
+After=blog-dashboard.service comment-dashboard.service
+Requires=blog-dashboard.service comment-dashboard.service
+
+[Service]
+Type=simple
+User=www-data
+WorkingDirectory=/opt/unified-dashboard
+Environment="PORT=8080"
+Environment="BLOG_DASHBOARD_URL=http://localhost:5000"
+Environment="COMMENT_DASHBOARD_URL=http://localhost:3500"
+ExecStart=/usr/bin/node /opt/unified-dashboard/server.js
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

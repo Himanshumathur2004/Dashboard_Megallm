@@ -1,0 +1,1257 @@
+[
+  {
+    "id": "47768813",
+    "primaryTag": "story",
+    "title": "I wrote to Flock's privacy contact to opt out of their domestic spying program",
+    "description": "",
+    "url": "https://honeypot.net/2026/04/14/i-wrote-to-flocks-privacy.html",
+    "ups": 273,
+    "numComments": 116,
+    "createdUtc": 1776188820,
+    "isQuestion": false,
+    "by": "speckx",
+    "topComments": [
+      {
+        "body": "I wrote this. I had have absolutely no expectation that Flock would comply with my request, but figured I should try anyway For Science. Their reply rubbed me wrong, though. They seem to claim that there are no restrictions on their collection and processing of PII because other people pay them for it. They say: &gt; Flock Safety’s customers own the data and make all decisions around how such data is used and shared. which seems to directly oppos",
+        "ups": 0,
+        "author": "kstrauser"
+      },
+      {
+        "body": "Remember that the difference between &quot;Flock can do whatever the hell it wants&quot; and &quot;Flock is required to delete your data at your request&quot; is a law. Citizens vote for legislators. If you want this to be a higher priority for your legislators, buy them off. Or vote for against them, that might work too.",
+        "ups": 0,
+        "author": "dsr_"
+      },
+      {
+        "body": "I noticed that the company is glossed as &quot;Flock&quot; and not &quot;Flock Safety (YC S17)&quot; in posts like this and last week s &quot;US cities are axing Flock Safety surveillance technology&quot;, https: news.ycombinator.com item?id=47689237 . Did YC house style change a while back to drop the &quot;(YC xxx)&quot; annotation since so many popular firms particpate or because it s well known?",
+        "ups": 0,
+        "author": "empathy_m"
+      },
+      {
+        "body": "Flock has stonewalled with the &quot;we are not the controllers&quot; excuse here in MN too. We have similar rights to opt-out and delete under the MCDPA [0]. [0] https: ag.state.mn.us Data-Privacy Consumer",
+        "ups": 0,
+        "author": "wcv"
+      },
+      {
+        "body": "https: www.flocksafety.com legal lpr-policy &gt; In accordance with its Terms and Conditions, Flock Safety may access, use, preserve and or disclose the LPR data to law enforcement authorities, government officials, and or third parties, if legally required to do so or if Flock has a good faith belief that such access, use, preservation or disclosure is reasonably necessary to comply with a legal process, enforce the agreement between Flock and t",
+        "ups": 0,
+        "author": "hmokiguess"
+      },
+      {
+        "body": "I think you re going to have a hard time with this... Flock seems to leave the data in ownership of the government. They are just providing the service of being custodians for storing and accessing that data. You probably would get a similar response by submitting your request to Amazon web services or Google cloud or whoever has Flocks data: &quot;sorry, we re just holding the data on behalf of Flock&quot; In either my example case or your state",
+        "ups": 0,
+        "author": "ldoughty"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47705278",
+    "primaryTag": "story",
+    "title": "YouTube now world's largest media company, topping Disney",
+    "description": "",
+    "url": "https://www.hollywoodreporter.com/business/digital/youtube-worlds-largest-media-company-2025-tops-disney-1236525130/",
+    "ups": 73,
+    "numComments": 47,
+    "createdUtc": 1775749854,
+    "isQuestion": false,
+    "by": "bookofjoe",
+    "topComments": [
+      {
+        "body": "Youtube must know better than me what to recommend me out of all the videos... still, I get presented the same shite again and again. To be fair: not everything is shite and Youtube is my favorite social media (especially for discovering new music), but I noticed a big drop in quality videos from one day to the other a couple of years ago. Just opening up Youtube one day and seeing all kinds of thumbnails with people with their mouth open, very c",
+        "ups": 0,
+        "author": "rambambram"
+      },
+      {
+        "body": "Mandatory shoutout to Invidious: https: invidious.io https: github.com iv-org invidious An accessible interface to YouTube content without tracking, using a decentralized network of community-run instances that scrape, rather than API-call, site data. [EDIT] Also Yattee doing the Lord s work: https: github.com yattee yattee Privacy oriented video player for iOS, tvOS and macOS with Invidious support.",
+        "ups": 0,
+        "author": "nntwozz"
+      },
+      {
+        "body": "My biggest concern about Youtube is that they do not truly have a competitor. They just raised premium prices again making it one of my most expensive entertainment subscriptions.",
+        "ups": 0,
+        "author": "rickcarlino"
+      },
+      {
+        "body": "I pay for YouTube Premium. No ads; I feel like it respects my time. Algorithm is well tailored too. The “remove video thumbnail” and “remove YouTube shorts” chrome extension is a must install though.",
+        "ups": 0,
+        "author": "hitekker"
+      },
+      {
+        "body": "Honestly, I m not at all surprised. In many ways, YouTube (and other content creation platforms in general) are just a better deal for many people than traditional forms of entertainment. The thing with traditional media is that it s all about limits and compromise and trying to appeal to the lowest common denominator. The TV and radio airwaves are limited, as is the schedule. Cinemas and screening times are limited. Shops selling books are limit",
+        "ups": 0,
+        "author": "CM30"
+      },
+      {
+        "body": "I always see it as more of a social media company rather than a media co.",
+        "ups": 0,
+        "author": "lemonish97"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47765604",
+    "primaryTag": "story",
+    "title": "Rare concert recordings are landing on the Internet Archive",
+    "description": "",
+    "url": "https://techcrunch.com/2026/04/13/thousands-of-rare-concert-recordings-are-landing-on-the-internet-archive-listen-now/",
+    "ups": 375,
+    "numComments": 106,
+    "createdUtc": 1776174391,
+    "isQuestion": false,
+    "by": "jrm-veris",
+    "topComments": [
+      {
+        "body": "I am an active and enthusiastic recordist and have decades of stuff I ve accumulated over the years. One of the concerts I captured in the 90 s, lives on as a bootleg which I often see around the scene of this one particularly great live electronic dance band, whose punters have created true value out of the hour and a half of live concert input I managed to record, standing right there front stage and center, with the band looking right at me. I",
+        "ups": 0,
+        "author": "rigonkulous"
+      },
+      {
+        "body": "Some great commentary in here. I agree all games have loops, so the authors stance against them comes off as a bit confusing. I think what the author is getting at is when loops are obviosuly &quot;felt&quot; and feel canned. Strategy games typically have obvious, tight loops. Turn-based games are loop-driven by definition. And so on. This is fine. But single player games, single player RPGs, etc, can suffer if the loop is really tight and obviou",
+        "ups": 0,
+        "author": "standardly"
+      },
+      {
+        "body": "Source article is more enjoyable http: blockclubchicago.org 2026 04 10 from-early-nirvana-to...",
+        "ups": 0,
+        "author": "tclancy"
+      },
+      {
+        "body": "Previous discussion: &quot;Volunteers turn a fan s recordings of 10K concerts into an online treasure trove&quot; https: news.ycombinator.com item?id=47687443 8-apr-2026 76 comments",
+        "ups": 0,
+        "author": "HelloUsername"
+      },
+      {
+        "body": "This is one of the best things I ve read about in a bit. It wasn t uncommon to buy marked-up (overpriced) bootlegs of live performances on CDs in the 90s. You never knew in advance if it d be a quality recording or total garbage. We ve lost that. I still love when one of my live bootlegs of Faith No More comes on with them doing (sometimes mocking) parodies of popular music (their rendition of Nothing Compares to You by Sinead OConnor has been in",
+        "ups": 0,
+        "author": "alsetmusic"
+      },
+      {
+        "body": "It s funny to think how much effort was put into preventing bootlegging, when now everything is being recorded all the time. The few bands that didn t care or even encouraged it reaped the benefits. I was a huge Ween fan in the 90s and bootlegged a show of theirs myself. Camera and recording devices were allowed and the result was a tremendous amount of live content available online. For some bands this might not matter, but they rarely played th",
+        "ups": 0,
+        "author": "schwartzworld"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47768133",
+    "primaryTag": "story",
+    "title": "Claude Code Routines",
+    "description": "",
+    "url": "https://code.claude.com/docs/en/routines",
+    "ups": 183,
+    "numComments": 112,
+    "createdUtc": 1776185673,
+    "isQuestion": false,
+    "by": "matthieu_bl",
+    "topComments": [
+      {
+        "body": "LLMs and LLM providers are massive black boxes. I get a lot of value from them and so I can put up with that to a certain extent, but these new &quot;products&quot; features that Anthropic are shipping are very unappealing to me. Not because I can t see a use-case for them, but because I have 0 trust in them: - No trust that they won t nerf the tool model behind the feature - No trust they won t sunset the feature (the graveyard of LLM-features i",
+        "ups": 0,
+        "author": "joshstrange"
+      },
+      {
+        "body": "I m a little confused on the ToS here. From what I gathered, running `claude -p &lt;prompt&gt;` on cron is fine, but putting it in my Telegram bot is a ToS violation (unless I use per-token billing) because it s a 3rd party harness, right? (`claude -p` being a trivial workaround for the &quot;no 3rd party stuff on the subscription&quot; rule) This Routines feature notably works with the subscription, and it also has API callbacks. So if my Telegr",
+        "ups": 0,
+        "author": "andai"
+      },
+      {
+        "body": "Unrelated, but Claude was performing so tragically last few days, maybe week(s), but days mostly, that I had to reluctantly switch. Reluctantly because I enjoy it. Even the most basic stuff, like most python scripts it has to rerun because of some syntax error. The new reality of coding took away one of the best things for me - that the computer always just does what it is told to do. If the results are wrong it means I m wrong, I made a bug and ",
+        "ups": 0,
+        "author": "comboy"
+      },
+      {
+        "body": "Are they going to mirror every tool software engineers were used to for decades, but in a mangled proprietary form? I think to become really efficient they ll have to invent new programming language to eliminate all the ambiguity and non-determinism. Call it &quot;prompt language&quot;, with ai-subroutines, ai-labels and ai-goto.",
+        "ups": 0,
+        "author": "oxag3n"
+      },
+      {
+        "body": "Anthropic is really good at releasing features that are almost the same but not exactly the same as other features they released the week before",
+        "ups": 0,
+        "author": "Eldodi"
+      },
+      {
+        "body": "Given the alleged recent extreme reduction in Claude Code usage limits ( https: news.ycombinator.com item?id=47739260 ), how do these more autonomous tools work within that constraint? Are they effectively only usable with a 20x Max plan? EDIT: This comment is apparently [dead] and idk why.",
+        "ups": 0,
+        "author": "minimaxir"
+      }
+    ],
+    "isTopicRelevant": true
+  },
+  {
+    "id": "47768195",
+    "primaryTag": "story",
+    "title": "Spain to expand internet blocks to tennis, golf, movies broadcasting times",
+    "description": "",
+    "url": "https://bandaancha.eu/articulos/telefonica-consigue-bloqueos-ips-11731",
+    "ups": 309,
+    "numComments": 270,
+    "createdUtc": 1776185949,
+    "isQuestion": false,
+    "by": "akyuu",
+    "topComments": [
+      {
+        "body": "This is incredibly stupid, but don t laugh at Spaniards: your (and my) lawmakers are equally likely to enact similarly stupid laws. It s mind-boggling how stupid the world can be sometimes.",
+        "ups": 0,
+        "author": "jwr"
+      },
+      {
+        "body": "If you know Spain, you know this makes total sense: - Half the country or more just doesn t work or do anything else when there s an important match anyway. - There s a big intersection between &quot;people that doesn t care about soccer&quot; and &quot;people that knows how to use a VPN&quot; - Matches are usually at night, past 7pm. It s well after the average citizen work hours. - There s not really huge internet companies there that can lobby",
+        "ups": 0,
+        "author": "artyom"
+      },
+      {
+        "body": "Assuming that &quot;piracy is a service problem, not a pricing problem&quot; is still the prevailing wisdom, what is Spain La Liga doing wrong that sports piracy is so prevalent as to warrant this? It seems like a no-brainer to expand stream availability and charge appropriately for it vs. scheduling daily kneecaps of other economic activity.",
+        "ups": 0,
+        "author": "llbbdd"
+      },
+      {
+        "body": "Seems obvious at this point there needs to be EU-level regulations against individual countries, such as Spain and Italy, implementing these absurd restrictions. It would at least make lobbying from those sports companies more difficult. These same companies have been pushing for banning VPNs -- consumer VPNs -- as they easily circumvent half the internet going dark because of some dumb sports event, and they re going to be targeted next when eve",
+        "ups": 0,
+        "author": "0x_rs"
+      },
+      {
+        "body": "This is how greed works. The players want as much money as they can get. The owners want to charge as much as they can for everything while paying the least possible amount. The networks that buy the broadcasting and other rights want to most they can charge for them. Sports have gotten way out of hand, even without the betting aspect. People criticize gambling, porn, and other less desirable forms of entertainment while giving (commercialized) s",
+        "ups": 0,
+        "author": "giantg2"
+      },
+      {
+        "body": "At what point does spanish internet become too unreliable? There was a thread the other day about someone s CI jobs failing due too this.",
+        "ups": 0,
+        "author": "electronsoup"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47767676",
+    "primaryTag": "story",
+    "title": "5NF and Database Design",
+    "description": "",
+    "url": "https://kb.databasedesignbook.com/posts/5nf/",
+    "ups": 81,
+    "numComments": 33,
+    "createdUtc": 1776183769,
+    "isQuestion": false,
+    "by": "petalmind",
+    "topComments": [
+      {
+        "body": "Especially loved the article linked that was dissing down formal definitions of 4NF.",
+        "ups": 0,
+        "author": "Quarrelsome"
+      },
+      {
+        "body": "I love reading about the normal forms, because it makes me sound like I know what I m talking about in the conversation where the backend folks tell me, &quot;if we normalized that data then the database would go down&quot;. This is usually followed by arguments over UUID versions for some reason.",
+        "ups": 0,
+        "author": "tadfisher"
+      },
+      {
+        "body": "In a roundabout way this article captures well why I don t really like thinking in terms of &quot;normal forms&quot;, especially as a numbered list like that. The key insights are really 1. Avoid redundancy and 2. This may involve synthesizing relationships that don t immediately obviously exist from a human perspective. Both of those can be expanded on at quite some length, but I never found much value in the supposedly-blessed intermediate poin",
+        "ups": 0,
+        "author": "jerf"
+      },
+      {
+        "body": "Normalize till it hurts, then denormalize till it works!",
+        "ups": 0,
+        "author": "minkeymaniac"
+      },
+      {
+        "body": "The lost art of normalizing databases. ”Why is the ARR so high on client X? Oh, we’re counting it 11 times lol”. I would maybe throw in date as an key too. Bad idea?",
+        "ups": 0,
+        "author": "estetlinus"
+      },
+      {
+        "body": "https: en.wikipedia.org wiki Essential_tuple_normal_form is cool! Since I had bad memory, I asked the ai to make me a mnemonic: * Every * Table * Needs * Full-keys (in its joins)",
+        "ups": 0,
+        "author": "iFire"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47769967",
+    "primaryTag": "story",
+    "title": "California ghost-gun bill wants 3D printers to play cop, EFF says",
+    "description": "",
+    "url": "https://www.theregister.com/2026/04/14/eff_california_3dprinted_firearms/",
+    "ups": 46,
+    "numComments": 8,
+    "createdUtc": 1776193712,
+    "isQuestion": false,
+    "by": "Bender",
+    "topComments": [
+      {
+        "body": "I m so glad I left California 6 years ago. They are going to regulate and tax their startups and innovators away to other states. This is supremely stupid.",
+        "ups": 0,
+        "author": "ginkgotree"
+      },
+      {
+        "body": "&gt; The primary goal is clear and simple: to require 3D printer manufacturers to use a state-certified algorithm that checks digital design files for firearm components and blocks print jobs that would produce prohibited parts. &quot;state-certified algorithm&quot; has a really nice tyrannic ring to it. I am sure once this has passed the rich people can finally sleep at night knowing they are safe from roving gangs of armed Mangiones.",
+        "ups": 0,
+        "author": "MisterTea"
+      },
+      {
+        "body": "Why don t these bills go after ammo or gunpowder access? Seems as long as you have access to a cylinder, and ammunition, you can make a gun.",
+        "ups": 0,
+        "author": "asdff"
+      },
+      {
+        "body": "I don t understand the problem solving mindset that thinks banning guns would solve the problem of a person intent on causing harm. In the U.K., where I feel guns are only showpieces (do even cops have them?), stabbing is a known problem. In India, where ammo is way more expensive than machetes and knives, people are literally murdered with them. The only argument I can understand, when it comes to banning guns, is that it reduces the blast radiu",
+        "ups": 0,
+        "author": "subhobroto"
+      },
+      {
+        "body": "Source: https: www.eff.org deeplinks 2026 04 dangers-californias-le... ( https: news.ycombinator.com item?id=47759420 )",
+        "ups": 0,
+        "author": "ChrisArchitect"
+      },
+      {
+        "body": "It s ridiculous that this is even being discussed. The people proposing the bill must have zero understanding of how a 3D printer works. It makes as much sense as requiring saw manufacturers to implement protections that restrict what can be cut out with a saw. Or pen manufacturers being required to enforce copyright. Any form of this bill will 100% fail to attain its stated objective, while having horrendous not-quite-unintended consequences. An",
+        "ups": 0,
+        "author": "alterom"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47768339",
+    "primaryTag": "story",
+    "title": "Turn your best AI prompts into one-click tools in Chrome",
+    "description": "",
+    "url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
+    "ups": 35,
+    "numComments": 16,
+    "createdUtc": 1776186583,
+    "isQuestion": false,
+    "by": "xnx",
+    "topComments": [
+      {
+        "body": "So much of the web has no API anymore and is hostile to robots. The script to turn the coffee maker on when dad posts on Facebook for the first time each morning that worked in 2014 won t work anymore in 2026. Having this sort of thing built into a mainstream browser will open up a new avenue for automation, which I think will be a good thing for breaking down data silos and being good for the world overall.",
+        "ups": 0,
+        "author": "londons_explore"
+      },
+      {
+        "body": "These days announcements like this just make me want to put on my tinfoil hat - what s in it for Google, though? Why make it more convenient for people to submit webpages to you?",
+        "ups": 0,
+        "author": "parasti"
+      },
+      {
+        "body": "I really hope this doesn t have the same security model as Chrome Extensions! I can see the appeal of this feature and I am generally speaking an AI booster. On the other hand...like...wat? This feature feels way too premature and risky to let loose on the public.",
+        "ups": 0,
+        "author": "_doctor_love"
+      },
+      {
+        "body": "my most commonly repeated prompt; would be nice if the baked it into the tool itself: &quot;No emojis. be concise. no suggestions unless I explicitly ask for them. answer questions like the machine you are. Don t try and add personality or humour; remember you re a robot.&quot;",
+        "ups": 0,
+        "author": "skeeter2020"
+      },
+      {
+        "body": "Ah yes. Ticks all the boxes - Becoming a Platform - AI - User-generated content [list continues] There is something comforting about seeing that the SV stopped having ideas and now just recycles and recombines the same tropes over and over again. It s still all terrible, but it s a devil you know. You can live with that. You can skip the broken stair and duck, knowing exactly when they re trying to punch you in the face again. Now here s hoping t",
+        "ups": 0,
+        "author": "hypfer"
+      },
+      {
+        "body": "This sounds to me like yet another way to automate filling out forms. I had been thinking about vibe-coding a Chrome extension for one form I fill in regularly, but perhaps this is easier.",
+        "ups": 0,
+        "author": "skybrian"
+      }
+    ],
+    "isTopicRelevant": true
+  },
+  {
+    "id": "47760764",
+    "primaryTag": "story",
+    "title": "A new spam policy for “back button hijacking”",
+    "description": "",
+    "url": "https://developers.google.com/search/blog/2026/04/back-button-hijacking",
+    "ups": 768,
+    "numComments": 447,
+    "createdUtc": 1776135987,
+    "isQuestion": false,
+    "by": "zdw",
+    "topComments": [
+      {
+        "body": "I wish the browsers had a function of disabling all keyboard shortcuts of a website. I binded Ctrl+E to opening a new tab just beside the current tab (built-in hotkey in Brave). It s frustrating to see it changed to something like opening the emoji menu on Discord.",
+        "ups": 0,
+        "author": "rat_on_the_run"
+      },
+      {
+        "body": "Looks like there is also a client side solution for that, at least in Firefox; it s possible to prevent a page from modifying browser history: &gt; Open the about:config page in Firefox &gt; Search for &quot;pushstate&quot; &gt; Double-click &quot;browser.history.allowPushState&quot; source: https: superuser.com a 1688290",
+        "ups": 0,
+        "author": "merelysounds"
+      },
+      {
+        "body": "I initially thought this is for Android. Which has a long overdue problem of &quot;Tap Back again to exit&quot; type hijacks. Or feed-based apps (hi Reddit, TikTok, Instagram) refreshing your timeline in hopes you reconsider exiting and keep doomscrolling. One can only hope…",
+        "ups": 0,
+        "author": "vashchylau"
+      },
+      {
+        "body": "That s cool if they can make it work. I don t understand how Google s indexing work anymore. I ve had some website very well indexed for years and years which suddenly disappeared from the index with no explanation, even on the Search Console (&quot;visited, not indexed&quot;). Simple blog entries, lightweight pages, no JavaScript, no ads, no bad practices, https enabled, informative content that is linked from elsewhere including well indexed we",
+        "ups": 0,
+        "author": "p4bl0"
+      },
+      {
+        "body": "Ok, you can start with LinkedIn, I ll wait... If you are wondering how it works. You get a link from LinkedIn, it s from an email or just a post someone shared. You click on it, the URL loads, and you read the post. When you click the back button, you aren t taken back to wherever you came from. Instead, your LinkedIn feed loads. How did it happen? When you landed on the first link, the URL is replaced with the homepage first (location.replace(..",
+        "ups": 0,
+        "author": "firefoxd"
+      },
+      {
+        "body": "As usual, it s a good first step but doesn t go far enough. I don t want my back-button hijacked by _anything_. My issue with back-button hijacking isn t even spam ads (I use an ad-blocker so I don t see those), but sites that do a &quot;are you sure you want to leave? You haven t even subscribed to our newsletter yet?!&quot;",
+        "ups": 0,
+        "author": "bityard"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47768306",
+    "primaryTag": "story",
+    "title": "Modifying FileZilla to Workaround Bambu 3D Printer's FTP Issue",
+    "description": "",
+    "url": "https://lantian.pub/en/article/modify-computer/modify-filezilla-workaround-bambu-3d-printer-ftp-issue.lantian/",
+    "ups": 34,
+    "numComments": 33,
+    "createdUtc": 1776186409,
+    "isQuestion": false,
+    "by": "speckx",
+    "topComments": [
+      {
+        "body": "I m guessing bambu implementation returns the server socket s listen address, and they bind to 0.0.0.0. (Typography pet peeve, how do I disambiguate that dot?) What s surprising is how this got shipped. Do the devs use some other client that has the WinSCP setting on by default, or is that feature only used by their slicer and their SDK does it by default? One theory I have is they bound the server to the printer s address originally and it behav",
+        "ups": 0,
+        "author": "progbits"
+      },
+      {
+        "body": "&gt; I use Linux daily and don t want to switch to Windows just to connect to the printer s FTP service I wonder if the author tried using their file manager to connect? I haven t needed any kind of external file management system since switching to Linux, Dolphin just handles everything (sftp, ftp, samba, etc) for me natively in the same window.",
+        "ups": 0,
+        "author": "lexicality"
+      },
+      {
+        "body": "Too bad FileZilla can’t be forced to use EPSV which might just work with this buggy server.",
+        "ups": 0,
+        "author": "wqweto"
+      },
+      {
+        "body": "Instead of recompiling the source and installing it again, is there a way to monkey patch the already existing package? It seems like a few lines of code.",
+        "ups": 0,
+        "author": "kiproping"
+      },
+      {
+        "body": "The A1 mini has FTP O_o that s actually great to hear",
+        "ups": 0,
+        "author": "hxbddbj"
+      },
+      {
+        "body": "Somewhat related I am thinking of picking up a Bambu A1 as my first foray into 3d printing ... seems to be a really solid move can anyone comment?",
+        "ups": 0,
+        "author": "whalesalad"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47758870",
+    "primaryTag": "story",
+    "title": "Let's Talk Space Toilets",
+    "description": "",
+    "url": "https://mceglowski.substack.com/p/lets-talk-space-toilets",
+    "ups": 66,
+    "numComments": 18,
+    "createdUtc": 1776120079,
+    "isQuestion": false,
+    "by": "zdw",
+    "topComments": [
+      {
+        "body": "I ve always wondered about regular toilets and now this. Someone has to test it. I m sure they have equivalent items to run through them but, eventually, you have to try the real thing so whose job is it to do that and how do they do that?",
+        "ups": 0,
+        "author": "assimpleaspossi"
+      },
+      {
+        "body": "The roasting process is both hypermodern and curiously antique. Burning dung is a tradition passed down across the millenia!",
+        "ups": 0,
+        "author": "bdamm"
+      },
+      {
+        "body": "I was surprised there were no pictures of the actual toilets. Would love more but found this. https: en.wikipedia.org wiki Space_toilet",
+        "ups": 0,
+        "author": "detourdog"
+      },
+      {
+        "body": "Is it simpler to build a better space toilet, or to build a ship with centrifugal gravity and use a regular toilet?",
+        "ups": 0,
+        "author": "ooterness"
+      },
+      {
+        "body": "&gt; One piece of feedback from Skylab was that the toilet needed stronger airflow. This meant the Shuttle toilet opening had to be narrow. To practice correctly positioning their body, astronauts on Earth sat on a special training mockup with a camera mounted in the center of the waste tube. A successful docking with the device meant precisely centering one’s nether eye in the crosshairs of a video screen while crewmates looked on and yelled the",
+        "ups": 0,
+        "author": "nozzlegear"
+      },
+      {
+        "body": "Not a great lunch read.",
+        "ups": 0,
+        "author": "ambicapter"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47768788",
+    "primaryTag": "story",
+    "title": "OpenSSL 4.0.0",
+    "description": "",
+    "url": "https://github.com/openssl/openssl/releases/tag/openssl-4.0.0",
+    "ups": 93,
+    "numComments": 20,
+    "createdUtc": 1776188734,
+    "isQuestion": false,
+    "by": "petecooper",
+    "topComments": [
+      {
+        "body": "I just updated to 3.5x to get pq support. Anything that might tempt me to upgrade to 4.0?",
+        "ups": 0,
+        "author": "bensyverson"
+      },
+      {
+        "body": "How is OpenSSl these days? I vaguely remember the big ruckus a while back, was it Heartbleed? where everyone to their horror realized it was maybe 1 or 2 people trying to maintain OpenSSL, and the OpenBSD people then throwing manpower at it to clear up a lot of old outstanding bugs. It seems like it is on firmer more organized footing these days?",
+        "ups": 0,
+        "author": "caycep"
+      },
+      {
+        "body": "Finally encrypted client hello support \\o",
+        "ups": 0,
+        "author": "capitol_"
+      },
+      {
+        "body": "Compared to OpenSSL 3 this transition has been very smooth. Only dropping of &quot;Engines&quot; was a problem at all, and in Fedora most of those dependencies have been changed.",
+        "ups": 0,
+        "author": "rwmj"
+      },
+      {
+        "body": "As a complete non-expert: On the one hand, looks like decent cleanup. (IIRC, engines in particular will not be missed). On the other hand, breaking compatibility is always a tradeoff, and I still remember 3.x being... not universally loved.",
+        "ups": 0,
+        "author": "yjftsjthsd-h"
+      },
+      {
+        "body": "Just in time for the suckerpinch video",
+        "ups": 0,
+        "author": "ge96"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47707382",
+    "primaryTag": "story",
+    "title": "guide.world: A compendium of travel guides",
+    "description": "",
+    "url": "https://guide.world/",
+    "ups": 25,
+    "numComments": 4,
+    "createdUtc": 1775758652,
+    "isQuestion": false,
+    "by": "firloop",
+    "topComments": [
+      {
+        "body": "For the wiki version, you have https: www.wikivoyage.org It can be a bit outdated, but then you just update it as you do your research ;)",
+        "ups": 0,
+        "author": "eisa01"
+      },
+      {
+        "body": "For Seoul, I think this is an interesting observation: Seoul is not a pretty city, at least not by most Western standards of beauty. It is a sprawling, haphazard mix with little apparent cohesion beyond a shared culture. Personally, I really liked it because it has a different vibe from a more &quot;sterile&quot; city like Tokyo.",
+        "ups": 0,
+        "author": "alkh"
+      },
+      {
+        "body": "Thx, great read about Yemen from Maciej Cegłowski https: idlewords.com 2014 07 sana_a.htm",
+        "ups": 0,
+        "author": "yu3zhou4"
+      },
+      {
+        "body": "For Switzerland, for someone who likes railways, I found this guide (missing from guide.travel) to be quite nice: https: www.seat61.com train-travel-in-switzerland.htm While planning the trip, I was annoyed by redditors on r askswitzerland ending almost all replies on rail travel by asking folks to download the SBB Mobile app. To my surprise, even though I m not the kind to install apps (let alone Flutter apps), it was god-sent. So well made (the",
+        "ups": 0,
+        "author": "ignoramous"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47766370",
+    "primaryTag": "show",
+    "title": "Show HN: LangAlpha – what if Claude Code was built for Wall Street?",
+    "description": "",
+    "url": "https://github.com/ginlix-ai/langalpha",
+    "ups": 64,
+    "numComments": 22,
+    "createdUtc": 1776178126,
+    "isQuestion": true,
+    "by": "zc2610",
+    "topComments": [
+      {
+        "body": "&gt; MCP tools don t really work for financial data at scale. One tool call for five years of daily prices dumps tens of thousands of tokens into the context window. I maintain an OSS SDK for Databento market data. A year ago, I naively wrapped the API and certainly felt this pain. Having an API call drop a firehose of structured data into the context window was not very helpful. The tool there was get_range and the data was lost to the context. ",
+        "ups": 0,
+        "author": "neomantra"
+      },
+      {
+        "body": "&gt; The other big thing was making research actually persist across sessions. Most agents treat a single deliverable (a PDF, a spreadsheet) as the end goal. In investing that s day one. This is a problem with pretty much everything beyond easy single-shot tasks. Even day-to-day stuff, like e.g. I was researching a new laptop to buy for my wife, and am now enlisting AI to help pick a good car. In both cases I run into a mismatch with what the non",
+        "ups": 0,
+        "author": "TeMPOraL"
+      },
+      {
+        "body": "Hi HN. We built LangAlpha because we wanted something like Claude Code but for investment research. It s a full stack open-source agent harness (Apache 2.0). Persistent sandboxed workspaces, code execution against financial data, and a complete UI with TradingView charts, live market data, and agent management. Works with any LLM provider, React 19 + FastAPI + Postgres + Redis.",
+        "ups": 0,
+        "author": "zc2610"
+      },
+      {
+        "body": "Nice! What I missed from the writeup were some specific cases and how did you test that all this orchestration delivers worthwhile data (actionable and full correct). E.g. you have a screenshot of the AI supply chain - more of these would be useful, and also some info about how you tested that this supply chain agrees with reality. Unless the goal of the project was to just play with agent architecture - then congrats :)",
+        "ups": 0,
+        "author": "kolinko"
+      },
+      {
+        "body": "I ve been wondering for a long time about when this more Bayesian approach would become available alongside an AI. Really excited to play around with this! Is this kind of like a Karpathy 2nd brain for investing then?",
+        "ups": 0,
+        "author": "D_R_Farrell"
+      },
+      {
+        "body": "Sounds interesting. The video isn t working, wish I could see the hosted version without creating an account.",
+        "ups": 0,
+        "author": "jskrn"
+      }
+    ],
+    "isTopicRelevant": true
+  },
+  {
+    "id": "47768750",
+    "primaryTag": "show",
+    "title": "Show HN: Plain – The full-stack Python framework designed for humans and agents",
+    "description": "",
+    "url": "https://github.com/dropseed/plain",
+    "ups": 20,
+    "numComments": 4,
+    "createdUtc": 1776188597,
+    "isQuestion": false,
+    "by": "focom",
+    "topComments": [
+      {
+        "body": "Nice. Love the idea behind this. I have been using Django for most of my vibe coded side projects just for the reasons stated in this thesis. Django code is pretty easy to review quickly. LLMs are good at writing it. Django is just old and bloated, so the fork is a good idea. Maybe I will use this for my next side project.",
+        "ups": 0,
+        "author": "jacktheturtle"
+      },
+      {
+        "body": "It looks like it s a fork of Django that just kind changed a bunch of stuff arbitrarily?",
+        "ups": 0,
+        "author": "petcat"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47763759",
+    "primaryTag": "story",
+    "title": "jj – the CLI for Jujutsu",
+    "description": "",
+    "url": "https://steveklabnik.github.io/jujutsu-tutorial/introduction/what-is-jj-and-why-should-i-care.html",
+    "ups": 426,
+    "numComments": 365,
+    "createdUtc": 1776162819,
+    "isQuestion": false,
+    "by": "tigerlily",
+    "topComments": [
+      {
+        "body": "Does JJ really prefer for me to think backwards? It wants me to start with the new and describe command, but with git I first make the changes and name the changeset at the end of the workflow. I also often end up with in a dirty repo state with multiple changes belonging to separate features or abstractions. I usually just pick the changes I want to group into a commit and clean up the state. Since it s git compatible, it feels like it must work",
+        "ups": 0,
+        "author": "tiborsaas"
+      },
+      {
+        "body": "I m giving jj a try but one aspect of it I dislike is edits to files are automatically committed, so you need to defensively create empty new commits for your changes. As in, want to browse the repo from a commit 2 weeks ago? Well if you just checkout that commit and then edit a file, you ve automatically changed that commit in your repo and rebased everything after it on top of your new changes. So instead you create a new branch off of the old ",
+        "ups": 0,
+        "author": "tom_alexander"
+      },
+      {
+        "body": "The last paragraph might be the most important one: &gt; There s one other reason you should be interested in giving jj a try: it has a git compatible backend, and so you can use jj on your own, without requiring anyone else you re working with to convert too. This means that there s no real downside to giving it a shot; if it s not for you, you re not giving up all of the history you wrote with it, and can go right back to git with no issues.",
+        "ups": 0,
+        "author": "dgb23"
+      },
+      {
+        "body": "Why should you care about jj? Look, ethereal, balaeric Gothenburg indie from the 2010s may not be important in the grand scheme of things, but their strong hip hop influence was genuinely exciting at the time. When the great chill wave summer of 2009 crested, you definitely cared about jj’s otherworldly grooves and lil Wayne samples. Even if they never did reach the euphoric highs of Washed Out or even label mates The Tough Alliance.",
+        "ups": 0,
+        "author": "TrysterosEmp"
+      },
+      {
+        "body": "One of my favorite jj features is &quot;jj absorb&quot;. For each change you ve made in the current revision, it finds the last commit where you made a change near there, and moves your changes to that commit. Really handy when you forgot to make a change to some config file or .gitignore. You just &quot;jj new&quot;, make the changes, and &quot;jj absorb&quot;. No need to make a new commit or figure out where to rebase to. Oh, and not having to ",
+        "ups": 0,
+        "author": "BeetleB"
+      },
+      {
+        "body": "Hey folks! So, I haven t updated the tutorial in a long time. My intent is to upstream it, but I ve been very very busy at the startup I m at, ersc.io, and haven t had the chance. I m still using jj every day, and loving it. Happy to answer any questions!",
+        "ups": 0,
+        "author": "steveklabnik"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47725052",
+    "primaryTag": "story",
+    "title": "The Mouse Programming Language on CP/M",
+    "description": "",
+    "url": "https://techtinkering.com/articles/the-mouse-programming-language-on-cpm/",
+    "ups": 31,
+    "numComments": 3,
+    "createdUtc": 1775863117,
+    "isQuestion": false,
+    "by": "PaulHoule",
+    "topComments": [
+      {
+        "body": "The author Peter Grogono is also the author of a well regarded book on Pascal https: archive.org details programminginpas00grog",
+        "ups": 0,
+        "author": "shrubble"
+      },
+      {
+        "body": "Solid work. The devil s in the operational complexity, but this looks manageable.",
+        "ups": 0,
+        "author": "ardline"
+      },
+      {
+        "body": "… I love this!",
+        "ups": 0,
+        "author": "PaulHoule"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47722031",
+    "primaryTag": "story",
+    "title": "Carol's Causal Conundrum: a zine intro to causally ordered message delivery",
+    "description": "",
+    "url": "https://decomposition.al/zines/",
+    "ups": 27,
+    "numComments": 2,
+    "createdUtc": 1775846580,
+    "isQuestion": false,
+    "by": "evakhoury",
+    "topComments": [
+      {
+        "body": "Wow, it surprises me that there aren t more comments on this zine, which I find a delightful way to present interesting CS topics, detailed explanation and pages full of explanatory drawings that speak. The Zines page [0] mentions the definition of a zine: &gt; &quot;a small-circulation print or online publication that is produced through noncommercial means and is meant to appeal to a niche audience&quot; So then, is &quot;causally ordered messa",
+        "ups": 0,
+        "author": "rapnie"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47767119",
+    "primaryTag": "show",
+    "title": "Show HN: A memory database that forgets, consolidates, and detects contradiction",
+    "description": "",
+    "url": "https://github.com/yantrikos/yantrikdb-server",
+    "ups": 20,
+    "numComments": 14,
+    "createdUtc": 1776181261,
+    "isQuestion": false,
+    "by": "pranabsarkar",
+    "topComments": [
+      {
+        "body": "I ve experimented quite a bit with mem0 (which is similar in design) for my OpenClaw and stopped using it very soon. My impression is that &quot;facts&quot; are an incredibly dull and far too rigid tool for any actual job at hand and for me were a step back instead of forward in daily use. In the end, the extracted &quot;facts database&quot; was a complete mess of largely incomplete, invalid, inefficient and unhelpful sentences that didn t help a",
+        "ups": 0,
+        "author": "endymi0n"
+      },
+      {
+        "body": "Author here. I built this because I was using ChromaDB for an AI agent s memory and recall quality went to garbage at ~5k memories. The agent kept recalling outdated facts, contradicting itself across sessions, and the context window was full of redundant near-duplicates. I tried to write the consolidation conflict-detection logic on top of ChromaDB. It didn t work — the operations need to be transactional with the vector index, and they need an ",
+        "ups": 0,
+        "author": "pranabsarkar"
+      },
+      {
+        "body": "I appreciate the effort you put into mapping semantics so language constructs can be incorporated into this. You’re probably already seeing that the amount of terminology, how those terms interact with each other, and the way you need to model it have ballooned into a fairly complex system. The fundamental breakthrough with LLMs is that they handle semantic mapping for you and can (albeit non-deterministically) interpret the meaning and relations",
+        "ups": 0,
+        "author": "tcdent"
+      },
+      {
+        "body": "In this day and age, without serious evidence that the software presented has seen some real usage, or at least has a good reviewable regression test suite, sadly the assumption may be that this is a slopcoded brainwave. The ascii-diagram doesn t help. Also maybe explain the design more.",
+        "ups": 0,
+        "author": "polotics"
+      },
+      {
+        "body": "Congrats, looking promising. How does it compare to supermemory.ai?",
+        "ups": 0,
+        "author": "hazelnut"
+      },
+      {
+        "body": "The half-life idea is interesting. What s the loop behind consolidation? Random sampling and LLM to merge?",
+        "ups": 0,
+        "author": "Mithriil"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47762641",
+    "primaryTag": "story",
+    "title": "Introspective Diffusion Language Models",
+    "description": "",
+    "url": "https://introspective-diffusion.github.io/",
+    "ups": 202,
+    "numComments": 39,
+    "createdUtc": 1776153453,
+    "isQuestion": false,
+    "by": "zagwdt",
+    "topComments": [
+      {
+        "body": "If I’m reading this right, this is pretty wild. They turned a Qwen autoregressor into a diffuser by using a bunch of really clever techniques, and they vastly outperform any “native diffuser,” actually being competitive with the base model they were trained from. The obvious upside here is the massive speedup in generation. And then through a LoRA adapter, you can ground the diffuser on the base model’s distribution (essentially have it “compare”",
+        "ups": 0,
+        "author": "thepasch"
+      },
+      {
+        "body": "I m no expert (just a monkey... ;) ), but isn t Diffusion supposed to generate ALL of the output at once? From their diagram, it looks like their I-LDM model seems to use previously generated context to generate the next tokens (or blocks).",
+        "ups": 0,
+        "author": "mlmonkey"
+      },
+      {
+        "body": "Is anyone here experimenting seriously with Diffusion for text generation? I’d love to learn about your experiences!",
+        "ups": 0,
+        "author": "andsoitis"
+      },
+      {
+        "body": "Does this mean I should switch to sglang? How hard is it to add the capability for these type of models to vLLM? Or does it already handle them?",
+        "ups": 0,
+        "author": "ilaksh"
+      },
+      {
+        "body": "3倍向上したとこのとですが、ボトルネックはMemory BandwidthからComputeに移行したの？ それともMemory Bandwidthが支配的ですか？",
+        "ups": 0,
+        "author": "Openpic"
+      },
+      {
+        "body": "&gt; 2025-04-12: Initial code release with training and inference support. &gt; 2025-04-12: Released I-DLM-8B, I-DLM-32B, and I-DLM-8B-LoRA on HuggingFace. Is this old already? Not saying that s a bad thing, since it seems very sophisticated. Just curious if there s an update",
+        "ups": 0,
+        "author": "ramon156"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47765374",
+    "primaryTag": "show",
+    "title": "Show HN: Kontext CLI – Credential broker for AI coding agents in Go",
+    "description": "",
+    "url": "https://github.com/kontext-dev/kontext-cli",
+    "ups": 54,
+    "numComments": 20,
+    "createdUtc": 1776173213,
+    "isQuestion": false,
+    "by": "mc-serious",
+    "topComments": [
+      {
+        "body": "Very cool project. Providing credentials agents and standardizing that whole process seems like valuable work. Question though on the OSS paid boundary... is the OSS cli the client for the paid service? What is the custody model? Does this service store all my credentials?",
+        "ups": 0,
+        "author": "james-clef"
+      },
+      {
+        "body": "&gt; for static API keys, the backend injects the credential directly into the agent s runtime environment. What prevents the agent from presisering or leaking the API key - or reading it from the environment?",
+        "ups": 0,
+        "author": "e12e"
+      },
+      {
+        "body": "This is how keychains should be designed. Never return the secret, but mint a new token, or sign a request. We need this also for normal usage like development environments. Or when invoking a command on a remote server. Are you going to add support for services that don t support OIDC or this going to be a known limitation?",
+        "ups": 0,
+        "author": "zimbatm"
+      },
+      {
+        "body": "What if kontext runs under the same user as Claude? Could it in principle inspect the kontext process and extract the key from memory?",
+        "ups": 0,
+        "author": "sjdv1982"
+      },
+      {
+        "body": "Congrats on the launch! What are the key advantages of this compared to OneCLI[1]? [1]: https: github.com onecli onecli",
+        "ups": 0,
+        "author": "amjd"
+      },
+      {
+        "body": "Sounds awfully similar to Tailscale Aperture[1] [1] https: tailscale.com blog aperture-self-serve",
+        "ups": 0,
+        "author": "traceroute66"
+      }
+    ],
+    "isTopicRelevant": true
+  },
+  {
+    "id": "47770124",
+    "primaryTag": "story",
+    "title": "Gas Town: From Clown Show to v1.0",
+    "description": "",
+    "url": "https://steve-yegge.medium.com/gas-town-from-clown-show-to-v1-0-c239d9a407ec",
+    "ups": 10,
+    "numComments": 1,
+    "createdUtc": 1776194333,
+    "isQuestion": false,
+    "by": "martythemaniak",
+    "topComments": [
+      {
+        "body": "TBH this post still reads like a clown show.",
+        "ups": 0,
+        "author": "avaer"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47767606",
+    "primaryTag": "show",
+    "title": "Show HN: Kelet – Root Cause Analysis agent for your LLM apps",
+    "description": "",
+    "url": "https://kelet.ai/",
+    "ups": 36,
+    "numComments": 18,
+    "createdUtc": 1776183411,
+    "isQuestion": false,
+    "by": "almogbaku",
+    "topComments": [
+      {
+        "body": "Every six months or so, someone at work does a hackathon project to automate outage analysis work SRE would likely perform. And every one of them I ve seen has been underwhelming and wrong. There s like three reasons for this disconnect. 1. The agents aren t expert at your proprietary code. They can read logs and traces and make educated guesses, but there s no world model of your code in there. 2. The people building these apps are unqualified t",
+        "ups": 0,
+        "author": "jldugger"
+      },
+      {
+        "body": "I imagine it s hard to create a very generic tool for this usecase - what are the supported frameworks libs, what does this tool assume about my implementation ?",
+        "ups": 0,
+        "author": "yanovskishai"
+      },
+      {
+        "body": "This looks Amazing Do you have a LiteLLM integration?",
+        "ups": 0,
+        "author": "RoiTabach"
+      },
+      {
+        "body": "&gt; The key insight I m so tired",
+        "ups": 0,
+        "author": "dwb"
+      },
+      {
+        "body": "nice. what a crazy space. how is this different vs other telemetry analysis platforms such as langchain braintrust etc?",
+        "ups": 0,
+        "author": "BlueHotDog2"
+      },
+      {
+        "body": "Kelet as in קלט as in input?",
+        "ups": 0,
+        "author": "halflife"
+      }
+    ],
+    "isTopicRelevant": true
+  },
+  {
+    "id": "47716840",
+    "primaryTag": "story",
+    "title": "Nucleus Nouns",
+    "description": "",
+    "url": "https://ben-mini.com/2026/nucleus-nouns",
+    "ups": 44,
+    "numComments": 11,
+    "createdUtc": 1775822803,
+    "isQuestion": false,
+    "by": "bewal416",
+    "topComments": [
+      {
+        "body": "This makes me think of domain models in domain-driven design. Very useful to think about what these models are and how it makes sense to set them up &amp; relate them in your area of work.",
+        "ups": 0,
+        "author": "ssalka"
+      },
+      {
+        "body": "Nice article Ben! I think the HN crowd would be more familiar by calling those &quot;Entities&quot; but I like the new perspective of all companies only handling two or three of them really well. I think there is more nuance about it for the SaaS-pocalypse though. I have been talking to hundreds of B2B companies and customers are now vibe coding solutions when they need something that the platform doesn t support: a dashboard, a workflow, or an i",
+        "ups": 0,
+        "author": "namanyayg"
+      },
+      {
+        "body": "Identifying the right taxonomy is not only an exercise in naming things, but also building the appropriate data structures and systems in your programs. I think this exercise is incomplete in the absence of studying how these nouns interact with one another. I don t think that a loose-hanging payment intent evokes a particular emotion, without its constituents (credit cards, direct debits, cryptocurrencies) relationship to other nouns (customers,",
+        "ups": 0,
+        "author": "evrimoztamur"
+      },
+      {
+        "body": "Kinda feels like identifying the key user stories with a bit too much naval gazing at the implementation. That said, the implementations start to gain their own weight as user expectation grows to meet the implementation. I suppose the noun thinking is not entirely frivolous for an established app with expected core workflows and design language.",
+        "ups": 0,
+        "author": "jayd16"
+      },
+      {
+        "body": "Makes me wonder if a similar level of analysis was done in reverse to conceive these, hopefully not word yahtzee. At least they don t end with &quot;ly&quot; - the horror.",
+        "ups": 0,
+        "author": "wowczarek"
+      },
+      {
+        "body": "Something frustrating is when a company is being _clever_ with their nouns. Sometimes it s relatively innocuous, but spending time remembering what unique name I should be searching for instead of something obvious is not my idea of a good time.",
+        "ups": 0,
+        "author": "interstice"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47717192",
+    "primaryTag": "story",
+    "title": "The acyclic e-graph: Cranelift's mid-end optimizer",
+    "description": "",
+    "url": "https://cfallin.org/blog/2026/04/09/aegraph/",
+    "ups": 58,
+    "numComments": 15,
+    "createdUtc": 1775824647,
+    "isQuestion": false,
+    "by": "tekknolagi",
+    "topComments": [
+      {
+        "body": "This is really cool. Thanks for the write-up, Chris! I kept waiting for &quot;sea of nodes with CFG&quot; to be shortened to SeaFG, and it never happened. I guess maybe it s ambiguous out loud.",
+        "ups": 0,
+        "author": "IainIreland"
+      },
+      {
+        "body": "&gt; While that kind of flexibility is tempting, it comes with a significant complexity tax as well: it means that reasoning through and implementing classical compiler analyses and transforms is more difficult, at least for existing compiler engineers with their experience, because the IR is so different from the classical data structure (CFG of basic blocks). The V8 team wrote about this difficulty recently as support for their decision to migr",
+        "ups": 0,
+        "author": "pjmlp"
+      },
+      {
+        "body": "I believe these ideas are much more mature and better explored for code gen, but similar techniques are useful also in the frontend of compilers, in the type checker. There s a blog post [1] by Niko Matsakis where he writes about adding equalities to Datalog so that Rust s trait solver can be encoded in Datalog. Instead of desugaring equality into a special binary predicate to normal Datalog as Niko suggests, it can be also be implemented by keep",
+        "ups": 0,
+        "author": "mbid"
+      },
+      {
+        "body": "I work in an esoteric compiler domain (compilers for fancy cryptography) and we ve been eyeing e-graphs for a bit. This article is super helpful seeing how it materialized in a real-world scenario. An interesting move in this direction is the Tamagoyaki project: https: github.com jumerckx Tamagoyaki that supports equality saturation directly in MLIR.",
+        "ups": 0,
+        "author": "j2kun"
+      },
+      {
+        "body": "Compiler writer here. This post makes it seem like the pass ordering problem is bigger than it really is and then overestimates the extent to which egraphs solve it. The pass ordering problem isn’t a big deal except maybe in the interaction of GVN and load elimination, but practically, that ends up being a non issue because its natural to make those be the same pass. Aside from that, pass ordering isn’t a source of sweat for me or my colleagues. ",
+        "ups": 0,
+        "author": "pizlonator"
+      },
+      {
+        "body": "The e-graph approach to optimization is really elegant. Curious how much compile-time overhead it adds vs the optimization wins it gets.",
+        "ups": 0,
+        "author": "0xnadr"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47760529",
+    "primaryTag": "story",
+    "title": "DaVinci Resolve – Photo",
+    "description": "",
+    "url": "https://www.blackmagicdesign.com/products/davinciresolve/photo",
+    "ups": 990,
+    "numComments": 254,
+    "createdUtc": 1776133515,
+    "isQuestion": false,
+    "by": "thebiblelover7",
+    "topComments": [
+      {
+        "body": "This is incredible. There are soooo many features that Davinci already handles so damn well when it comes to color editing, that I only wish they existed in photo editors. To the point there were people posting videos on Youtube about hacky workflows to edit RAW photo files on Resolve and export each one as JPG files haha. Only Darktable seemed to push the technical capabilities of photo editing forward (AgX, parametric masks, tone equalizer, etc",
+        "ups": 0,
+        "author": "arecsu"
+      },
+      {
+        "body": "I wish they (authors of DaVinci Resolve and the Photo Editor) paid more attention to Linux platform. Theoretically DaVinci Resolve runs on Linux, but getting it run is a very bad experience on Ubuntu Kubuntu 24.04. I even paid for the DaVinci license, as I read somewhere that for Linux it s necessary in order to have all codecs supported. It did not help. Fortunately there were no problems with refund. There are whole guides online how to walk ar",
+        "ups": 0,
+        "author": "googie"
+      },
+      {
+        "body": "It took me a damn long time to find this information, so I m pasting it here: &gt; It includes native RAW support for Canon, Fujifilm, Nikon, Sony and even iPhone ProRAW. I looked all over for a more technical page that just lists these kind of specs in bullet-point form, but apparently they refuse to communicate information about their product in this way? The &quot;Tech Specs&quot; page only seems to show information about hardware products. sh",
+        "ups": 0,
+        "author": "amatecha"
+      },
+      {
+        "body": "This is uncanny. Just yesterday, I was complaining about the state of photo editing software (Adobe and Google are no-gos, and Darkroom provided a thousand thorns). I wished that DaVinci had a photo editor, because I had similar pains about video editing that were resolved when I learned about DaVinci. AND it runs on Linux! It s not every night you make a wish and wake up to find out it has come true.",
+        "ups": 0,
+        "author": "lynndotpy"
+      },
+      {
+        "body": "Complete tangent, what is going on with this image [1]? Render? AI? Too much post-processing? It has some computer game graphics look to me, but I can not quite put the finger on what seems off. [1] https: images.blackmagicdesign.com images products davincir...",
+        "ups": 0,
+        "author": "danbruc"
+      },
+      {
+        "body": "This was bound to happen. I ve edited stills in Resolve for years thinking this day would come. Resolve has supported DNG raw files (as long as they re not converted from funky sensors such as Fujifilm X-trans). But, it was always a bit of a hack. Kind of stoked to see this release even though I ve transitioned to a 100% open source photo workflow on Linux now. IMO, most exciting developments in photo editing today happens in open source. But thi",
+        "ups": 0,
+        "author": "mikae1"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47704729",
+    "primaryTag": "story",
+    "title": "The M×N problem of tool calling and open-source models",
+    "description": "",
+    "url": "https://www.thetypicalset.com/blog/grammar-parser-maintenance-contract",
+    "ups": 106,
+    "numComments": 36,
+    "createdUtc": 1775747233,
+    "isQuestion": false,
+    "by": "remilouf",
+    "topComments": [
+      {
+        "body": "The key part of the article is that token structure interpretation is a training time concern, not just an input output processing concern (which still leads to plenty of inconsistency and fragmentation on its own!). That means both that training stakeholders at model development shops need to be pretty incorporated into the tool syntax development process, which leads to friction and slowdowns. It also means that any current improvements standar",
+        "ups": 0,
+        "author": "zbentley"
+      },
+      {
+        "body": "I guess I fail to see why this is such a problem. Yes it would be nice if the wire format were standardized or had a standard schema description, but is writing a parser that handles several formats actually a difficult problem? Modern models could probably whip up a &quot;libToolCallParser&quot; with bindings for all popular languages in an afternoon. Could probably also have an automated workflow for adding any new ones with minimal fuss. An an",
+        "ups": 0,
+        "author": "evelant"
+      },
+      {
+        "body": "One of the most relevant posts about AI on HN this year. It s not hype-y, but it s imperative to discuss. I find it strange that the industry hasn t converged in at least somewhat standardized format, but I guess despite all the progress we re still in the very early days...",
+        "ups": 0,
+        "author": "airstrike"
+      },
+      {
+        "body": "I wonder if stuffing tool call formatting into an engram layer (see Deepseek s engram paper) that could be swapped at runtime would be a useful solution here. The idea would be to encode tool calling semantics once on a single layer, and inject as-needed. Harness providers could then give users their bespoke tool calling layer that is injected at model load-time. Dunno, seems like it might work. I think most open source models can have an engram ",
+        "ups": 0,
+        "author": "all2"
+      },
+      {
+        "body": "Does anyone know why there hasn’t been more widespread adoption of OpenAI’s Harmony format? Or will it just take another model generation to see adoption?",
+        "ups": 0,
+        "author": "jonathanhefner"
+      },
+      {
+        "body": "The native way to skip all that is train a small thingy to map hidden state -&gt; token thingy you care about once per model family, or just do it once and procrustes over the state from the model you re using to whatever you made the map for.",
+        "ups": 0,
+        "author": "hashmap"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47759709",
+    "primaryTag": "story",
+    "title": "Lean proved this program correct; then I found a bug",
+    "description": "",
+    "url": "https://kirancodes.me/posts/log-who-watches-the-watchers.html",
+    "ups": 365,
+    "numComments": 164,
+    "createdUtc": 1776126308,
+    "isQuestion": false,
+    "by": "bumbledraven",
+    "topComments": [
+      {
+        "body": "This article’s framing and title are odd. The author, in fact, found no bugs or errors in the proven code. She says so at the end of the article: &gt; The two bugs that were found both sat outside the boundary of what the proofs cover. The denial-of-service was a missing specification. The heap overflow was a deeper issue in the trusted computing base, the C++ runtime that the entire proof edifice assumes is correct. Still an interesting and usef",
+        "ups": 0,
+        "author": "ctmnt"
+      },
+      {
+        "body": "I’ve had similar experiences with code I’ve proven correct, although my issues were of the more common variety than the overflow issue - subtle spec bugs. (I think the post mentions the denial of service issue as related to this: a spec gap) If you have a spec that isn’t correct, you can certainly write code that conforms to that spec and write proofs to support it. It just means you have verified a program that does something other than what you",
+        "ups": 0,
+        "author": "porcoda"
+      },
+      {
+        "body": "Clickbait title, the proved part of the program had no bugs? As an aside, why can t people just write factually? This isn t a news site gamed for ad revenue. It s also less effort. I felt this post was mostly an insulting waste of time. I come to HN to read interesting stuff.",
+        "ups": 0,
+        "author": "grg0"
+      },
+      {
+        "body": "So this is very good news and was predictable. LLM s are capable of producing code that passes formal verification. The writing is on the wall: in the future more and more software on the abstract or platonic side of our computing base will be hermetically sealed against bugs and exploits. This quenching of bugs in the assured side will shift the mean location of bugs closer to the hardware side: at some point bugs and exploits will rely more and",
+        "ups": 0,
+        "author": "DoctorOetker"
+      },
+      {
+        "body": "The spec-completeness problem here is the same one that bites distributed systems verification: the proof holds inside an operating envelope (no adversarial inputs, trusted runtime, bounded sizes), and the interesting failures live at the boundary. TLA+ has the same property - you can prove liveness under a fairness assumption the deployment silently violates, and nothing in the proof tells you when reality drifted outside. What I d actually want",
+        "ups": 0,
+        "author": "ajaystream"
+      },
+      {
+        "body": "Am I reading the article wrong? It appears that the author did not test the claims of the proof. Wouldn t a &quot;bug&quot; in this case mean she found an input that did not survive a round trip through the compression algorithm? Update: Actually, I guess this may have been her point: &quot;The two bugs that were found both sat outside the boundary of what the proofs cover.&quot; So then I guess the title might be a bit click baity.",
+        "ups": 0,
+        "author": "davesque"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47722629",
+    "primaryTag": "story",
+    "title": "Franklin's bad ads for Apple II clones and the beloved impersonator they depict",
+    "description": "",
+    "url": "https://buttondown.com/suchbadtechads/archive/franklin-ace-1000/",
+    "ups": 116,
+    "numComments": 69,
+    "createdUtc": 1775849588,
+    "isQuestion": false,
+    "by": "rfarley04",
+    "topComments": [
+      {
+        "body": "&gt; Shockingly, Franklin.com, with its 85 words of unstyled HTML, still links to the latest iterations of these devices. If you look at the source code of this page, you ll be even more shocked: looks like it s simply a MS Word document saved as HTML, it s overly complicated and contains lots of &quot;Mso*&quot; classes. And no, it s not unstyled either, it s just that on computers that don t have Times New Roman installed, the browser falls bac",
+        "ups": 0,
+        "author": "rob74"
+      },
+      {
+        "body": "For the effect this had on Apple, see: https: www.folklore.org Stolen_From_Apple.html",
+        "ups": 0,
+        "author": "WillAdams"
+      },
+      {
+        "body": "Selling clones of name-brand personal computers! What has this world come to? I hope the courts will stamp out these Intellectual Property thieves quickly or they will become a real threat to computing.",
+        "ups": 0,
+        "author": "marshray"
+      },
+      {
+        "body": "The first computer I touched was a Franklin Ace 1200 which my father bought. It had a joystick and a Sakata video monitor. The first game I remember playing is Short Circuit: https: www.youtube.com watch?v=FoY8iWJAgVQ . It was replaced by a Canon 8088 then by an AT&amp;T PC6300. I don t know who my father sold it to but he kept the Sakata and it floated around until I realized you could hook a Nintendo to it. Then it became our gaming VCR monitor",
+        "ups": 0,
+        "author": "MisterTea"
+      },
+      {
+        "body": "Never used a Franklin, but I remember the Albert which was a IIe clone. Had a voice synthesizer which you could type words into and it would say them back (poorly) which as a young kid was a good time. Also had a stylus drawpad for graphics which was kinda neat. https: en.wikipedia.org wiki Albert_(computer) I remember the text Games Apples Play and typing the code manually in from the pages on that machine in Basic. Some of them were pretty fun.",
+        "ups": 0,
+        "author": "NittLion78"
+      },
+      {
+        "body": "&gt; This newsletter does not contain ads, ... It most definitely contains ads since it is about ads.",
+        "ups": 0,
+        "author": "josh11b"
+      }
+    ],
+    "isTopicRelevant": false
+  },
+  {
+    "id": "47761997",
+    "primaryTag": "story",
+    "title": "Distributed DuckDB Instance",
+    "description": "",
+    "url": "https://github.com/citguru/openduck",
+    "ups": 143,
+    "numComments": 31,
+    "createdUtc": 1776148304,
+    "isQuestion": false,
+    "by": "citguru",
+    "topComments": [
+      {
+        "body": "Does this help with DuckDB concurrency? My main gripe with DuckDB is that you can t write to it from multiple processes at the same time. If you open the database in write mode with one process, you cannot modify it at all from another process without the first process completely releasing it. In fact, you cannot even read from it from another process in this scenario. So if you typically use a file-backed DuckDB database in one process and want ",
+        "ups": 0,
+        "author": "herpderperator"
+      },
+      {
+        "body": "How does this (or DuckLake for that matter) handle sparseness and fragmentation of the differential storage? My experience with B+trees, at least, is that pages get spread all over the place, so if you run a normal query, page 537 may be in layer 1, page 8374 in layer 2, and so on, and a single query might need hundreds or thousands of pages, too scattered to read efficiently in large sequential reads, but requiring a lot of random ones, which in",
+        "ups": 0,
+        "author": "atombender"
+      },
+      {
+        "body": "I have a deep appreciation for DuckDB, but I am afraid the confluence of brilliant ideas makes it ever more complicated to adopt —- and DuckLake is another example for this trend. When I look at SQLite I see a clear message: a database in a file. I think DuckDb is that, too. But it’s also an analytics engine like Polars, works with other DB engines, supports Parquet, comes with a UI, has two separate warehouse ideas which both deviate from DuckDB",
+        "ups": 0,
+        "author": "nehalem"
+      },
+      {
+        "body": "This is an attempt to replicate MotherDucks differential storage and implement hybrid query execution on DuckDB",
+        "ups": 0,
+        "author": "citguru"
+      },
+      {
+        "body": "I built a distributed DuckDB setup using OpenRaft for state replication. Every node holds a full copy of the database. Writes go through Raft consensus, reads are local. It s more like etcd-with-DuckDB than MotherDuck-lite. OpenDuck takes a different approach with query federation with a gateway that splits execution across local and remote workers. My use case requires every node to serve reads independently with zero network latency, and to kee",
+        "ups": 0,
+        "author": "decide1000"
+      },
+      {
+        "body": "You might find https: github.com apache datafusion and https: github.com datafusion-contrib datafusion-federation of interest",
+        "ups": 0,
+        "author": "jeadie"
+      }
+    ],
+    "isTopicRelevant": true
+  }
+]

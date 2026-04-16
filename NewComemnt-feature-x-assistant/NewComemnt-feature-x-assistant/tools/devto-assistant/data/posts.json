@@ -1,0 +1,1038 @@
+[
+  {
+    "id": "3501726",
+    "primaryTag": "python",
+    "tags": [
+      "ai",
+      "programming",
+      "python",
+      "mcp"
+    ],
+    "title": "Why Build a Local MCP Server (And How to Do It in 15 Minutes)",
+    "description": "I've been working with MCP servers for a few months now. If you're not familiar, MCP (Model Context...",
+    "url": "https://dev.to/evanlausier/why-build-a-local-mcp-server-and-how-to-do-it-in-15-minutes-1423",
+    "ups": 1,
+    "numComments": 0,
+    "createdUtc": 1776197157,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3501725",
+    "primaryTag": "javascript",
+    "tags": [
+      "webdev",
+      "webcomponents",
+      "javascript",
+      "fullstack"
+    ],
+    "title": "What's Actually Wrong with Web Components?",
+    "description": "Short answer -- nothing fundamental. Web Components are a set of browser-native APIs that solve real...",
+    "url": "https://dev.to/foxeyes/whats-actually-wrong-with-web-components-3pjk",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776197149,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3501682",
+    "primaryTag": "devops",
+    "tags": [
+      "aws",
+      "observability",
+      "opentelemetry",
+      "devops"
+    ],
+    "title": "AWS Observability vs OpenTelemetry: What I Learned",
+    "description": "After using AWS-native observability (CloudWatch/X-Ray) as my default choice for nearly a decade, I...",
+    "url": "https://dev.to/ashishsuman/aws-observability-vs-opentelemetry-what-i-learned-2j76",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776195848,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3495195",
+    "primaryTag": "webdev",
+    "tags": [
+      "docker",
+      "webdev",
+      "programming",
+      "devops"
+    ],
+    "title": "I Shrunk My Docker Image From 1.58GB to 186MB. Then I Had to Explain What I Actually Broke.",
+    "description": "Most Docker tutorials end at the win.  \"Look, smaller image! Ship it!\" And then you're left alone at...",
+    "url": "https://dev.to/arbythecoder/i-shrunk-my-docker-image-from-158gb-to-186mb-then-i-had-to-explain-what-i-actually-broke-34be",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776195516,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3501629",
+    "primaryTag": "llm",
+    "tags": [
+      "devops",
+      "llm",
+      "seguridad",
+      "ia"
+    ],
+    "title": "N-Day-Bench: ¿pueden los LLMs encontrar vulnerabilidades reales en código real?",
+    "description": "Aprobé tres PRs con keys hardcodeadas. Los mismos modelos que las escribieron podrían haberlas encontrado. N-Day-Bench mide exactamente ese gap — y los números me incomodan más de lo que esperaba.",
+    "url": "https://dev.to/jtorchia/n-day-bench-pueden-los-llms-encontrar-vulnerabilidades-reales-en-codigo-real-3g1g",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776195041,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3501134",
+    "primaryTag": "llm",
+    "tags": [
+      "ai",
+      "llm",
+      "agents",
+      "voiceai"
+    ],
+    "title": "From 66% to 96%: How I Fixed a Drive-Thru Voice Agent Before It Took a Single Real Call",
+    "description": "I've been building voice agents for a while. The hardest part isn't the STT or TTS layer.  It's this:...",
+    "url": "https://dev.to/jay_singh_e5b5ee6be59c0e0/from-66-to-96-how-i-fixed-a-drive-thru-voice-agent-before-it-took-a-single-real-call-1dm5",
+    "ups": 1,
+    "numComments": 0,
+    "createdUtc": 1776189073,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3501096",
+    "primaryTag": "llm",
+    "tags": [
+      "ai",
+      "llm",
+      "mcp",
+      "claudecode"
+    ],
+    "title": "MCPs everywhere, wth is that?",
+    "description": "I got tasked with connecting Figma to our UI Kit via MCP  Starting with just documentation, it looks...",
+    "url": "https://dev.to/rita/mcps-everywhere-wth-is-that-41e0",
+    "ups": 1,
+    "numComments": 0,
+    "createdUtc": 1776188618,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3500260",
+    "primaryTag": "devops",
+    "tags": [
+      "architecture",
+      "backend",
+      "devops",
+      "node"
+    ],
+    "title": "What \"production-ready\" really means for a NestJS backend",
+    "description": "Three weeks ago I shared an early version of this project and got a lot of thoughtful feedback.  I've...",
+    "url": "https://dev.to/alexsergey/what-production-ready-really-means-for-a-nestjs-backend-235d",
+    "ups": 12,
+    "numComments": 0,
+    "createdUtc": 1776185810,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3500959",
+    "primaryTag": "machinelearning",
+    "tags": [
+      "programming",
+      "machinelearning",
+      "python",
+      "opensource"
+    ],
+    "title": "How to Differentiate Through a Simulation with Mutable State",
+    "description": "If you've tried to differentiate through a physics simulation in JAX, you've hit this:    x =...",
+    "url": "https://dev.to/alfredopalconit/how-to-differentiate-through-a-simulation-with-mutable-state-1lje",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776185778,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3500926",
+    "primaryTag": "ai",
+    "tags": [
+      "ai",
+      "automation",
+      "llm",
+      "machinelearning"
+    ],
+    "title": "How I Built an Autonomous Dataset Generator with CrewAI + Ollama (72-hour run, 1,065 entries)",
+    "description": "Background   I needed high-quality instruction datasets for fine-tuning local LLMs, but...",
+    "url": "https://dev.to/robopilingui/how-i-built-an-autonomous-dataset-generator-with-crewai-ollama-72-hour-run-1065-entries-2280",
+    "ups": 2,
+    "numComments": 0,
+    "createdUtc": 1776184776,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3500709",
+    "primaryTag": "llm",
+    "tags": [
+      "ai",
+      "llm",
+      "machinelearning",
+      "development"
+    ],
+    "title": "From ollama run to Tokens: What Really Happens When You Run an LLM Locally",
+    "description": "Running an LLM locally looks simple from the outside:    ollama run llama3        Enter fullscreen...",
+    "url": "https://dev.to/akshitzatakia/from-ollama-run-to-tokens-what-really-happens-when-you-run-an-llm-locally-9c0",
+    "ups": 1,
+    "numComments": 0,
+    "createdUtc": 1776181157,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3478275",
+    "primaryTag": "llm",
+    "tags": [
+      "ai",
+      "machinelearning",
+      "llm"
+    ],
+    "title": "How do AI video generation models work?",
+    "description": "Ever wondered what actually happens when you type a prompt and get back a video clip?  In this...",
+    "url": "https://dev.to/googleai/how-do-ai-video-generation-models-work-a82",
+    "ups": 38,
+    "numComments": 0,
+    "createdUtc": 1776180282,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3500173",
+    "primaryTag": "ai",
+    "tags": [
+      "ai",
+      "testing",
+      "testdev",
+      "webdev"
+    ],
+    "title": "Why I Built tat: A Tiny API Test Tool for Real Integration Work and fits With AI Workflows",
+    "description": "Recently, I was assigned to integrate with an API from another internal application. This was not a...",
+    "url": "https://dev.to/joehom_sum_e64272f38d9618/why-i-built-tat-a-tiny-api-test-tool-for-real-integration-work-and-fits-with-ai-workflows-4b99",
+    "ups": 2,
+    "numComments": 0,
+    "createdUtc": 1776176292,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3499826",
+    "primaryTag": "javascript",
+    "tags": [
+      "node",
+      "javascript",
+      "webdev",
+      "npm"
+    ],
+    "title": "How to Create Multi-Page TIFF Files in Node.js (Without ImageMagick)",
+    "description": "If you've ever tried to create a multi-page TIFF in Node.js, you know the pain. Most solutions...",
+    "url": "https://dev.to/yatindavra23/how-to-create-multi-page-tiff-files-in-nodejs-without-imagemagick-im0",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776172291,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3495648",
+    "primaryTag": "ai",
+    "tags": [
+      "ai",
+      "aimemory",
+      "wiki",
+      "obsidian"
+    ],
+    "title": "What Karpathy's LLM Wiki Is Missing (And How to Fix It)",
+    "description": "Andrej Karpathy's LLM Wiki pattern went viral this month. 5,000+ stars, 3,700 forks, dozens of...",
+    "url": "https://dev.to/penfieldlabs/what-karpathys-llm-wiki-is-missing-and-how-to-fix-it-1988",
+    "ups": 35,
+    "numComments": 2,
+    "createdUtc": 1776103140,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3495158",
+    "primaryTag": "javascript",
+    "tags": [
+      "webdev",
+      "javascript",
+      "python",
+      "beginners"
+    ],
+    "title": "I built a browser-based coding education platform as a CS student, here's how",
+    "description": "A few months ago I got tired of coding platforms that either spoon-fed you theory or made you watch...",
+    "url": "https://dev.to/delfinobiang/i-built-a-browser-based-coding-education-platform-as-a-cs-student-heres-how-9k9",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776090502,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3489593",
+    "primaryTag": "javascript",
+    "tags": [
+      "javascript",
+      "webdev",
+      "math",
+      "tutorial"
+    ],
+    "title": "Why 1100 / 1.1 = 999.9999… Is a Tax Calculator Bug, and Two Ways to Fix It",
+    "description": "Why 1100 / 1.1 = 999.9999… Is a Tax Calculator Bug, and Two Ways to Fix It    Japan has a...",
+    "url": "https://dev.to/sendotltd/why-1100-11-9999999-is-a-tax-calculator-bug-and-two-ways-to-fix-it-3d38",
+    "ups": 0,
+    "numComments": 1,
+    "createdUtc": 1775980142,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3501734",
+    "primaryTag": "javascript",
+    "tags": [
+      "ai",
+      "llm",
+      "javascript"
+    ],
+    "title": "Things You're Overengineering in Your AI Agent (The LLM Already Handles Them)",
+    "description": "I've been building AI agents in production for the past two years. Not demos. Not weekend projects....",
+    "url": "https://dev.to/serhiip/things-youre-overengineering-in-your-ai-agent-the-llm-already-handles-them-2lop",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776197722,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3501701",
+    "primaryTag": "javascript",
+    "tags": [
+      "react",
+      "webdev",
+      "javascript",
+      "frontend"
+    ],
+    "title": "ArchScope Engineering Update: Multi-Selection & Undo/Redo Implementation (April 14, 2026)",
+    "description": "Implementing Multi-Selection and Undo/Redo in ReactFlow: A Technical Deep Dive           ...",
+    "url": "https://dev.to/irishcheezecake/archscope-engineering-update-multi-selection-undoredo-implementation-april-14-2026-1i53",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776196554,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3501676",
+    "primaryTag": "javascript",
+    "tags": [
+      "webdev",
+      "performance",
+      "javascript",
+      "tutorial"
+    ],
+    "title": "AVIF in 2026: The Complete Guide to the Image Format That Beat JPEG, PNG, and WebP",
+    "description": "AVIF landed quietly in 2019 and spent years as the format nobody used. Then Chrome shipped native...",
+    "url": "https://dev.to/aralroca/avif-in-2026-the-complete-guide-to-the-image-format-that-beat-jpeg-png-and-webp-34n2",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776195699,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3501514",
+    "primaryTag": "devops",
+    "tags": [
+      "ai",
+      "architecture",
+      "automation",
+      "devops"
+    ],
+    "title": "Building an AI DevOps Agent: Architecture and Live Infrastructure Automation",
+    "description": "The DevOps Agent started with a simple question: what if you could talk to your infrastructure like...",
+    "url": "https://dev.to/shittuay/building-an-ai-devops-agent-architecture-and-live-infrastructure-automation-355o",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776193365,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3501440",
+    "primaryTag": "javascript",
+    "tags": [
+      "testing",
+      "ai",
+      "javascript",
+      "programming"
+    ],
+    "title": "Unsticking Your React Tests",
+    "description": "Practical strategies for debugging tricky React component tests involving state management, context providers, and controlled components with Testing ",
+    "url": "https://dev.to/focused_dot_io/unsticking-your-react-tests-2517",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776192482,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3501344",
+    "primaryTag": "deeplearning",
+    "tags": [
+      "ai",
+      "deeplearning",
+      "computerscience",
+      "machinelearning"
+    ],
+    "title": "HEPData: a repository for high energy physics data",
+    "description": "{{ $json.postContent }}",
+    "url": "https://dev.to/paperium/hepdata-a-repository-for-high-energy-physics-data-afo",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776191407,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3501310",
+    "primaryTag": "llm",
+    "tags": [
+      "ai",
+      "machinelearning",
+      "agents",
+      "llm"
+    ],
+    "title": "Stop Blaming Your Prompts. It’s the Architecture, Stup1d!",
+    "description": "Stop Blaming Your Prompt. It’s the Architecture, Stup1d.   📄 Paper:...",
+    "url": "https://dev.to/gfernandf/stop-blaming-your-prompts-its-the-architecture-stupid-1c5g",
+    "ups": 1,
+    "numComments": 1,
+    "createdUtc": 1776191068,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3501194",
+    "primaryTag": "devops",
+    "tags": [
+      "opensource",
+      "showdev",
+      "ai",
+      "devops"
+    ],
+    "title": "⚡ From `git clone` to Full Company Operating System in 60 Seconds.",
+    "description": "⚡ From git clone to Full Company Operating System in 60 Seconds.                 ⏱️...",
+    "url": "https://dev.to/mamoor123/from-git-clone-to-full-company-operating-system-in-60-seconds-1d7f",
+    "ups": 2,
+    "numComments": 1,
+    "createdUtc": 1776190964,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3501200",
+    "primaryTag": "webdev",
+    "tags": [
+      "webdev",
+      "programming",
+      "architecture",
+      "database"
+    ],
+    "title": "Triggers in SQLite: Automating Logic Inside Your Database",
+    "description": "Hello, I'm Maneshwar. I'm building git-lrc, an AI code reviewer that runs on every commit. It is...",
+    "url": "https://dev.to/lovestaco/triggers-in-sqlite-automating-logic-inside-your-database-301b",
+    "ups": 17,
+    "numComments": 0,
+    "createdUtc": 1776190798,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3500953",
+    "primaryTag": "python",
+    "tags": [
+      "ai",
+      "langchain",
+      "python",
+      "programming"
+    ],
+    "title": "Persistent Agent Memory in LangGraph",
+    "description": "Build stateful AI agents with LangGraph memory persistence. Implement checkpointers, long-term memory stores, and cross-session state.",
+    "url": "https://dev.to/focused_dot_io/persistent-agent-memory-in-langgraph-1c4a",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776190796,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3495867",
+    "primaryTag": "python",
+    "tags": [
+      "ai",
+      "python",
+      "langchain",
+      "rag"
+    ],
+    "title": "🚀 I Built an AI-Powered Fest Assistant with Agents, RAG & Planning (Pragyan @ NITT)",
+    "description": "I deleted Instagram more than a year ago, and honestly, it saved me from a lot of distractions.  But...",
+    "url": "https://dev.to/zeroshotanu/i-built-an-ai-powered-fest-assistant-with-agents-rag-planning-pragyan-nitt-44e9",
+    "ups": 3,
+    "numComments": 1,
+    "createdUtc": 1776189421,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3501136",
+    "primaryTag": "machinelearning",
+    "tags": [
+      "machinelearning",
+      "ai",
+      "gemma",
+      "python"
+    ],
+    "title": "Mastering Gemma 4: A Comprehensive Deep Dive into Google's Next-Generation Open Model Architecture and Deployment",
+    "description": "The landscape of Large Language Models (LLMs) has shifted dramatically from monolithic, proprietary...",
+    "url": "https://dev.to/jubinsoni/mastering-gemma-4-a-comprehensive-deep-dive-into-googles-next-generation-open-model-architecture-2f91",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776189194,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3501063",
+    "primaryTag": "ai",
+    "tags": [
+      "ai",
+      "beginners"
+    ],
+    "title": "AI Crash Course: Prompt Engineering",
+    "description": "AI models function more like they’re completing a transcript than holding a conversation. Providing plenty of context in our prompts helps them output the results we’re actually looking for.",
+    "url": "https://dev.to/kathryngrayson/ai-crash-course-prompt-engineering-3enh",
+    "ups": 2,
+    "numComments": 0,
+    "createdUtc": 1776187959,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3501034",
+    "primaryTag": "devops",
+    "tags": [
+      "automation",
+      "devops",
+      "docker",
+      "tooling"
+    ],
+    "title": "docker40",
+    "description": "- name: \"DEBUG: Dump all Ansible variables\"   ansible.builtin.debug:     msg: \"{{...",
+    "url": "https://dev.to/query_filter_591122b53770/docker40-3953",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776187250,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3501033",
+    "primaryTag": "deeplearning",
+    "tags": [
+      "ai",
+      "deeplearning",
+      "computerscience",
+      "machinelearning"
+    ],
+    "title": "Support recovery without incoherence: A case for nonconvex regularization",
+    "description": "{{ $json.postContent }}",
+    "url": "https://dev.to/paperium/support-recovery-without-incoherence-a-case-for-nonconvex-regularization-4ae7",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776187207,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3413242",
+    "primaryTag": "opensource",
+    "tags": [
+      "ai",
+      "tooling",
+      "opensource",
+      "claudecode"
+    ],
+    "title": "AI is quietly making human experts invisible. I built a tool to stop it.",
+    "description": "Every time you ask an AI to write code, something disappears.  Not the code — the code shows up fine....",
+    "url": "https://dev.to/dannwaneri/ai-is-quietly-making-human-experts-invisible-i-built-a-tool-to-stop-it-3g2m",
+    "ups": 4,
+    "numComments": 5,
+    "createdUtc": 1776186070,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3477769",
+    "primaryTag": "ai",
+    "tags": [
+      "architecture",
+      "datascience",
+      "ai",
+      "softwareengineering"
+    ],
+    "title": "The Backyard Quarry, Part 5: Digital Twins for Physical Objects",
+    "description": "In Part 5 of the Backyard Quarry series, the project finally starts to connect to a bigger idea: digital twins.",
+    "url": "https://dev.to/kenwalger/the-backyard-quarry-part-5-digital-twins-for-physical-objects-5a9i",
+    "ups": 1,
+    "numComments": 0,
+    "createdUtc": 1776184732,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3500840",
+    "primaryTag": "deeplearning",
+    "tags": [
+      "ai",
+      "deeplearning",
+      "computerscience",
+      "machinelearning"
+    ],
+    "title": "First Analysis of Local GD on Heterogeneous Data",
+    "description": "{{ $json.postContent }}",
+    "url": "https://dev.to/paperium/first-analysis-of-local-gd-on-heterogeneous-data-19e2",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776183007,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3500625",
+    "primaryTag": "webdev",
+    "tags": [
+      "webdev",
+      "productivity",
+      "showdev"
+    ],
+    "title": "From Software Engineer to Developer Advocate: The Silent Transition I've Been Making for Years Without Knowing It",
+    "description": "I was having a conversation with a friend, sharing how I have achieved so much in tech but still...",
+    "url": "https://dev.to/ceohitchcock/from-software-engineer-to-developer-advocate-the-silent-transition-ive-been-making-for-years-4jc6",
+    "ups": 23,
+    "numComments": 1,
+    "createdUtc": 1776180110,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3500482",
+    "primaryTag": "ai",
+    "tags": [
+      "ai",
+      "programming",
+      "beginners",
+      "discuss"
+    ],
+    "title": "Your Job Isn't Going Away. But Someone's Fundraise Depends on You Thinking It Is.",
+    "description": "I've been watching the AI narrative closely. Building with it. Learning in public. Talking to...",
+    "url": "https://dev.to/jon_at_backboardio/your-job-isnt-going-away-but-someones-fundraise-depends-on-you-thinking-it-is-12el",
+    "ups": 12,
+    "numComments": 0,
+    "createdUtc": 1776178856,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3500471",
+    "primaryTag": "python",
+    "tags": [
+      "api",
+      "backend",
+      "mongodb",
+      "python"
+    ],
+    "title": "Async PyMongo in FastAPI",
+    "description": "1. Introduction            Why modern APIs need asynchronous I/O   Modern APIs need to be...",
+    "url": "https://dev.to/mongodb/async-pymongo-in-fastapi-p1o",
+    "ups": 6,
+    "numComments": 0,
+    "createdUtc": 1776178387,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3500358",
+    "primaryTag": "opensource",
+    "tags": [
+      "ai",
+      "linux",
+      "opensource",
+      "programming"
+    ],
+    "title": "Linux Solved the \"AI Code\" Problem in One Page",
+    "description": "Around the year 2016, which in terms of internet is millennia ago, and AI was still mostly about...",
+    "url": "https://dev.to/phalkmin/linux-solved-the-ai-code-problem-in-one-page-4i3l",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776177193,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3500217",
+    "primaryTag": "programming",
+    "tags": [
+      "career",
+      "mentalhealth",
+      "burnout",
+      "programming"
+    ],
+    "title": "I'm Addicted to Being Needed. And So Are You. published: true",
+    "description": "Last month, my team had a production outage at 9 PM.  I was exhausted. I hadn't slept well in days....",
+    "url": "https://dev.to/harsh2644/im-addicted-to-being-needed-and-so-are-youpublished-true-3e1l",
+    "ups": 19,
+    "numComments": 6,
+    "createdUtc": 1776175637,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3500108",
+    "primaryTag": "deeplearning",
+    "tags": [
+      "ai",
+      "deeplearning",
+      "computerscience",
+      "machinelearning"
+    ],
+    "title": "Naive Bayes and Text Classification I - Introduction and Theory",
+    "description": "{{ $json.postContent }}",
+    "url": "https://dev.to/paperium/naive-bayes-and-text-classification-i-introduction-and-theory-4o35",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776174607,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3499932",
+    "primaryTag": "machinelearning",
+    "tags": [
+      "beginners",
+      "datascience",
+      "devjournal",
+      "machinelearning"
+    ],
+    "title": "#beginners #machinelearning #pandas #kaggle",
+    "description": "Apr 14, 2026 · Day 3 of 30  Day 3: I explored the Titanic and Iris datasets the code was easy,...",
+    "url": "https://dev.to/kanishkashr/beginnersmachinelearningpandaskaggle-4om0",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776172827,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3499706",
+    "primaryTag": "deeplearning",
+    "tags": [
+      "ai",
+      "deeplearning",
+      "computerscience",
+      "machinelearning"
+    ],
+    "title": "IndicTrans2: Towards High-Quality and Accessible Machine Translation Models forall 22 Scheduled Indian Languages",
+    "description": "{{ $json.postContent }}",
+    "url": "https://dev.to/paperium/indictrans2-towards-high-quality-and-accessible-machine-translation-models-forall-22-scheduled-2o5p",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776170407,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3499312",
+    "primaryTag": "deeplearning",
+    "tags": [
+      "ai",
+      "deeplearning",
+      "computerscience",
+      "machinelearning"
+    ],
+    "title": "HiFi-Codec: Group-residual Vector quantization for High Fidelity Audio Codec",
+    "description": "{{ $json.postContent }}",
+    "url": "https://dev.to/paperium/hifi-codec-group-residual-vector-quantization-for-high-fidelity-audio-codec-2jdj",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776166207,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3499247",
+    "primaryTag": "opensource",
+    "tags": [
+      "php",
+      "symfony",
+      "security",
+      "opensource"
+    ],
+    "title": "I built a free public REST API to check CRA compliance for WordPress plugins and Rust crates",
+    "description": "The problem   The EU Cyber Resilience Act deadline is September 11, 2026 — 150 days...",
+    "url": "https://dev.to/gritzon/i-built-a-free-public-rest-api-to-check-cra-compliance-for-wordpress-plugins-and-rust-crates-iej",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776165509,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3498646",
+    "primaryTag": "python",
+    "tags": [
+      "c",
+      "python",
+      "dataengineering",
+      "performance"
+    ],
+    "title": "Bypassing the \"Pandas RAM Tax\": Building a Zero-Copy CSV Extractor in C",
+    "description": "The Convenience Penalty Python is a masterpiece of productivity, but for high-volume data ingestion,...",
+    "url": "https://dev.to/nareshcn2/bypassing-the-pandas-ram-tax-building-a-zero-copy-csv-extractor-in-c-291l",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776158398,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3497658",
+    "primaryTag": "llm",
+    "tags": [
+      "python",
+      "llmops",
+      "opensource",
+      "llm"
+    ],
+    "title": "TraceMind v2 — I added hallucination detection and A/B testing to my open-source LLM eval platform",
+    "description": "What changed since v1   When I posted the first version of TraceMind, I got one clear piece...",
+    "url": "https://dev.to/aayush_kumarsingh_6ee1ffe/tracemind-v2-i-added-hallucination-detection-and-ab-testing-to-my-open-source-llm-eval-platform-1lkn",
+    "ups": 9,
+    "numComments": 1,
+    "createdUtc": 1776145182,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3497517",
+    "primaryTag": "ai",
+    "tags": [
+      "webdev",
+      "ai",
+      "openai"
+    ],
+    "title": "Building a Privacy-First Voice-Controlled AI Agent with Local LLMs 🎙️->🤖",
+    "description": "The era of shipping all your personal data to cloud APIs just to turn down the thermostat or write a...",
+    "url": "https://dev.to/deep_bartaria/building-a-privacy-first-voice-controlled-ai-agent-with-local-llms--15j0",
+    "ups": 12,
+    "numComments": 2,
+    "createdUtc": 1776142191,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3496217",
+    "primaryTag": "opensource",
+    "tags": [
+      "discuss",
+      "community",
+      "forem",
+      "opensource"
+    ],
+    "title": "The Open Sourcerer of Forem: Beyond the UI",
+    "description": "Introducing a New Series \"The Open Sourcerer of Forem\"!   I have been wanting to get into...",
+    "url": "https://dev.to/francistrdev/the-open-sourcerer-of-forem-beyond-the-ui-4k7p",
+    "ups": 33,
+    "numComments": 11,
+    "createdUtc": 1776116545,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3496228",
+    "primaryTag": "deeplearning",
+    "tags": [
+      "machinelearning",
+      "deeplearning",
+      "chatgpt",
+      "aifundamentals"
+    ],
+    "title": "Part 6 — From Zero to ChatGPT: The 4 Learning Types That Built Modern AI",
+    "description": "THE EVOLUTION OF LLMs          Zero to ChatGPT   4 Types of Learning — 3 Secret Steps — 1...",
+    "url": "https://dev.to/mohamedhamed833/part-6-from-zero-to-chatgpt-the-4-learning-types-that-built-modern-ai-22a6",
+    "ups": 3,
+    "numComments": 0,
+    "createdUtc": 1776112466,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3496104",
+    "primaryTag": "devops",
+    "tags": [
+      "ai",
+      "sre",
+      "devops",
+      "security"
+    ],
+    "title": "MCP Security in Action: Decision-Lineage Observability",
+    "description": "Traditional observability tells you what broke. Agentic observability must tell you why the agent...",
+    "url": "https://dev.to/ajaydevineni/mcp-security-in-action-decision-lineage-observability-1k6c",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776109073,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3495788",
+    "primaryTag": "programming",
+    "tags": [
+      "ai",
+      "programming"
+    ],
+    "title": "NEUROLEARN: Curing AI tutor Amnesia",
+    "description": "The Stateless Trap Let me paint a picture that keeps me up at night.  You're using a \"smart\" learning...",
+    "url": "https://dev.to/sujithr2006/neurolearn-curing-ai-tutor-amnesia-2d59",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776102666,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3495778",
+    "primaryTag": "webdev",
+    "tags": [
+      "webdev",
+      "ai",
+      "programming",
+      "productivity"
+    ],
+    "title": "🚀 I’m Building “SafeMap” – A Tinder-Style Travel App That Prioritizes Safety (Brutal Feedback Needed)",
+    "description": "Imagine this:  You land in Rio at 11PM, solo, tired, and slightly paranoid.  Instead of opening 10...",
+    "url": "https://dev.to/nish2005karsh/im-building-safemap-a-tinder-style-travel-app-that-prioritizes-safety-brutal-feedback-4cdf",
+    "ups": 25,
+    "numComments": 2,
+    "createdUtc": 1776102350,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3477336",
+    "primaryTag": "ai",
+    "tags": [
+      "ai",
+      "robotics",
+      "gemini",
+      "opensource"
+    ],
+    "title": "Build a Talking Robot with Gemini Live and Reachy Mini",
+    "description": "Imagine a tiny desk robot that listens to you, answers back in real time, dances on command, tracks...",
+    "url": "https://dev.to/googleai/build-a-talking-robot-with-gemini-live-and-reachy-mini-20e2",
+    "ups": 41,
+    "numComments": 3,
+    "createdUtc": 1776092423,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3495197",
+    "primaryTag": "deeplearning",
+    "tags": [
+      "rnn",
+      "lstm",
+      "ai",
+      "deeplearning"
+    ],
+    "title": "Understanding Recurrent Neural Networks: From Forgetting to Remembering",
+    "description": "\"The present contains nothing more than the past, and what is found in the effect was already in the...",
+    "url": "https://dev.to/rnilav/understanding-recurrent-neural-networks-from-forgetting-to-remembering-5f7",
+    "ups": 0,
+    "numComments": 0,
+    "createdUtc": 1776091428,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3493213",
+    "primaryTag": "webdev",
+    "tags": [
+      "webdev",
+      "productivity",
+      "humor",
+      "developerlife"
+    ],
+    "title": "The Emotional Terror of Closing a Browser Tab",
+    "description": "My laptop sounds like it is preparing for a low-orbit launch. The fan is screaming. The metal chassis...",
+    "url": "https://dev.to/the_nortern_dev/the-emotional-terror-of-closing-a-browser-tab-122k",
+    "ups": 58,
+    "numComments": 53,
+    "createdUtc": 1776066570,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3491275",
+    "primaryTag": "machinelearning",
+    "tags": [
+      "python",
+      "parrot",
+      "machinelearning",
+      "opensource"
+    ],
+    "title": "Tuning ML hyperparameters with a swarm optimizer inspired by parrot behavior",
+    "description": "When you train a neural network or any ML model, performance depends heavily on hyperparameters —...",
+    "url": "https://dev.to/vijaygovindaraja/tuning-ml-hyperparameters-with-a-swarm-optimizer-inspired-by-parrot-behavior-1c3k",
+    "ups": 2,
+    "numComments": 0,
+    "createdUtc": 1776019176,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3487725",
+    "primaryTag": "opensource",
+    "tags": [
+      "github",
+      "opensource",
+      "development",
+      "repository"
+    ],
+    "title": "The Final 1% of Every GitHub Project: Sealing It Properly",
+    "description": "Table of Contents    Introduction What Does It Mean to \"Seal\" a Project?  The Release...",
+    "url": "https://dev.to/georgekobaidze/the-final-1-of-every-github-project-sealing-it-properly-2app",
+    "ups": 83,
+    "numComments": 42,
+    "createdUtc": 1775922953,
+    "isQuestion": false,
+    "topComments": []
+  }
+]
