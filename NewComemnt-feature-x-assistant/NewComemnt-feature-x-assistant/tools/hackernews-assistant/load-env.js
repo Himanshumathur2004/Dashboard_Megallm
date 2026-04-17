@@ -7,7 +7,14 @@ import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-for (const envFile of ["../../.env.local", "../../.env", ".env.local", ".env"]) {
+for (const envFile of [
+  "../../../../.env.local",
+  "../../../../.env",
+  "../../.env.local",
+  "../../.env",
+  ".env.local",
+  ".env",
+]) {
   const p = resolve(__dirname, envFile);
   if (existsSync(p)) {
     let content = readFileSync(p, "utf-8");

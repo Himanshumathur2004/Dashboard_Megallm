@@ -11,54 +11,82 @@ RUN apk add --no-cache \
     build-base \
     libffi-dev \
     wget \
+    curl \
     && ln -sf python3 /usr/bin/python
 
 WORKDIR /app
 
 # ============================================
+# Setup Blog Dashboard (Flask) - Copy first, install after
+# ============================================
+COPY blog_generation_pipeline/requirements.txt ./
+
+# Create Python virtual environment
+RUN python3 -m venv /opt/venv
+ENV PATH="/opt/venv/bin:$PATH"
+
+# Install Flask requirements
+RUN pip3 install -r requirements.txt
+
+# Copy blog platform app
+COPY blog_generation_pipeline ./
+
+WORKDIR /app/blog_generation_pipeline
+
+# ============================================
 # 1. Setup Gateway (Express)
 # ============================================
+WORKDIR /app
 COPY package*.json ./
 RUN npm install --production
 
 # ============================================
-# 2. Setup Blog Dashboard (Flask)
+# 2. Setup Comment Dashboard (Next.js)
 # ============================================
-COPY blog_generation_pipeline/requirements.txt ./blog_requirements.txt
-RUN pip3 install --no-cache-dir -r blog_requirements.txt --break-system-packages && rm blog_requirements.txt
+WORKDIR /app/comment-dashboard
 
-# ============================================
-# 3. Setup Comment Dashboard (Next.js)
-# ============================================
-WORKDIR /app/NewComemnt-feature-x-assistant
-COPY NewComemnt-feature-x-assistant/package*.json ./
+# Copy comment dashboard package files
+COPY NewComemnt-feature-x-assistant/NewComemnt-feature-x-assistant/package*.json ./
 RUN npm install
-COPY NewComemnt-feature-x-assistant ./
+
+# Copy source code
+COPY NewComemnt-feature-x-assistant/NewComemnt-feature-x-assistant/src ./src
+COPY NewComemnt-feature-x-assistant/NewComemnt-feature-x-assistant/scripts ./scripts
+COPY NewComemnt-feature-x-assistant/NewComemnt-feature-x-assistant/tools ./tools
+COPY NewComemnt-feature-x-assistant/NewComemnt-feature-x-assistant/tsconfig.json ./tsconfig.json
+COPY NewComemnt-feature-x-assistant/NewComemnt-feature-x-assistant/next-env.d.ts ./next-env.d.ts
+COPY NewComemnt-feature-x-assistant/NewComemnt-feature-x-assistant/postcss.config.mjs ./postcss.config.mjs
+COPY NewComemnt-feature-x-assistant/NewComemnt-feature-x-assistant/next.config.ts ./next.config.ts
+COPY NewComemnt-feature-x-assistant/NewComemnt-feature-x-assistant/README.md ./README.md
+
+# ============================================
+# Copy all application files (root level)
+# ============================================
+COPY public /app/public
+COPY server.js /app/server.js
+
+# ============================================
+# Build Next.js app in standalone mode
+# ============================================
+RUN echo "Installing dependencies..." && \
+    npm install && \
+    echo "Building Next.js app..." && \
+    npm run build
+
+# Prepare standalone output
+RUN mkdir -p /app/standalone/.next && \
+    cp -r .next/standalone/* /app/standalone/ && \
+    cp -r .next/static /app/standalone/.next/static
+
+# Finalize work directory
 WORKDIR /app
-
-# ============================================
-# Copy all application files
-# ============================================
-# Gateway files
-COPY public ./public
-COPY server.js ./
-
-# Blog dashboard files
-COPY blog_generation_pipeline ./blog_generation_pipeline
-
-# Comment dashboard files
-# (already copied during setup above)
-
-# ============================================
-# Build Next.js app
-# ============================================
-# (built during setup above)
 
 # ============================================
 # Copy startup script
 # ============================================
-COPY start.sh ./start.sh
-RUN chmod +x ./start.sh
+COPY start-docker.sh ./start-docker.sh
+RUN chmod +x ./start-docker.sh && \
+    mkdir -p /var/log
 
 # ============================================
 # Environment variables
@@ -66,12 +94,12 @@ RUN chmod +x ./start.sh
 ENV NODE_ENV=production
 ENV PORT=8080
 
-# Expose the gateway port
-EXPOSE 8080
+# Expose ports for different services
+EXPOSE 5000 3500 8080
 
 # Health check
-HEALTHCHECK --interval=30s --timeout=10s --start-period=90s --retries=3 \
-    CMD wget --no-verbose --tries=1 --spider http://localhost:8080/health || exit 1
+HEALTHCHECK --interval=30s --timeout=10s --start-period=120s --retries=3 \
+    CMD curl -f http://localhost:8080/health || exit 1
 
-# Start all services
-CMD ["./start.sh"]
+# Start all services (exec for proper signal handling)
+CMD ["./start-docker.sh"]

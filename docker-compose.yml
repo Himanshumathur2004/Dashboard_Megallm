@@ -7,23 +7,72 @@ services:
       dockerfile: Dockerfile
     container_name: unified-dashboard
     ports:
-      - "8080:8080"
+      - "8080:8080"       # Gateway
+      - "5000:5000"       # Blog Dashboard
+      - "3500:3500"       # Comment Dashboard
     environment:
       - NODE_ENV=production
-      - PORT=8080
+      - GATEWAY_PORT=8080
+      # Blog Dashboard URLs (internal to container)
       - BLOG_DASHBOARD_URL=http://localhost:5000
       - COMMENT_DASHBOARD_URL=http://localhost:3500
       # Pass through environment variables from .env file
       - MONGODB_URI=${MONGODB_URI}
       - MONGODB_DB=${MONGODB_DB:-megallm_blog_platform}
+      - DATABASE_URL=${DATABASE_URL}
       - MEGALLM_API_KEY=${MEGALLM_API_KEY}
       - MEGALLM_BASE_URL=${MEGALLM_BASE_URL:-https://beta.megallm.io/v1}
       - MODEL=${MODEL:-claude-opus-4-6}
-      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - MEGALLM_FALLBACK_MODEL_1=${MEGALLM_FALLBACK_MODEL_1:-glm-4.7-flash}
+      - MEGALLM_FALLBACK_MODEL_2=${MEGALLM_FALLBACK_MODEL_2:-google-gemma-4-26b}
+      - MEGALLM_FALLBACK_MODEL_3=${MEGALLM_FALLBACK_MODEL_3:-llama3-8b-instruct}
+      - MEGALLM_FALLBACK_MODEL_4=${MEGALLM_FALLBACK_MODEL_4:-llama3.3-70b-instruct}
+      - MEGALLM_FALLBACK_MODEL_5=${MEGALLM_FALLBACK_MODEL_5:-deepseek-r1-distill-llama-70b}
+      - CHUTES_API_TOKEN=${CHUTES_API_TOKEN}
+      - CHUTES_BASE_URL=${CHUTES_BASE_URL:-https://llm.chutes.ai/v1}
+      - CHUTES_MODEL=${CHUTES_MODEL:-deepseek-ai/DeepSeek-V3.1-TEE}
+      - SERPER_API_KEY=${SERPER_API_KEY}
+      - FIRECRAWL_API_KEY=${FIRECRAWL_API_KEY}
+      - TWITTERAPI_IO_KEY=${TWITTERAPI_IO_KEY}
+      - DEVTO_API_KEY=${DEVTO_API_KEY}
+      - DEVTO_USERNAME=${DEVTO_USERNAME}
+      - DEVTO_PUBLISH_IMMEDIATELY=${DEVTO_PUBLISH_IMMEDIATELY}
+      - DEVTO_DEFAULT_TAGS=${DEVTO_DEFAULT_TAGS}
+      - UNIFIED_ASSISTANT_USER=${UNIFIED_ASSISTANT_USER}
+      - UNIFIED_ASSISTANT_PASSWORD=${UNIFIED_ASSISTANT_PASSWORD}
+      - UNIFIED_SESSION_SECRET=${UNIFIED_SESSION_SECRET:-unified-assistant-dev-secret}
+      - UNIFIED_ASSISTANT_PORT=${UNIFIED_ASSISTANT_PORT:-3500}
+      - GOOGLE_SERVICE_ACCOUNT_JSON=${GOOGLE_SERVICE_ACCOUNT_JSON}
+      - GSC_SITE_URL=${GSC_SITE_URL}
+      - CRON_SECRET=${CRON_SECRET}
+      - PIPELINE_ENABLED=${PIPELINE_ENABLED:-false}
+      - PIPELINE_DRY_RUN=${PIPELINE_DRY_RUN:-true}
+      # Models
+      - MEGALLM_MODEL_CONTENT=${MEGALLM_MODEL_CONTENT:-claude-opus-4-6}
+      - MEGALLM_MODEL_FAST=${MEGALLM_MODEL_FAST:-claude-sonnet-4-5}
+      - MEGALLM_MODEL_ANALYSIS=${MEGALLM_MODEL_ANALYSIS:-claude-opus-4-6}
+      # Venv path
+      - PYTHONPATH=/app:/opt/venv/bin
+      - RC_PATH=${RC_PATH}
+      - SECRET_KEY=${SECRET_KEY}
+    volumes:
+      # To ensure local modifications work (for development)
+      # - ./blog_generation_pipeline:/app/blog_generation_pipeline
+      # - ./NewComemnt-feature-x-assistant:/app/comment-dashboard
+      - unified-dashboard-logs:/var/log
     restart: unless-stopped
     healthcheck:
-      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:8080/health"]
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
       interval: 30s
       timeout: 10s
       retries: 3
-      start_period: 90s
+      start_period: 120s
+    networks:
+      - unified-dashboard-network
+
+volumes:
+  unified-dashboard-logs:
+
+networks:
+  unified-dashboard-network:
+    driver: bridge
