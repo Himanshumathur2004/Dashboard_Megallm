@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: megallm-blog-platform
+    runtime: python
+    pythonVersion: 3.11
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn --workers 4 --timeout 120 wsgi:app
+    envVars:
+      - key: MONGODB_URI
+        scope: run
+      - key: MEGALLM_API_KEY
+        scope: run
+      - key: MONGODB_DB
+        value: megallm_blog_platform
+        scope: run
+      - key: MEGALLM_MODEL
+        value: claude-opus-4-6
+        scope: run
+      - key: FLASK_ENV
+        value: production
+        scope: run
+      - key: DEBUG
+        value: "False"
+        scope: run
+      - key: SECRET_KEY
+        scope: run
