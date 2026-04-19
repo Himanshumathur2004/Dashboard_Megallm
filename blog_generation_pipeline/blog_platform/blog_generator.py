@@ -1685,61 +1685,21 @@ Return JSON:
         medium_settings: Dict[str, str],
     ) -> Dict[str, str]:
         """Create Medium-ready payload with tags, metadata, and MegaLLM backlink."""
-        # Stage 1: Analyzer pass on original draft
-        pre_analysis = self._analyze_medium_quality(title=title, body=body)
-
-        # Stage 2: Multi-candidate humanization pass and scoring
-        style_options = [
-            "Narrative + founder-style: open with a concrete pain moment, then diagnose and prescribe.",
-            "Contrarian editorial: challenge a common belief, then prove it with practical architecture examples.",
-            "Data-first technical: concise, high signal, tactical, with punchy transitions and clear takeaways.",
-            "Business and product lens: focus on cost impact, user experience, and decision-making for non-engineers.",
-        ]
-
-        candidates: List[Dict[str, Any]] = [
-            {
-                "title": title,
-                "body": body,
-                "analysis": pre_analysis,
-                "style": "original",
-                "human_score": self._human_likeness_score(title, body),
-            }
-        ]
-
-        for style in style_options:
-            candidate_title, candidate_body = self._humanize_medium_content(
-                title=title,
-                body=body,
-                style_brief=style,
-            )
-            candidate_analysis = self._analyze_medium_quality(candidate_title, candidate_body)
-            candidate_human = self._human_likeness_score(candidate_title, candidate_body)
-            candidates.append(
-                {
-                    "title": candidate_title,
-                    "body": candidate_body,
-                    "analysis": candidate_analysis,
-                    "style": style,
-                    "human_score": candidate_human,
-                }
-            )
-
-        def total_score(c: Dict[str, Any]) -> int:
-            return int(c["analysis"]["score"]) + int(c["human_score"])
-
-        best_candidate = max(candidates, key=total_score)
-        selected_title = best_candidate["title"]
-        selected_body = best_candidate["body"]
-        selected_analysis = best_candidate["analysis"]
+        # Fast single-pass humanization (matching Quora/Dev.to speed)
+        style_brief = "Narrative + founder-style: open with a concrete pain moment, then diagnose and prescribe."
+        selected_title, selected_body = self._humanize_medium_content(
+            title=title,
+            body=body,
+            style_brief=style_brief,
+        )
+        selected_analysis = self._analyze_medium_quality(selected_title, selected_body)
         post_analysis = selected_analysis
-        humanization_applied = best_candidate.get("style") != "original"
+        humanization_applied = True
 
         logger.info(
-            "[MEDIUM_PIPELINE] Selected style='%s' analyzer=%s human=%s total=%s",
-            best_candidate.get("style"),
+            "[MEDIUM_PIPELINE] Single-pass humanization complete: analyzer=%s human=%s",
             selected_analysis.get("score"),
-            best_candidate.get("human_score"),
-            total_score(best_candidate),
+            self._human_likeness_score(selected_title, selected_body),
         )
 
         enriched_title, enriched_body = self._enforce_megallm_requirements(selected_title, selected_body)
