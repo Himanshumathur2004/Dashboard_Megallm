@@ -1285,16 +1285,14 @@ Return JSON:
     def _enforce_title_playbook(self, title: str, body: str, topic: str, medium_mode: bool = False) -> str:
         """Apply high-attention but professional title rules."""
         t = self._sanitize_professional_title(title, topic=topic)
-        number = self._extract_first_number_token(f"{body} {topic}") or "47%"
+        t = re.sub(r"(?i)^\s*\d+(?:\.\d+)?%\s+improvement\s+in\s+", "", t).strip()
+        t = re.sub(r"(?i)^\s*why\s+\d+(?:\.\d+)?%\s+improvement\s+in\s+", "Why ", t).strip()
+        t = re.sub(r"(?i)\s*-\s*not a model-size issue\s*$", "", t).strip()
+        if not t:
+            t = self._sanitize_professional_title(topic or "AI performance", topic=topic)
 
-        if not re.search(r"\d", t):
-            t = f"{number} improvement in {t}" if t else f"{number} improvement in AI latency"
-
-        if not re.search(r"\b(?:not|instead|without|vs\.?|but)\b", t, flags=re.IGNORECASE):
-            t = f"{t} - not a model-size issue"
-
-        # Use variety of Medium-style titles instead of hardcoded prefix
-        if medium_mode and not re.match(r"(?i)^i\b", t):
+        # Use diverse Medium-style variants to avoid repetitive title patterns.
+        if medium_mode:
             t = self._generate_medium_title_variants(t, body, topic)
 
         words = re.sub(r"\s+", " ", t).strip().split()
@@ -1306,7 +1304,10 @@ Return JSON:
         """Generate unique Medium-style engaging titles with variety."""
         import random
         t = self._sanitize_professional_title(base_title, topic=topic)
-        number = self._extract_first_number_token(f"{body} {topic}") or "47%"
+        t = re.sub(r"(?i)^\s*\d+(?:\.\d+)?%\s+improvement\s+in\s+", "", t).strip()
+        t = re.sub(r"(?i)^\s*why\s+\d+(?:\.\d+)?%\s+improvement\s+in\s+", "Why ", t).strip()
+        t = re.sub(r"(?i)\s*-\s*not a model-size issue\s*$", "", t).strip()
+        number = self._extract_first_number_token(f"{body} {topic}")
         
         # Extract key insights from body
         has_mistake = re.search(r"\b(?:mistake|wrong|failed|error|bug)\b", body, re.IGNORECASE)
@@ -1319,7 +1320,9 @@ Return JSON:
         
         # Data-driven titles
         if not re.search(r"\d", t):
-            templates.append(f"{number} improvement in {t}" if t else f"{number} improvement in AI latency")
+            if number:
+                templates.append(f"How {number} changed {t}" if t else f"How {number} changed latency")
+            templates.append(f"Inside {t}: what actually moves the needle")
         
         # Personal discovery titles
         if has_learning or has_mistake:
@@ -1347,9 +1350,9 @@ Return JSON:
         
         # Time-based titles
         templates.extend([
-            f"After {topic}: What I discovered",
+            f"After testing {topic}: what I discovered",
             f"The {t} nobody talks about",
-            f"Everything about {t} in 5 minutes",
+            f"A practical playbook for {t}",
         ])
         
         # Fallback templates
@@ -1358,14 +1361,22 @@ Return JSON:
             f"I discovered: {t}" if t else "I discovered something interesting",
             f"Why {t} matters more than you think",
         ])
+
+        # Remove stale/repetitive phrasing before choosing.
+        templates = [
+            candidate for candidate in templates
+            if candidate
+            and not re.search(r"(?i)^\s*for product and business teams", candidate)
+            and not re.search(r"(?i)^\s*\d+(?:\.\d+)?%\s+improvement\s+in", candidate)
+        ]
+        if not templates:
+            templates = [t or "Practical lessons from shipping AI systems"]
         
         # Pick a random title from templates
         selected = random.choice(templates)
-        
-        # Ensure no duplicate conjunctions
-        if not re.search(r"\b(?:not|instead|without|vs\.?|but)\b", selected, flags=re.IGNORECASE):
-            if random.random() > 0.5:
-                selected = f"{selected.rstrip('- :')} (not what you think)"
+        selected = re.sub(r"(?i)^\s*\d+(?:\.\d+)?%\s+improvement\s+in\s+", "", selected).strip()
+        selected = re.sub(r"(?i)^\s*why\s+\d+(?:\.\d+)?%\s+improvement\s+in\s+", "Why ", selected).strip()
+        selected = re.sub(r"(?i)\s*-\s*not a model-size issue\s*$", "", selected).strip()
         
         # Truncate to 14 words max
         words = re.sub(r"\s+", " ", selected).strip().split()
@@ -1393,7 +1404,7 @@ Return JSON:
         return " ".join(updated).strip()
 
     def _enforce_opening_hook_rules(self, topic: str, body: str) -> str:
-        """Ensure opening starts with conflict and contains a concrete number early."""
+        """Light-touch opening normalization to avoid repetitive intros."""
         text = (body or "").strip()
         if not text:
             return text
@@ -1403,13 +1414,14 @@ Return JSON:
             return text
 
         first = paragraphs[0]
-        number = self._extract_first_number_token(text) or "47%"
-        first_50 = " ".join(first.split()[:50])
-        if not re.search(r"\d", first_50):
-            first = f"We saw a {number} gap before fixing this architecture issue. {first}"
 
-        if not re.search(r"\b(?:failed|slow|latency|drop|risk|cost|bottleneck|problem)\b", first, flags=re.IGNORECASE):
-            first = f"Your users feel the delay before they read your roadmap. {first}"
+        # Replace overused opening pattern with varied alternatives.
+        if re.match(r"(?i)^for product and business teams[,\s]", first):
+            first = re.sub(
+                r"(?i)^for product and business teams[,\s]*",
+                "When teams chase speed without guardrails, costs spike and users notice. ",
+                first,
+            )
 
         paragraphs[0] = first
         return "\n\n".join(paragraphs).strip()
@@ -1449,16 +1461,16 @@ Return JSON:
         return text.strip()
 
     def _rebalance_for_business_angle(self, body: str) -> str:
-        """Bias article toward business/product outcomes over repeated deep internals."""
+        """Bias article toward practical outcomes without injecting fixed intro templates."""
         text = (body or "").strip()
         if not text:
             return text
 
-        intro = (
-            "For product and business teams, the core decision is not model brand; it is response time, unit cost, and user trust."
+        text = re.sub(
+            r"(?i)for product and business teams,?",
+            "For teams balancing performance and spend,",
+            text,
         )
-        if intro.lower() not in text.lower():
-            text = f"{intro}\n\n{text}"
 
         technical_dense = re.compile(
             r"(?i)\b(?:kv cache|speculative decoding|quantization|micro-batching|tensor parallelism|routing policy)\b"
@@ -1474,9 +1486,8 @@ Return JSON:
             compressed.append(s)
 
         text = " ".join(compressed)
-        text += (
-            "\n\nWhat matters to your roadmap is measurable impact: faster response times, fewer drop-offs, and lower cost per successful answer."
-        )
+        if not re.search(r"\b(?:cost|latency|reliability|throughput|drop-off|conversion|SLA)\b", text, flags=re.IGNORECASE):
+            text += "\n\nFocus on outcomes users notice: latency, reliability, and cost per successful response."
         return text.strip()
 
     def _apply_editorial_playbook(self, title: str, body: str, topic: str, medium_mode: bool = False) -> Tuple[str, str]:
@@ -1685,6 +1696,7 @@ Return JSON:
         medium_settings: Dict[str, str],
     ) -> Dict[str, str]:
         """Create Medium-ready payload with tags, metadata, and MegaLLM backlink."""
+        pre_analysis = self._analyze_medium_quality(title, body)
         # Fast single-pass humanization (matching Quora/Dev.to speed)
         style_brief = "Narrative + founder-style: open with a concrete pain moment, then diagnose and prescribe."
         selected_title, selected_body = self._humanize_medium_content(
@@ -1695,11 +1707,12 @@ Return JSON:
         selected_analysis = self._analyze_medium_quality(selected_title, selected_body)
         post_analysis = selected_analysis
         humanization_applied = True
+        human_score = self._human_likeness_score(selected_title, selected_body)
 
         logger.info(
             "[MEDIUM_PIPELINE] Single-pass humanization complete: analyzer=%s human=%s",
             selected_analysis.get("score"),
-            self._human_likeness_score(selected_title, selected_body),
+            human_score,
         )
 
         enriched_title, enriched_body = self._enforce_megallm_requirements(selected_title, selected_body)
@@ -1769,6 +1782,10 @@ Return JSON:
             "</body></html>"
         )
 
+        # Defensive defaults so Medium packaging never fails on missing analysis variables.
+        pre_analysis_safe = pre_analysis if isinstance(pre_analysis, dict) else selected_analysis
+        post_analysis_safe = post_analysis if isinstance(post_analysis, dict) else selected_analysis
+
         return {
             "title": enriched_title,
             "body": enriched_body,
@@ -1785,12 +1802,12 @@ Return JSON:
             "medium_meta_head": medium_meta["meta_head"],
             "medium_ready_html": medium_ready_html,
             "analysis_stage": selected_analysis,
-            "analysis_pre_humanization": pre_analysis,
-            "analysis_post_humanization": post_analysis,
+            "analysis_pre_humanization": pre_analysis_safe,
+            "analysis_post_humanization": post_analysis_safe,
             "analysis_final": final_analysis,
             "humanization_applied": humanization_applied,
-            "humanization_style": best_candidate.get("style"),
-            "human_likeness_score": best_candidate.get("human_score"),
+            "humanization_style": style_brief,
+            "human_likeness_score": human_score,
             "post_format": "medium",
         }
 
@@ -2772,7 +2789,7 @@ Return valid JSON with title and body only."""
             logger.error(f"[AGIORBUST_GEN] Error: {e}")
             return None
 
-    def generate_blog_from_article(self, article: Dict) -> Optional[Dict[str, str]]:
+    def generate_blog_from_article(self, article: Dict, target_platform: str = "general") -> Optional[Dict[str, str]]:
         """
         Generate a blog post from a scraped article.
         
@@ -2782,22 +2799,27 @@ Return valid JSON with title and body only."""
         Returns:
             {"title": str, "body": str} or None on error
         """
-        logger.info(f"[GENERATE_FROM_ARTICLE] Starting for article: {article.get('title', 'N/A')[:50]}")
+        logger.info(
+            "[GENERATE_FROM_ARTICLE] Starting for article: %s | source=%s | target=%s",
+            article.get('title', 'N/A')[:50],
+            article.get('source', 'Unknown'),
+            target_platform,
+        )
 
         article_title = article.get('title', 'Unknown')
         article_content = article.get('content', '')[:1500]  # Limit content length
         article_source = article.get('source', 'Unknown')
         article_url = article.get('url', '')
 
-        # Quora articles are real questions — write a direct answer, not a blog post
-        if article_source == "quora":
+        # Only use Quora-specialized writer when the target platform is Quora.
+        if target_platform == "quora" and article_source == "quora":
             return self._generate_quora_answer_from_question(
                 question=article_title,
                 context=article_content,
             )
 
-        # Dev.to articles — write an opinionated developer take, not a summary
-        if article_source == "devto":
+        # Only use Dev.to-specialized writer when the target platform is Dev.to.
+        if target_platform == "devto" and article_source == "devto":
             return self._generate_devto_article_from_source(
                 article_title=article_title,
                 article_content=article_content,

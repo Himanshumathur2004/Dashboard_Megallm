@@ -115,7 +115,7 @@ class Config:
     BLOGS_PER_24_HOURS = 12  # 3 per topic × 4 topics
     GENERATION_INTERVAL_MINUTES = 120  # Generate 12 blogs every 24 hours means 1 every 2 hours
     
-    # Topics (4 CTO-focused topics for MegaLLM)
+    # Topics (expanded CTO-focused topics for MegaLLM)
     TOPICS = {
         "cost_optimization": {
             "name": "Cost Optimization",
@@ -123,6 +123,69 @@ class Config:
             "keywords": ["cost", "pricing", "budget", "optimization", "tokens per dollar", "model routing", "fallback strategies"],
             "megallm_focus": "Model selection and cost reduction",
             "blogs_per_cycle": 3
+        },
+        "cost_efficiency": {
+            "name": "Cost Efficiency",
+            "description": "Ways to improve output quality per dollar through model selection, batching, and guardrails",
+            "keywords": ["cost efficiency", "unit economics", "inference spend", "quality per dollar", "llm budget", "cost control"],
+            "megallm_focus": "Higher quality at lower spend",
+            "blogs_per_cycle": 2
+        },
+        "resource_utilization": {
+            "name": "Resource Utilization",
+            "description": "How to use compute, tokens, and model capacity efficiently across workloads",
+            "keywords": ["resource utilization", "compute efficiency", "capacity planning", "token usage", "gpu utilization"],
+            "megallm_focus": "Better utilization of available resources",
+            "blogs_per_cycle": 2
+        },
+        "infrastructure_efficiency": {
+            "name": "Infrastructure Efficiency",
+            "description": "Architecture patterns that improve reliability and performance without over-provisioning",
+            "keywords": ["infrastructure efficiency", "architecture", "autoscaling", "load balancing", "over-provisioning"],
+            "megallm_focus": "Lean and reliable infra design",
+            "blogs_per_cycle": 2
+        },
+        "operational_efficiency": {
+            "name": "Operational Efficiency",
+            "description": "Operational practices to reduce incidents, improve response time, and streamline AI operations",
+            "keywords": ["operational efficiency", "incident response", "runbooks", "observability", "sre", "aiops"],
+            "megallm_focus": "Smoother day-2 operations",
+            "blogs_per_cycle": 2
+        },
+        "throughput_optimization": {
+            "name": "Throughput Optimization",
+            "description": "Techniques to process more requests per second while preserving quality and stability",
+            "keywords": ["throughput", "requests per second", "concurrency", "batching", "queue optimization"],
+            "megallm_focus": "Higher throughput at stable quality",
+            "blogs_per_cycle": 2
+        },
+        "latency_reduction": {
+            "name": "Latency Reduction",
+            "description": "Strategies to reduce end-to-end response time for better user experience",
+            "keywords": ["latency", "p95", "p99", "response time", "tail latency", "inference speed"],
+            "megallm_focus": "Faster user-perceived performance",
+            "blogs_per_cycle": 2
+        },
+        "token_efficiency": {
+            "name": "Token Efficiency (LLM context)",
+            "description": "Prompt and context-window strategies that reduce token waste while preserving relevance",
+            "keywords": ["token efficiency", "context window", "prompt compression", "prompt engineering", "token optimization"],
+            "megallm_focus": "Lower token waste with better outcomes",
+            "blogs_per_cycle": 2
+        },
+        "memory_optimization": {
+            "name": "Memory Optimization",
+            "description": "Memory-management patterns for high-throughput inference and stable long-context workloads",
+            "keywords": ["memory optimization", "kv cache", "memory footprint", "long context", "inference memory"],
+            "megallm_focus": "Stable memory profile under load",
+            "blogs_per_cycle": 2
+        },
+        "scaling_efficiency": {
+            "name": "Scaling Efficiency",
+            "description": "How to scale LLM workloads efficiently across traffic spikes and multi-tenant demand",
+            "keywords": ["scaling efficiency", "autoscaling", "multi-tenant", "traffic spikes", "elastic scaling"],
+            "megallm_focus": "Efficient scaling under growth",
+            "blogs_per_cycle": 2
         },
         "performance": {
             "name": "AI Speed and Latency",

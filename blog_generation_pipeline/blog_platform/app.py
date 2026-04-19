@@ -454,7 +454,23 @@ def generate_blogs():
 
                 if article:
                     logger.info(f"Generating from article: {article.get('title', 'N/A')[:60]}")
-                    blog_data = blog_generator.generate_blog_from_article(article)
+                    if account_id == Config.MEDIUM_ACCOUNT_ID:
+                        target_platform = "medium"
+                    elif account_id == Config.QUORA_ACCOUNT_ID:
+                        target_platform = "quora"
+                    elif account_id == devto_account_id:
+                        target_platform = "devto"
+                    elif account_id == tumblr_account_id:
+                        target_platform = "tumblr"
+                    elif account_id == blogger_account_id:
+                        target_platform = "blogger"
+                    else:
+                        target_platform = "general"
+
+                    blog_data = blog_generator.generate_blog_from_article(
+                        article,
+                        target_platform=target_platform,
+                    )
                     # Mark article as processed
                     try:
                         db.db.articles.update_one({"_id": article["_id"]}, {"$set": {"status": "processed"}})
