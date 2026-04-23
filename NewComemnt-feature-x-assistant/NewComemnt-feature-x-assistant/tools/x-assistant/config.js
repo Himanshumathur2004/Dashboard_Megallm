@@ -3,7 +3,7 @@
 // Uses Chutes API (https://chutes.ai/app) with MegaLLM fallbacks
 // ─────────────────────────────────────────────────────────────
 
-import "./load-env.js"; // Load .env before reading environment variables
+import "../shared/load-root-env.js"; // Load root .env before reading environment variables
 import { getAllSearchQueries, getFilters } from "./orchestration.js";
 
 export const CONFIG = {

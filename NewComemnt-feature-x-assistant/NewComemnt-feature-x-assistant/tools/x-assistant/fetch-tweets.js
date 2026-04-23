@@ -3,7 +3,7 @@
 // Uses X Scraper API endpoints to search and fetch tweets
 // ─────────────────────────────────────────────────────────────
 
-import "./load-env.js"; // Load .env before importing config
+import "../shared/load-root-env.js"; // Load root .env before importing config
 import { CONFIG, validateXScraperApi } from "./config.js";
 import { writeFile, mkdir } from "fs/promises";
 import { DATA_DIR, TWEETS_FILE } from "./paths.js";

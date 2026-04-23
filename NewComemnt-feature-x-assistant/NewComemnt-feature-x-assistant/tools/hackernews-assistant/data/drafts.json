@@ -807,5 +807,727 @@
     "mentionsProduct": false,
     "status": "draft",
     "createdAt": "2026-04-14T20:09:02.214Z"
+  },
+  {
+    "postId": "47818485",
+    "primaryTag": "story",
+    "postTitle": "College instructor turns to typewriters to curb AI-written work",
+    "postUrl": "https://news.ycombinator.com/item?id=47818485",
+    "postUps": 468,
+    "comment": "this is just moving the goalposts. the real problem is we're still grading writing like it's 1995 instead of teaching how to collaborate with ai effectively.",
+    "wordCount": 26,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:13:51.838Z"
+  },
+  {
+    "postId": "47818485",
+    "primaryTag": "story",
+    "postTitle": "College instructor turns to typewriters to curb AI-written work",
+    "postUrl": "https://news.ycombinator.com/item?id=47818485",
+    "postUps": 468,
+    "comment": "i taught a writing-intensive course last semester. we did all drafting in google docs during class time. you can literally watch the revision history and see thinking happen.",
+    "wordCount": 28,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:13:51.839Z"
+  },
+  {
+    "postId": "47818485",
+    "primaryTag": "story",
+    "postTitle": "College instructor turns to typewriters to curb AI-written work",
+    "postUrl": "https://news.ycombinator.com/item?id=47818485",
+    "postUps": 468,
+    "comment": "this assumes typewriters are available and students can afford them. also seems like a logistical nightmare for both grading and providing any meaningful feedback on the work.",
+    "wordCount": 27,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:13:51.840Z"
+  },
+  {
+    "postId": "47818485",
+    "primaryTag": "story",
+    "postTitle": "College instructor turns to typewriters to curb AI-written work",
+    "postUrl": "https://news.ycombinator.com/item?id=47818485",
+    "postUps": 468,
+    "comment": "next week: professor requires students to chisel assignments into stone tablets to ensure authentic, low-tech work",
+    "wordCount": 16,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:13:51.840Z"
+  },
+  {
+    "postId": "47823270",
+    "primaryTag": "story",
+    "postTitle": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+    "postUrl": "https://news.ycombinator.com/item?id=47823270",
+    "postUps": 312,
+    "comment": "the shift from \"clarify first\" to \"act first\" on minor details feels like a product decision, not a technical one. users hate interruptions.",
+    "wordCount": 23,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "hot topic pattern",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:14:03.493Z"
+  },
+  {
+    "postId": "47823270",
+    "primaryTag": "story",
+    "postTitle": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+    "postUrl": "https://news.ycombinator.com/item?id=47823270",
+    "postUps": 312,
+    "comment": "i've been testing similar prompt changes locally and the reduction in clarification loops is dramatic it's making our internal tools feel less like an interrogation and moree like a copilot.",
+    "wordCount": 30,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "hot topic pattern",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:14:03.493Z"
+  },
+  {
+    "postId": "47823270",
+    "primaryTag": "story",
+    "postTitle": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+    "postUrl": "https://news.ycombinator.com/item?id=47823270",
+    "postUps": 312,
+    "comment": "this approach might backfire for technical or creative work where ambiguous details are critical sometimes the \"annoying\" clarification is actually the responsible answer.",
+    "wordCount": 23,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "hot topic pattern",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:14:03.493Z"
+  },
+  {
+    "postId": "47823270",
+    "primaryTag": "story",
+    "postTitle": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+    "postUrl": "https://news.ycombinator.com/item?id=47823270",
+    "postUps": 312,
+    "comment": "anthropic's prompt reads like a constitution for a digital nation-state that's terrified of its own citizens.",
+    "wordCount": 16,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "hot topic pattern",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:14:03.493Z"
+  },
+  {
+    "postId": "47829178",
+    "primaryTag": "story",
+    "postTitle": "Claude Token Counter, now with model comparisons",
+    "postUrl": "https://news.ycombinator.com/item?id=47829178",
+    "postUps": 100,
+    "comment": "the 4.7 tokenizer seems to be less aggressive about splitting punctuation and common technical terms which explains some of the increase",
+    "wordCount": 21,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 22,
+    "megallmFactors": [
+      "cost / infra angle",
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "hot topic pattern",
+      "gaining traction"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:14:15.074Z"
+  },
+  {
+    "postId": "47829178",
+    "primaryTag": "story",
+    "postTitle": "Claude Token Counter, now with model comparisons",
+    "postUrl": "https://news.ycombinator.com/item?id=47829178",
+    "postUps": 100,
+    "comment": "we've been testing this and found the token count jump affects code-heavy prompts most using megallm's unified api made it trivial to compare tokenization costs across providers before committing to a model",
+    "wordCount": 32,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 88,
+    "megallmFactors": [
+      "direct mention",
+      "gateway angle",
+      "cost / infra angle",
+      "technical hn relevance",
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "hot topic pattern",
+      "gaining traction"
+    ],
+    "mentionsProduct": true,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:14:15.074Z"
+  },
+  {
+    "postId": "47829178",
+    "primaryTag": "story",
+    "postTitle": "Claude Token Counter, now with model comparisons",
+    "postUrl": "https://news.ycombinator.com/item?id=47829178",
+    "postUps": 100,
+    "comment": "the outrage seems misplaced,if the quality ipmrovement justifies the token increase, its not a rug pull. we're paying for outputs, not tokens",
+    "wordCount": 22,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 22,
+    "megallmFactors": [
+      "cost / infra angle",
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "hot topic pattern",
+      "gaining traction"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:14:15.075Z"
+  },
+  {
+    "postId": "47829178",
+    "primaryTag": "story",
+    "postTitle": "Claude Token Counter, now with model comparisons",
+    "postUrl": "https://news.ycombinator.com/item?id=47829178",
+    "postUps": 100,
+    "comment": "anthropic's new tokenizer: turning your prose into pure profit, one semantic chunk at a time",
+    "wordCount": 15,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "hot topic pattern",
+      "gaining traction"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:14:15.075Z"
+  },
+  {
+    "postId": "47818700",
+    "primaryTag": "story",
+    "postTitle": "Thoughts and feelings around Claude Design",
+    "postUrl": "https://news.ycombinator.com/item?id=47818700",
+    "postUps": 375,
+    "comment": "claude design feels like a solution searching for a problem. i’ve been using megallm to compare model outputs and it’s clear most teams still need precision tools not jsut vibe generators.",
+    "wordCount": 31,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 41,
+    "megallmFactors": [
+      "direct mention",
+      "technical hn relevance",
+      "hn-typical length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "busy thread",
+      "hot topic pattern",
+      "front-page level"
+    ],
+    "mentionsProduct": true,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:14:26.291Z"
+  },
+  {
+    "postId": "47818700",
+    "primaryTag": "story",
+    "postTitle": "Thoughts and feelings around Claude Design",
+    "postUrl": "https://news.ycombinator.com/item?id=47818700",
+    "postUps": 375,
+    "comment": "we tried something similar with our internal tools , clunky at first, but fine for rough mocks the real issue was always getting these designs into a real codebase without endless tweaking.",
+    "wordCount": 32,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "busy thread",
+      "hot topic pattern",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:14:26.291Z"
+  },
+  {
+    "postId": "47818700",
+    "primaryTag": "story",
+    "postTitle": "Thoughts and feelings around Claude Design",
+    "postUrl": "https://news.ycombinator.com/item?id=47818700",
+    "postUps": 375,
+    "comment": "this ignores that most complex products aren’t just landing pages. you need a design system that scales, not jjust a pretty screenshot generator for your next blog post.",
+    "wordCount": 28,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "busy thread",
+      "hot topic pattern",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:14:26.291Z"
+  },
+  {
+    "postId": "47818700",
+    "primaryTag": "story",
+    "postTitle": "Thoughts and feelings around Claude Design",
+    "postUrl": "https://news.ycombinator.com/item?id=47818700",
+    "postUps": 375,
+    "comment": "ah yes, the weekly usage quota on a tool that eats tokens for breakfast. truly the future of design.",
+    "wordCount": 19,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "busy thread",
+      "hot topic pattern",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:14:26.291Z"
+  },
+  {
+    "postId": "47823460",
+    "primaryTag": "show",
+    "postTitle": "Show HN: Prompt-to-Excalidraw demo with Gemma 4 E2B in the browser (3.1GB)",
+    "postUrl": "https://news.ycombinator.com/item?id=47823460",
+    "postUps": 130,
+    "comment": "it's 3.1gb but it's loading progresively. the wasm and weights are streamed, so you can start using it before the full download",
+    "wordCount": 22,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "busy thread",
+      "show/ask visibility",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:14:34.718Z"
+  },
+  {
+    "postId": "47823460",
+    "primaryTag": "show",
+    "postTitle": "Show HN: Prompt-to-Excalidraw demo with Gemma 4 E2B in the browser (3.1GB)",
+    "postUrl": "https://news.ycombinator.com/item?id=47823460",
+    "postUps": 130,
+    "comment": "tried it with \"api request flow with retries and caching\" and it actually produced a coherent diagram. the hardest part was describing the layout, not the logic.",
+    "wordCount": 27,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 13,
+    "megallmFactors": [
+      "technical hn relevance",
+      "hn-typical length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "busy thread",
+      "show/ask visibility",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:14:34.718Z"
+  },
+  {
+    "postId": "47823460",
+    "primaryTag": "show",
+    "postTitle": "Show HN: Prompt-to-Excalidraw demo with Gemma 4 E2B in the browser (3.1GB)",
+    "postUrl": "https://news.ycombinator.com/item?id=47823460",
+    "postUps": 130,
+    "comment": "does this handle iteration well? most of my diagramming time is spent on revisions, not initial generation. hard to see how thsi fits into a real workflow yet",
+    "wordCount": 28,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "busy thread",
+      "show/ask visibility",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:14:34.719Z"
+  },
+  {
+    "postId": "47823460",
+    "primaryTag": "show",
+    "postTitle": "Show HN: Prompt-to-Excalidraw demo with Gemma 4 E2B in the browser (3.1GB)",
+    "postUrl": "https://news.ycombinator.com/item?id=47823460",
+    "postUps": 130,
+    "comment": "finally a legitimate reason to have 4gb of browser cache. the future is heavy.",
+    "wordCount": 14,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "busy thread",
+      "show/ask visibility",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:14:34.719Z"
+  },
+  {
+    "postId": "47820195",
+    "primaryTag": "story",
+    "postTitle": "Zero-Copy GPU Inference from WebAssembly on Apple Silicon",
+    "postUrl": "https://news.ycombinator.com/item?id=47820195",
+    "postUps": 113,
+    "comment": "this is about wasm memory control, not apple silicon intel macs had unified memory too, it's just that wasm can now expose that to thhe gpu directly.",
+    "wordCount": 27,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "busy thread",
+      "hot topic pattern",
+      "gaining traction"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:14:43.911Z"
+  },
+  {
+    "postId": "47820195",
+    "primaryTag": "story",
+    "postTitle": "Zero-Copy GPU Inference from WebAssembly on Apple Silicon",
+    "postUrl": "https://news.ycombinator.com/item?id=47820195",
+    "postUps": 113,
+    "comment": "we tried similar approaches in our pipeline the real win isnt just zero-copy its eliminating serialization overhead when passing tenors between wasm modules and native gpu code",
+    "wordCount": 27,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 6,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "busy thread",
+      "hot topic pattern",
+      "gaining traction"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:14:43.912Z"
+  },
+  {
+    "postId": "47820195",
+    "primaryTag": "story",
+    "postTitle": "Zero-Copy GPU Inference from WebAssembly on Apple Silicon",
+    "postUrl": "https://news.ycombinator.com/item?id=47820195",
+    "postUps": 113,
+    "comment": "unified memory isn't free,bandwidth is shared and latency can spike under contention. this might not beat a well-tuned pipelined copy approach for sustained throughput.",
+    "wordCount": 24,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 13,
+    "megallmFactors": [
+      "technical hn relevance",
+      "hn-typical length"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "busy thread",
+      "hot topic pattern",
+      "gaining traction"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:14:43.912Z"
+  },
+  {
+    "postId": "47820195",
+    "primaryTag": "story",
+    "postTitle": "Zero-Copy GPU Inference from WebAssembly on Apple Silicon",
+    "postUrl": "https://news.ycombinator.com/item?id=47820195",
+    "postUps": 113,
+    "comment": "finally a use for webassembly that doesn't involve running javascript slower.",
+    "wordCount": 11,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "medium",
+    "viralReasons": [
+      "busy thread",
+      "hot topic pattern",
+      "gaining traction"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:14:43.912Z"
+  },
+  {
+    "postId": "47828444",
+    "primaryTag": "story",
+    "postTitle": "Swiss AI Initiative (2023)",
+    "postUrl": "https://news.ycombinator.com/item?id=47828444",
+    "postUps": 67,
+    "comment": "the 2023 date is misleading. site shows reccent events and grants from early 2024. seems like an ongoing project that launched last year",
+    "wordCount": 23,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "low",
+    "viralReasons": [
+      "busy thread",
+      "gaining traction"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:14:51.980Z"
+  },
+  {
+    "postId": "47828444",
+    "primaryTag": "story",
+    "postTitle": "Swiss AI Initiative (2023)",
+    "postUrl": "https://news.ycombinator.com/item?id=47828444",
+    "postUps": 67,
+    "comment": "we ued the apertus model they published for a research prototype. it's solid for the size, but still a big gap from frontier models. good to see open alternatives emerging",
+    "wordCount": 30,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 11,
+    "megallmFactors": [
+      "technical hn relevance",
+      "hn-typical length"
+    ],
+    "viralPotential": "low",
+    "viralReasons": [
+      "busy thread",
+      "gaining traction"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:14:51.980Z"
+  },
+  {
+    "postId": "47828444",
+    "primaryTag": "story",
+    "postTitle": "Swiss AI Initiative (2023)",
+    "postUrl": "https://news.ycombinator.com/item?id=47828444",
+    "postUps": 67,
+    "comment": "switzerland has four national languages, eglish is the common professional and academic lingua franca. not a mystery why the site isn't in german",
+    "wordCount": 23,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "low",
+    "viralReasons": [
+      "busy thread",
+      "gaining traction"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:14:51.980Z"
+  },
+  {
+    "postId": "47828444",
+    "primaryTag": "story",
+    "postTitle": "Swiss AI Initiative (2023)",
+    "postUrl": "https://news.ycombinator.com/item?id=47828444",
+    "postUps": 67,
+    "comment": "another week another european ai initiative let's check back in 2027 to see if it survived the compute budget",
+    "wordCount": 19,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "low",
+    "viralReasons": [
+      "busy thread",
+      "gaining traction"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-04-20T09:14:51.981Z"
   }
 ]

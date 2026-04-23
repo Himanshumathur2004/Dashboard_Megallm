@@ -2,7 +2,7 @@
 // Hacker News comment assistant — dashboard (like devto-assistant)
 // ─────────────────────────────────────────────────────────────
 
-import "./load-env.js";
+import "../shared/load-root-env.js";
 import express from "express";
 import { readFile, writeFile, mkdir } from "fs/promises";
 import { CONFIG } from "./config.js";

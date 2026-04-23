@@ -3,7 +3,7 @@
 // (mirrors reddit-assistant/draft-comments.js)
 // ─────────────────────────────────────────────────────────────
 
-import "./load-env.js";
+import "../shared/load-root-env.js";
 import { CONFIG } from "./config.js";
 import { readFile, writeFile, mkdir } from "fs/promises";
 import { humanizeComment } from "./humanize.js";

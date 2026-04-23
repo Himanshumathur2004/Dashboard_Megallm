@@ -3,7 +3,7 @@
 // Default login: admin@megallm.io / MegaLLM@SOCIAL (override with UNIFIED_ASSISTANT_*)
 // ─────────────────────────────────────────────────────────────
 
-import "./load-env.js";
+import "../shared/load-root-env.js";
 import express from "express";
 import session from "express-session";
 import { readFile, writeFile, mkdir } from "fs/promises";

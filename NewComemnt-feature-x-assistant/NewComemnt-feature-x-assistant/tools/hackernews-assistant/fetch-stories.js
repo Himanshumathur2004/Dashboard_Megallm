@@ -3,7 +3,7 @@
 // https://github.com/HackerNews/API
 // ─────────────────────────────────────────────────────────────
 
-import "./load-env.js";
+import "../shared/load-root-env.js";
 import { CONFIG } from "./config.js";
 import { readFile, writeFile, mkdir } from "fs/promises";
 import { DATA_DIR, POSTS_FILE } from "./paths.js";

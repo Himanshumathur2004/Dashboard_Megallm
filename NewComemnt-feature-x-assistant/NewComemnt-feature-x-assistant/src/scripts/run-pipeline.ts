@@ -1,12 +1,17 @@
 // CLI runner for pipeline stages
 // Usage: tsx src/scripts/run-pipeline.ts <stage>
 
-import "dotenv/config";
+import { config as loadDotenv } from "dotenv";
+import { dirname, resolve } from "path";
+import { fileURLToPath } from "url";
 import { runAnalyze } from "../workflows/analyze";
 import { runGenerate } from "../workflows/generate";
 import { runPost } from "../workflows/post";
 import { runFeedback } from "../workflows/feedback";
 import { runImprove } from "../workflows/improve";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+loadDotenv({ path: resolve(__dirname, "../../../../.env"), override: true });
 
 const stage = process.argv[2];
 

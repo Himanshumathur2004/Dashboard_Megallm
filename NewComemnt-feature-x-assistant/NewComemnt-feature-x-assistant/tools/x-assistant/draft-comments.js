@@ -3,7 +3,7 @@
 // Generates 3 options per tweet, scores for relevance + virality
 // ─────────────────────────────────────────────────────────────
 
-import "./load-env.js"; // Load .env before importing config
+import "../shared/load-root-env.js"; // Load root .env before importing config
 import { CONFIG } from "./config.js";
 import { humanizeReply } from "./humanize.js";
 import { readFile, writeFile, mkdir } from "fs/promises";

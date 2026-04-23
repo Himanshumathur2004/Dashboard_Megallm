@@ -3,7 +3,7 @@
 // Multiple options per post, scoring, viral tags, employee UX
 // ─────────────────────────────────────────────────────────────
 
-import "./load-env.js";
+import "../shared/load-root-env.js";
 import express from "express";
 import { readFile, writeFile, mkdir, readdir } from "fs/promises";
 import { CONFIG } from "./config.js";

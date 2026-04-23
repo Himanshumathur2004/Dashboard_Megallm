@@ -2,7 +2,7 @@
 // Draft Bluesky reply options (MegaLLM)
 // ─────────────────────────────────────────────────────────────
 
-import "./load-env.js";
+import "../shared/load-root-env.js";
 import { CONFIG, validateLlm } from "./config.js";
 import { readFile, writeFile, mkdir } from "fs/promises";
 import { humanizeComment } from "../hackernews-assistant/humanize.js";

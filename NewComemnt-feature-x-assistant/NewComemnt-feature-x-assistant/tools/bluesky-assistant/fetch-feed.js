@@ -2,7 +2,7 @@
 // Fetch posts from a Bluesky feed (public AppView — no auth)
 // ─────────────────────────────────────────────────────────────
 
-import "./load-env.js";
+import "../shared/load-root-env.js";
 import { CONFIG } from "./config.js";
 import { readFile, writeFile, mkdir } from "fs/promises";
 import { DATA_DIR, POSTS_FILE } from "./paths.js";

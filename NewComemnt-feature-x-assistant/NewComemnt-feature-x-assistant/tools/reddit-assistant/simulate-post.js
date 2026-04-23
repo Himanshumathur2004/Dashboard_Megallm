@@ -9,7 +9,7 @@
 //   node simulate-post.js --subreddit LocalLLaMA
 // ─────────────────────────────────────────────────────────────
 
-import "./load-env.js";
+import "../shared/load-root-env.js";
 import { CONFIG } from "./config.js";
 import { humanizeComment } from "./humanize.js";
 import { readFile, writeFile, mkdir } from "fs/promises";

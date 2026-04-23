@@ -2,7 +2,7 @@
 /**
  * Post a single article to Dev.to (queue or JSON arg)
  */
-import "./load-env.js";
+import "../shared/load-root-env.js";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
