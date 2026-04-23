@@ -54,6 +54,13 @@ export const CONFIG = {
     maxResults: 25,
     minLikes: 1,
     minReplies: 0,
+    recencyDays: 14,
+    ranking: {
+      recencyWeight: 0.45,
+      engagementWeight: 0.55,
+      halfLifeHours: 72,
+      maxTweetsToKeep: 80,
+    },
   },
 
   // Rate limiting configuration for API calls

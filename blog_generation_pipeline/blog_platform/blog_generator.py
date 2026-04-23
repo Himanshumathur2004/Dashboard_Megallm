@@ -489,6 +489,17 @@ class BlogGenerator:
             r"\binitialize\b": "start",
             r"\bmitigate\b": "reduce",
             r"\bapproximately\b": "about",
+            r"\benable\b": "lets",
+            r"\bconfiguration\b": "setup",
+            r"\binfrastructure\b": "system",
+            r"\bdeployment\b": "setup",
+            r"\bimplement\b": "build",
+            r"\badditional\b": "more",
+            r"\balternatively\b": "or",
+            r"\bgenerate\b": "make",
+            r"\brequire\b": "need",
+            r"\bensure\b": "make sure",
+            r"\bfocus\b": "look at",
         }
         for pattern, replacement in replacements.items():
             text = re.sub(pattern, replacement, text, flags=re.IGNORECASE)
@@ -588,14 +599,21 @@ class BlogGenerator:
         return re.sub(r"\n{3,}", "\n\n", text).strip()
 
     def _collapse_medium_listicle_sections(self, body: str) -> str:
-        """Convert long recap bullet sections into short connected prose for Medium."""
+        """Remove all bullet sections - keep Medium posts as flowing prose."""
         text = (body or "").strip()
         if not text:
             return text
 
-        section_pattern = re.compile(
-            r"(?is)(?:^|\n\n)(what\s+this\s+means\s+in\s+practice\s*:?)\s*\n+((?:\s*(?:[-*•]|\d+\.)\s+.*(?:\n|$)){3,})"
-        )
+        # Remove ALL bullet sections and listicle patterns
+        # Convert bullets to plain text (remove the bullet markers)
+        text = re.sub(r"(?m)^\s*(?:[-*•]|\d+\.)\s+", "", text)
+        
+        # Remove section headers
+        text = re.sub(r"(?i)^(\*\*)?what\s+this\s+means\s+in\s+practice(\*\*)?:?\s*", "", text, flags=re.MULTILINE)
+        text = re.sub(r"(?i)^(\*\*)?Key points?:?(\*\*)?", "", text, flags=re.MULTILINE)
+        
+        # Clean up extra newlines
+        return re.sub(r"\n{3,}", "\n\n", text).strip()
 
         def _to_prose(match: re.Match) -> str:
             bullets_block = match.group(2)
@@ -623,26 +641,23 @@ class BlogGenerator:
 
     def _humanize_medium_content(self, title: str, body: str, style_brief: str = "") -> Tuple[str, str]:
         """Humanization stage: rewrite for natural voice while preserving meaning and SEO constraints."""
-        system_prompt = """You are an expert editor who humanizes AI-generated technical articles.
+        system_prompt = """You are an expert editor who makes technical articles simple and readable.
 
-    Rewrite the draft so it feels naturally human-written while preserving all core ideas.
+    Rewrite the draft to be SHORT, SIMPLE, and EASY to read in 2-3 minutes.
 
     Hard constraints:
     - Keep technical accuracy and key claims intact
-    - Preserve topic intent and practical recommendations
-    - Keep output length within 450-650 words
+    - Keep output length within 250-350 words (aim for 300)
+    - Use simple, common words. Avoid jargon.
+    - Sentences: keep under 15 words on average
+    - Paragraphs: 2-3 sentences max
+    - One clear idea per paragraph
     - Keep the exact word 'megallm' present in title or body
     - Preserve or add one clear MegaLLM backlink line in the body
-    - Keep 'megallm' mentions in the body to 1-3 contextual references (excluding the backlink line)
-    - Use engaging, varied sentence rhythm and natural transitions
-    - Add clear headings and improve scannability
-    - Include one concise tradeoffs/limitations section
-    - Do NOT end with a long bullet recap/listicle section
-    - If you use bullets, keep them minimal and never under a heading like 'What This Means in Practice'
-    - Prioritize business/product impact (cost, user experience, decisions) over deep repeated implementation details
-    - Avoid promotional language, hype adjectives, and hard-sales calls to action
-    - Avoid robotic phrasing, generic filler, and repetitive cadence
-    - Keep the writing sharp, opinionated, and publication-ready
+    - NO long bullet sections or listicles
+    - NO headings with ## or ###
+    - NO promotional language or hype words
+    - Just tell the story clearly and simply
     - Return ONLY valid JSON with keys: title, body
 
     OPENING SENTENCE — THIS IS CRITICAL:
@@ -658,10 +673,7 @@ class BlogGenerator:
       * Use a vivid before/after contrast: "Before: $0.80 per 1,000 calls. After one config change: $0.18."
     """
 
-        user_prompt = f"""Humanize this draft:
-
-Style target:
-{style_brief or 'Expert editorial voice with concrete examples and crisp transitions.'}
+        user_prompt = f"""Make this draft shorter and simpler (250-350 words).
 
 Title:
 {title}
@@ -671,8 +683,8 @@ Body:
 
 Return JSON:
 {{
-  "title": "Humanized title",
-  "body": "Humanized body"
+  "title": "Simple title",
+  "body": "Short body for easy reading"
 }}"""
 
         payload = {
@@ -681,8 +693,8 @@ Return JSON:
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},
             ],
-            "temperature": 0.9,
-            "max_tokens": 3200,
+            "temperature": 0.7,
+            "max_tokens": 1600,
         }
 
         response = self._make_chat_completion_with_fallback(payload, timeout=60)
@@ -1404,7 +1416,7 @@ Return JSON:
         return " ".join(updated).strip()
 
     def _enforce_opening_hook_rules(self, topic: str, body: str) -> str:
-        """Light-touch opening normalization to avoid repetitive intros."""
+        """Remove corporate opening patterns - keep it simple and direct."""
         text = (body or "").strip()
         if not text:
             return text
@@ -1415,80 +1427,57 @@ Return JSON:
 
         first = paragraphs[0]
 
-        # Replace overused opening pattern with varied alternatives.
-        if re.match(r"(?i)^for product and business teams[,\s]", first):
-            first = re.sub(
-                r"(?i)^for product and business teams[,\s]*",
-                "When teams chase speed without guardrails, costs spike and users notice. ",
-                first,
-            )
+        # Remove corporate opening patterns
+        first = re.sub(r"(?i)^for product and business teams[,\s]*", "", first)
+        first = re.sub(r"(?i)^When it comes to \b", "", first)
+        first = re.sub(r"(?i)^In today's.*?\b", "", first)
+        first = re.sub(r"(?i)^The truth is[,\s]*", "", first)
+        first = re.sub(r"(?i)^Here's what you need to know[,\s]*", "", first)
 
-        paragraphs[0] = first
+        paragraphs[0] = first.strip()
         return "\n\n".join(paragraphs).strip()
 
     def _enforce_voice_and_sticky_line(self, body: str) -> str:
-        """Add first-hand voice, reader address, and sticky line placement."""
+        """Keep text clean and simple - no forced additions."""
         text = (body or "").strip()
         if not text:
             return text
 
-        if not re.search(r"\b(?:i|we)\b", text, flags=re.IGNORECASE):
-            text = (
-                "We saw this firsthand during a production rollout where response time spikes hurt adoption.\n\n"
-                + text
-            )
-
-        you_count = len(re.findall(r"\b(?:you|your)\b", text, flags=re.IGNORECASE))
-        if you_count < 4:
-            text += (
-                "\n\nFor your team, the priority is simple: reduce delay, protect reliability, and keep costs predictable."
-            )
-
-        sticky = "Performance wins usually come from architecture, not larger models."
-        closing_sticky = "In the end, architecture choices shape user trust more than model size."
-
-        if sticky.lower() not in text.lower():
-            parts = [p for p in text.split("\n\n") if p.strip()]
-            if len(parts) >= 2:
-                parts.insert(1, sticky)
-                text = "\n\n".join(parts)
-            else:
-                text = f"{sticky}\n\n{text}"
-
-        if not text.rstrip().lower().endswith(closing_sticky.lower()):
-            text = f"{text.rstrip()}\n\n{closing_sticky}"
-
-        return text.strip()
+        # Just ensure the text is clean - no artificial insertions
+        # Just fix any obvious issues
+        parts = [p for p in text.split("\n\n") if p.strip()]
+        
+        return "\n\n".join(parts).strip()
 
     def _rebalance_for_business_angle(self, body: str) -> str:
-        """Bias article toward practical outcomes without injecting fixed intro templates."""
+        """Reduce technical density - keep language simple for readers."""
         text = (body or "").strip()
         if not text:
             return text
 
-        text = re.sub(
-            r"(?i)for product and business teams,?",
-            "For teams balancing performance and spend,",
-            text,
-        )
-
-        technical_dense = re.compile(
-            r"(?i)\b(?:kv cache|speculative decoding|quantization|micro-batching|tensor parallelism|routing policy)\b"
-        )
+        # Remove overly technical sentences, max 1 per article
+        technical_patterns = [
+            r"(?i)kv cache",
+            r"(?i)speculative decoding", 
+            r"(?i)quantization",
+            r"(?i)micro-batching",
+            r"(?i)tensor parallelism",
+        ]
+        
+        technical_count = 0
         sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", text) if s.strip()]
-        compressed: List[str] = []
-        tech_kept = 0
+        kept = []
+        
         for s in sentences:
-            if technical_dense.search(s):
-                tech_kept += 1
-                if tech_kept > 2:
-                    continue
-            compressed.append(s)
-
-        text = " ".join(compressed)
-        if not re.search(r"\b(?:cost|latency|reliability|throughput|drop-off|conversion|SLA)\b", text, flags=re.IGNORECASE):
-            text += "\n\nFocus on outcomes users notice: latency, reliability, and cost per successful response."
-        return text.strip()
+            has_tech = any(re.search(pattern, s) for pattern in technical_patterns)
+            if has_tech:
+                technical_count += 1
+                if technical_count <= 1:  # Keep max 1 technical sentence
+                    kept.append(s)
+            else:
+                kept.append(s)
+        
+        return " ".join(kept).strip()
 
     def _apply_editorial_playbook(self, title: str, body: str, topic: str, medium_mode: bool = False) -> Tuple[str, str]:
         """Apply missing Medium-style editorial safeguards (excluding image and long-form limits)."""

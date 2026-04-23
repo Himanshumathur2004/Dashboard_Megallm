@@ -13,6 +13,22 @@ const envFiles = [
   ".env",
 ];
 
+function parseEnvValue(rawValue) {
+  let value = String(rawValue || "").trim();
+
+  // Preserve quoted values as-is (minus wrapping quotes).
+  if (
+    (value.startsWith('"') && value.endsWith('"')) ||
+    (value.startsWith("'") && value.endsWith("'"))
+  ) {
+    return value.slice(1, -1).trim();
+  }
+
+  // Support inline comments: KEY=value # comment
+  value = value.replace(/\s+#.*$/, "").trim();
+  return value;
+}
+
 for (const envFile of envFiles) {
   const p = path.resolve(__dirname, envFile);
   if (!fs.existsSync(p)) {
@@ -31,7 +47,7 @@ for (const envFile of envFiles) {
       return;
     }
     const key = match[1].trim();
-    const val = match[2].trim();
+    const val = parseEnvValue(match[2]);
     if (!(key in process.env)) {
       process.env[key] = val;
     }
